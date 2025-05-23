@@ -30,27 +30,29 @@
   {% include footer.html %}
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-  <script>
-  // 1. FADE-IN ANIMATION ON LOAD
-  document.addEventListener("DOMContentLoaded", () => {
-    const tiles = Array.from(document.querySelectorAll(".grid-image"));
   
-    tiles.forEach((tile, index) => {
+  <script>
+  // Fade-in and shuffle tiles
+  document.addEventListener("DOMContentLoaded", () => {
+    const container = document.querySelector(".row.g-4");
+    const tiles = Array.from(container.querySelectorAll(".project-tile"));
+  
+    // Shuffle tiles
+    tiles.sort(() => Math.random() - 0.5);
+    tiles.forEach(tile => {
       tile.style.opacity = 0;
-      tile.style.transition = "opacity 0.25s ease-in-out";
-      setTimeout(() => {
-        tile.style.opacity = 1;
-      }, index * 250); // delay each by 0.25s
+      container.appendChild(tile);
     });
   
-    // 2. SHUFFLE TILE ORDER EACH PAGE LOAD
-    const grid = document.querySelector(".row.g-4");
-    const columns = Array.from(grid.children);
-    columns.sort(() => Math.random() - 0.5); // shuffle
-    columns.forEach(col => grid.appendChild(col)); // re-append in new order
+    // Fade-in with staggered delay
+    tiles.forEach((tile, i) => {
+      setTimeout(() => {
+        tile.style.transition = "opacity 0.25s ease-in";
+        tile.style.opacity = 1;
+      }, i * 100); // 100ms stagger
+    });
   });
   </script>
-
   
 </body>
 </html>
