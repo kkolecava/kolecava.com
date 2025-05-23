@@ -43,3 +43,6 @@ footer {
 .footer-right {
   text-align: right;
 }
+.grid-image {
+  opacity: 0;
+}
