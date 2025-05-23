@@ -1,7 +1,7 @@
 title: KOLECAVA
 description: >-
   Director of Photography, Videographer and Aerial Cinematographer
-baseurl: "" # leave blank if root domain
+baseurl: ""  # leave blank if at root domain
 url: "https://kolecava.com"
 markdown: kramdown
 permalink: pretty
