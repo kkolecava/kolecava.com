@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: Karol Kolecava – Director of Photography & Aerial Cinematographer
 ---
 
 <div class="container mt-5 pt-5">
