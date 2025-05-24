@@ -214,3 +214,39 @@ footer {
   opacity: 1;
   transform: translateY(0);
 }
+
+.video-section .ratio.ratio-16x9.mb-3 {
+  margin-bottom: 0 !important;
+}
+
+.video-thumb {
+  cursor: pointer;
+  border-bottom: 3px solid transparent;
+  transition: border-color 0.3s ease;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.thumb-wrapper {
+  position: relative;
+  width: 120px;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+}
+
+.thumb-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.play-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  color: white;
+  pointer-events: none;
+}
