@@ -22,25 +22,25 @@ permalink: /work/circus-cortex/
 </div>
 
 <div class="row g-4">
-  <div class="col-md-4 project-tile"><img src="/assets/gifs/cortex_001.gif" class="grid-image" alt="GIF 1"></div>
-  <div class="col-md-4 project-tile"><img src="/assets/gifs/cortex_002.gif" class="grid-image" alt="GIF 2"></div>
-  <div class="col-md-4 project-tile"><img src="/assets/gifs/cortex_003.gif" class="grid-image" alt="GIF 3"></div>
-  <div class="col-md-4 project-tile"><img src="/assets/gifs/cortex_004.gif" class="grid-image" alt="GIF 4"></div>
-  <div class="col-md-4 project-tile"><img src="/assets/gifs/cortex_005.gif" class="grid-image" alt="GIF 5"></div>
-  <div class="col-md-4 project-tile"><img src="/assets/gifs/cortex_006.gif" class="grid-image" alt="GIF 6"></div>
-  <div class="col-md-4 project-tile"><img src="/assets/gifs/cortex_007.gif" class="grid-image" alt="GIF 7"></div>
-  <div class="col-md-4 project-tile"><img src="/assets/gifs/cortex_008.gif" class="grid-image" alt="GIF 8"></div>
-  <div class="col-md-4 project-tile"><img src="/assets/gifs/cortex_009.gif" class="grid-image" alt="GIF 9"></div>
-  <div class="col-md-4 project-tile"><img src="/assets/gifs/cortex_010.gif" class="grid-image" alt="GIF 10"></div>
-  <div class="col-md-4 project-tile"><img src="/assets/gifs/cortex_011.gif" class="grid-image" alt="GIF 11"></div>
-  <div class="col-md-4 project-tile"><img src="/assets/gifs/cortex_012.gif" class="grid-image" alt="GIF 12"></div>
-  <div class="col-md-4 project-tile"><img src="/assets/gifs/cortex_013.gif" class="grid-image" alt="GIF 13"></div>
-  <div class="col-md-4 project-tile"><img src="/assets/gifs/cortex_014.gif" class="grid-image" alt="GIF 14"></div>
-  <div class="col-md-4 project-tile"><img src="/assets/gifs/cortex_015.gif" class="grid-image" alt="GIF 15"></div>
-  <div class="col-md-4 project-tile"><img src="/assets/gifs/cortex_016.gif" class="grid-image" alt="GIF 16"></div>
-  <div class="col-md-4 project-tile"><img src="/assets/gifs/cortex_017.gif" class="grid-image" alt="GIF 17"></div>
-  <div class="col-md-4 project-tile"><img src="/assets/gifs/cortex_018.gif" class="grid-image" alt="GIF 18"></div>
-  <div class="col-md-4 project-tile"><img src="/assets/gifs/cortex_019.gif" class="grid-image" alt="GIF 19"></div>
-  <div class="col-md-4 project-tile"><img src="/assets/gifs/cortex_020.gif" class="grid-image" alt="GIF 20"></div>
-  <div class="col-md-4 project-tile"><img src="/assets/gifs/cortex_021.gif" class="grid-image" alt="GIF 21"></div>
+  <div class="col-md-4 project-tile"><img src="{{ site.baseurl }}/assets/gifs/cortex_001.gif" class="grid-image" alt="GIF 1"></div>
+  <div class="col-md-4 project-tile"><img src="{{ site.baseurl }}/assets/gifs/cortex_002.gif" class="grid-image" alt="GIF 2"></div>
+  <div class="col-md-4 project-tile"><img src="{{ site.baseurl }}/assets/gifs/cortex_003.gif" class="grid-image" alt="GIF 3"></div>
+  <div class="col-md-4 project-tile"><img src="{{ site.baseurl }}/assets/gifs/cortex_004.gif" class="grid-image" alt="GIF 4"></div>
+  <div class="col-md-4 project-tile"><img src="{{ site.baseurl }}/assets/gifs/cortex_005.gif" class="grid-image" alt="GIF 5"></div>
+  <div class="col-md-4 project-tile"><img src="{{ site.baseurl }}/assets/gifs/cortex_006.gif" class="grid-image" alt="GIF 6"></div>
+  <div class="col-md-4 project-tile"><img src="{{ site.baseurl }}/assets/gifs/cortex_007.gif" class="grid-image" alt="GIF 7"></div>
+  <div class="col-md-4 project-tile"><img src="{{ site.baseurl }}/assets/gifs/cortex_008.gif" class="grid-image" alt="GIF 8"></div>
+  <div class="col-md-4 project-tile"><img src="{{ site.baseurl }}/assets/gifs/cortex_009.gif" class="grid-image" alt="GIF 9"></div>
+  <div class="col-md-4 project-tile"><img src="{{ site.baseurl }}/assets/gifs/cortex_010.gif" class="grid-image" alt="GIF 10"></div>
+  <div class="col-md-4 project-tile"><img src="{{ site.baseurl }}/assets/gifs/cortex_011.gif" class="grid-image" alt="GIF 11"></div>
+  <div class="col-md-4 project-tile"><img src="{{ site.baseurl }}/assets/gifs/cortex_012.gif" class="grid-image" alt="GIF 12"></div>
+  <div class="col-md-4 project-tile"><img src="{{ site.baseurl }}/assets/gifs/cortex_013.gif" class="grid-image" alt="GIF 13"></div>
+  <div class="col-md-4 project-tile"><img src="{{ site.baseurl }}/assets/gifs/cortex_014.gif" class="grid-image" alt="GIF 14"></div>
+  <div class="col-md-4 project-tile"><img src="{{ site.baseurl }}/assets/gifs/cortex_015.gif" class="grid-image" alt="GIF 15"></div>
+  <div class="col-md-4 project-tile"><img src="{{ site.baseurl }}/assets/gifs/cortex_016.gif" class="grid-image" alt="GIF 16"></div>
+  <div class="col-md-4 project-tile"><img src="{{ site.baseurl }}/assets/gifs/cortex_017.gif" class="grid-image" alt="GIF 17"></div>
+  <div class="col-md-4 project-tile"><img src="{{ site.baseurl }}/assets/gifs/cortex_018.gif" class="grid-image" alt="GIF 18"></div>
+  <div class="col-md-4 project-tile"><img src="{{ site.baseurl }}/assets/gifs/cortex_019.gif" class="grid-image" alt="GIF 19"></div>
+  <div class="col-md-4 project-tile"><img src="{{ site.baseurl }}/assets/gifs/cortex_020.gif" class="grid-image" alt="GIF 20"></div>
+  <div class="col-md-4 project-tile"><img src="{{ site.baseurl }}/assets/gifs/cortex_021.gif" class="grid-image" alt="GIF 21"></div>
 </div>

@@ -18,7 +18,7 @@ description: Lorem ipsum SEO description for homepage – update this for best s
   <div class="row g-4 home-grid">
     <div class="col-md-4 project-tile">
       <a href="{{ site.baseurl }}/work/dirt-nationals/" class="project-overlay">
-        <img src="/assets/gifs/dirt_003.gif" class="img-fluid grid-image" alt="Dirt Nationals thumbnail">
+        <img src="{{ site.baseurl }}/assets/gifs/dirt_003.gif" class="img-fluid grid-image" alt="Dirt Nationals thumbnail">
           <div class="overlay">
             <span class="project-title">Dirt Nationals Off-Road Circuit</span>
           </div>
@@ -26,7 +26,7 @@ description: Lorem ipsum SEO description for homepage – update this for best s
     </div>
     <div class="col-md-4 project-tile">
       <a href="{{ site.baseurl }}/work/miyuki-zoku-fw24-campaign/" class="project-overlay">
-        <img src="/assets/gifs/mki_002.gif" class="img-fluid grid-image" alt="MIYUKI ZOKU FW24 Campaign thumbnail">
+        <img src="{{ site.baseurl }}/assets/gifs/mki_002.gif" class="img-fluid grid-image" alt="MIYUKI ZOKU FW24 Campaign thumbnail">
           <div class="overlay">
             <span class="project-title">MKI MIYUKI ZOKU FW24</span>
           </div>
@@ -34,7 +34,7 @@ description: Lorem ipsum SEO description for homepage – update this for best s
     </div>
     <div class="col-md-4 project-tile">
       <a href="{{ site.baseurl }}/work/sam-salter/" class="project-overlay">
-        <img src="/assets/gifs/dirt_003.gif" class="img-fluid grid-image" alt="Sam Salter thumbnail">
+        <img src="{{ site.baseurl }}/assets/gifs/dirt_003.gif" class="img-fluid grid-image" alt="Sam Salter thumbnail">
           <div class="overlay">
             <span class="project-title">Sam Salter</span>
           </div>
@@ -42,7 +42,7 @@ description: Lorem ipsum SEO description for homepage – update this for best s
     </div>
     <div class="col-md-4 project-tile">
       <a href="{{ site.baseurl }}/work/scott-donovan/" class="project-overlay">
-        <img src="/assets/gifs/dirt_003.gif" class="img-fluid grid-image" alt="Scott Donovan thumbnail">
+        <img src="{{ site.baseurl }}/assets/gifs/dirt_003.gif" class="img-fluid grid-image" alt="Scott Donovan thumbnail">
           <div class="overlay">
             <span class="project-title">Scott Donovan</span>
           </div>
@@ -50,7 +50,7 @@ description: Lorem ipsum SEO description for homepage – update this for best s
     </div>
     <div class="col-md-4 project-tile">
       <a href="{{ site.baseurl }}/work/not-my-day-falling/" class="project-overlay">
-        <img src="/assets/gifs/dirt_003.gif" class="img-fluid grid-image" alt="Not My Day Falling thumbnail">
+        <img src="{{ site.baseurl }}/assets/gifs/dirt_003.gif" class="img-fluid grid-image" alt="Not My Day Falling thumbnail">
           <div class="overlay">
             <span class="project-title">Not My Day - Falling</span>
           </div>
@@ -58,7 +58,7 @@ description: Lorem ipsum SEO description for homepage – update this for best s
     </div>
     <div class="col-md-4 project-tile">
       <a href="{{ site.baseurl }}/work/sinners-in-the-city/" class="project-overlay">
-        <img src="/assets/gifs/dirt_003.gif" class="img-fluid grid-image" alt="Sinners in the City thumbnail">
+        <img src="{{ site.baseurl }}/assets/gifs/dirt_003.gif" class="img-fluid grid-image" alt="Sinners in the City thumbnail">
           <div class="overlay">
             <span class="project-title">Sinners in the City - Moonstruck</span>
           </div>
@@ -66,7 +66,7 @@ description: Lorem ipsum SEO description for homepage – update this for best s
     </div>
     <div class="col-md-4 project-tile">
       <a href="{{ site.baseurl }}/work/tom-fletcher/" class="project-overlay">
-        <img src="/assets/gifs/dirt_003.gif" class="img-fluid grid-image" alt="Tom Fletcher thumbnail">
+        <img src="{{ site.baseurl }}/assets/gifs/dirt_003.gif" class="img-fluid grid-image" alt="Tom Fletcher thumbnail">
           <div class="overlay">
             <span class="project-title">Tom Fletcher</span>
           </div>
@@ -74,7 +74,7 @@ description: Lorem ipsum SEO description for homepage – update this for best s
     </div>
     <div class="col-md-4 project-tile">
       <a href="{{ site.baseurl }}/work/hargreaves-landsdown-julie/" class="project-overlay">
-        <img src="/assets/gifs/dirt_003.gif" class="img-fluid grid-image" alt="Hargreaves Landsdown Julie thumbnail">
+        <img src="{{ site.baseurl }}/assets/gifs/dirt_003.gif" class="img-fluid grid-image" alt="Hargreaves Landsdown Julie thumbnail">
           <div class="overlay">
             <span class="project-title">Hargreaves Landsdown Case Study</span>
           </div>
@@ -82,7 +82,7 @@ description: Lorem ipsum SEO description for homepage – update this for best s
     </div>
     <div class="col-md-4 project-tile">
       <a href="{{ site.baseurl }}/work/hargreaves-landsdown-jack/" class="project-overlay">
-        <img src="/assets/gifs/dirt_003.gif" class="img-fluid grid-image" alt="Hargreaves Landsdown Jack thumbnail">
+        <img src="{{ site.baseurl }}/assets/gifs/dirt_003.gif" class="img-fluid grid-image" alt="Hargreaves Landsdown Jack thumbnail">
           <div class="overlay">
             <span class="project-title">Hargreaves Landsdown Case Study</span>
           </div>
@@ -90,7 +90,7 @@ description: Lorem ipsum SEO description for homepage – update this for best s
     </div>
     <div class="col-md-4 project-tile">
       <a href="{{ site.baseurl }}/work/hargreaves-landsdown-pass-it-on/" class="project-overlay">
-        <img src="/assets/gifs/dirt_003.gif" class="img-fluid grid-image" alt="Hargreaves Landsdown Pass it On thumbnail">
+        <img src="{{ site.baseurl }}/assets/gifs/dirt_003.gif" class="img-fluid grid-image" alt="Hargreaves Landsdown Pass it On thumbnail">
           <div class="overlay">
             <span class="project-title">Hargreaves Landsdown Case Study</span>
           </div>
@@ -98,7 +98,7 @@ description: Lorem ipsum SEO description for homepage – update this for best s
     </div>
     <div class="col-md-4 project-tile">
       <a href="{{ site.baseurl }}/work/es-collective/" class="project-overlay">
-        <img src="/assets/gifs/dirt_003.gif" class="img-fluid grid-image" alt="ES Collective thumbnail">
+        <img src="{{ site.baseurl }}/assets/gifs/dirt_003.gif" class="img-fluid grid-image" alt="ES Collective thumbnail">
           <div class="overlay">
             <span class="project-title">ES Collective Launch Party</span>
           </div>
@@ -106,7 +106,7 @@ description: Lorem ipsum SEO description for homepage – update this for best s
     </div>
     <div class="col-md-4 project-tile">
       <a href="{{ site.baseurl }}/work/flags-in-the-wind-ukraine/" class="project-overlay">
-        <img src="/assets/gifs/dirt_003.gif" class="img-fluid grid-image" alt="Flags in the Wind Ukraine thumbnail">
+        <img src="{{ site.baseurl }}/assets/gifs/dirt_003.gif" class="img-fluid grid-image" alt="Flags in the Wind Ukraine thumbnail">
           <div class="overlay">
             <span class="project-title">Flags in the Wind</span>
           </div>
@@ -114,7 +114,7 @@ description: Lorem ipsum SEO description for homepage – update this for best s
     </div>
     <div class="col-md-4 project-tile">
       <a href="{{ site.baseurl }}/work/mabes-radio-live-acoustic/" class="project-overlay">
-        <img src="/assets/gifs/dirt_003.gif" class="img-fluid grid-image" alt="MABES Radio Live Acoustic thumbnail">
+        <img src="{{ site.baseurl }}/assets/gifs/dirt_003.gif" class="img-fluid grid-image" alt="MABES Radio Live Acoustic thumbnail">
           <div class="overlay">
             <span class="project-title">Mabes - Radio Live Acoustic</span>
           </div>
@@ -122,7 +122,7 @@ description: Lorem ipsum SEO description for homepage – update this for best s
     </div>
     <div class="col-md-4 project-tile">
       <a href="{{ site.baseurl }}/work/morrison-foerster/" class="project-overlay">
-        <img src="/assets/gifs/dirt_003.gif" class="img-fluid grid-image" alt="Morrison Foerster thumbnail">
+        <img src="{{ site.baseurl }}/assets/gifs/dirt_003.gif" class="img-fluid grid-image" alt="Morrison Foerster thumbnail">
           <div class="overlay">
             <span class="project-title">Morrison Foerster</span>
           </div>
@@ -130,7 +130,7 @@ description: Lorem ipsum SEO description for homepage – update this for best s
     </div>
     <div class="col-md-4 project-tile">
       <a href="{{ site.baseurl }}/work/project-evolve/" class="project-overlay">
-        <img src="/assets/gifs/dirt_003.gif" class="img-fluid grid-image" alt="Project Evolve thumbnail">
+        <img src="{{ site.baseurl }}/assets/gifs/dirt_003.gif" class="img-fluid grid-image" alt="Project Evolve thumbnail">
           <div class="overlay">
             <span class="project-title">Project Evolve</span>
           </div>
@@ -138,7 +138,7 @@ description: Lorem ipsum SEO description for homepage – update this for best s
     </div>
     <div class="col-md-4 project-tile">
       <a href="{{ site.baseurl }}/work/fidelity-finance-compounding/" class="project-overlay">
-        <img src="/assets/gifs/dirt_003.gif" class="img-fluid grid-image" alt="Fidelity Finance Compounding thumbnail">
+        <img src="{{ site.baseurl }}/assets/gifs/dirt_003.gif" class="img-fluid grid-image" alt="Fidelity Finance Compounding thumbnail">
           <div class="overlay">
             <span class="project-title">Fidelity - Compounding</span>
           </div>
@@ -146,7 +146,7 @@ description: Lorem ipsum SEO description for homepage – update this for best s
     </div>
     <div class="col-md-4 project-tile">
       <a href="{{ site.baseurl }}/work/circus-cortex/" class="project-overlay">
-        <img src="/assets/gifs/cortex_010.gif" class="img-fluid grid-image" alt="Circus Cortex thumbnail">
+        <img src="{{ site.baseurl }}/assets/gifs/cortex_010.gif" class="img-fluid grid-image" alt="Circus Cortex thumbnail">
           <div class="overlay">
             <span class="project-title">Circus Cortex</span>
           </div>
