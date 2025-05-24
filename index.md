@@ -114,7 +114,7 @@ description: Lorem ipsum SEO description for homepage – update this for best s
     </div>
     <div class="col-md-4 project-tile">
       <a href="{{ site.baseurl }}/work/mabes-radio-live-acoustic/" class="project-overlay">
-        <img src="{{ site.baseurl }}/assets/gifs/dirt_003.gif" class="img-fluid grid-image" alt="MABES Radio Live Acoustic thumbnail">
+        <img src="{{ site.baseurl }}/assets/gifs/mabes_003.gif" class="img-fluid grid-image" alt="MABES Radio Live Acoustic thumbnail">
           <div class="overlay">
             <span class="project-title">Mabes - Radio Live Acoustic</span>
           </div>

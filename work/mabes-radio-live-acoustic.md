@@ -10,13 +10,7 @@ permalink: /work/mabes-radio-live-acoustic/
 </div>
 
 <div class="row g-4">
-  <div class="col-md-4"><img src="https://media.giphy.com/media/xUPGcguWZHRC2HyBRS/giphy.gif" class="grid-image" alt="GIF 1"></div>
-  <div class="col-md-4"><img src="https://media.giphy.com/media/xUPGcguWZHRC2HyBRS/giphy.gif" class="grid-image" alt="GIF 2"></div>
-  <div class="col-md-4"><img src="https://media.giphy.com/media/xUPGcguWZHRC2HyBRS/giphy.gif" class="grid-image" alt="GIF 3"></div>
-  <div class="col-md-4"><img src="https://media.giphy.com/media/xUPGcguWZHRC2HyBRS/giphy.gif" class="grid-image" alt="GIF 4"></div>
-  <div class="col-md-4"><img src="https://media.giphy.com/media/xUPGcguWZHRC2HyBRS/giphy.gif" class="grid-image" alt="GIF 5"></div>
-  <div class="col-md-4"><img src="https://media.giphy.com/media/xUPGcguWZHRC2HyBRS/giphy.gif" class="grid-image" alt="GIF 6"></div>
-  <div class="col-md-4"><img src="https://media.giphy.com/media/xUPGcguWZHRC2HyBRS/giphy.gif" class="grid-image" alt="GIF 7"></div>
-  <div class="col-md-4"><img src="https://media.giphy.com/media/xUPGcguWZHRC2HyBRS/giphy.gif" class="grid-image" alt="GIF 8"></div>
-  <div class="col-md-4"><img src="https://media.giphy.com/media/xUPGcguWZHRC2HyBRS/giphy.gif" class="grid-image" alt="GIF 9"></div>
+  <div class="col-md-4 project-tile"><img src="{{ site.baseurl }}/assets/gifs/mabes_001.gif" class="grid-image" alt="GIF 1"></div>
+  <div class="col-md-4 project-tile"><img src="{{ site.baseurl }}/assets/gifs/mabes_002.gif" class="grid-image" alt="GIF 2"></div>
+  <div class="col-md-4 project-tile"><img src="{{ site.baseurl }}/assets/gifs/mabes_003.gif" class="grid-image" alt="GIF 3"></div>
 </div>
