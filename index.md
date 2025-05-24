@@ -34,7 +34,7 @@ description: Lorem ipsum SEO description for homepage – update this for best s
     </div>
     <div class="col-md-4 project-tile">
       <a href="{{ site.baseurl }}/work/sam-salter/" class="project-overlay">
-        <img src="{{ site.baseurl }}/assets/gifs/dirt_003.gif" class="img-fluid grid-image" alt="Sam Salter thumbnail">
+        <img src="{{ site.baseurl }}/assets/gifs/sam_006.gif" class="img-fluid grid-image" alt="Sam Salter thumbnail">
           <div class="overlay">
             <span class="project-title">Sam Salter</span>
           </div>
@@ -50,7 +50,7 @@ description: Lorem ipsum SEO description for homepage – update this for best s
     </div>
     <div class="col-md-4 project-tile">
       <a href="{{ site.baseurl }}/work/not-my-day-falling/" class="project-overlay">
-        <img src="{{ site.baseurl }}/assets/gifs/dirt_003.gif" class="img-fluid grid-image" alt="Not My Day Falling thumbnail">
+        <img src="{{ site.baseurl }}/assets/gifs/nmd_003.gif" class="img-fluid grid-image" alt="Not My Day Falling thumbnail">
           <div class="overlay">
             <span class="project-title">Not My Day - Falling</span>
           </div>
@@ -113,8 +113,8 @@ description: Lorem ipsum SEO description for homepage – update this for best s
       </a>
     </div>
     <div class="col-md-4 project-tile">
-      <a href="{{ site.baseurl }}/work/mabes-radio-live-acoustic/" class="project-overlay">
-        <img src="{{ site.baseurl }}/assets/gifs/mabes_001.gif" class="img-fluid grid-image" alt="MABES Radio Live Acoustic thumbnail">
+      <a href="{{ site.baseurl }}/work/lazydays-acoustic-live-sessions/" class="project-overlay">
+        <img src="{{ site.baseurl }}/assets/gifs/mabes_001.gif" class="img-fluid grid-image" alt="Lazydays Acoustic Live Sessions thumbnail">
           <div class="overlay">
             <span class="project-title">Lazydays Acoustic Live Sessions</span>
           </div>

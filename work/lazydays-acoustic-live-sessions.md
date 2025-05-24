@@ -1,7 +1,7 @@
 ---
 layout: default
-title: MABES Radio Live Acoustic
-permalink: /work/mabes-radio-live-acoustic/
+title: Lazydays Acoustic Live Sessions
+permalink: /work/lazydays-acoustic-live-sessions/
 ---
 
 <div class="container mt-5 pt-5">
