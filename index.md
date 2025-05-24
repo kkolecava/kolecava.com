@@ -76,7 +76,7 @@ description: Lorem ipsum SEO description for homepage – update this for best s
       <a href="{{ site.baseurl }}/work/hargreaves-landsdown-julie/" class="project-overlay">
         <img src="{{ site.baseurl }}/assets/gifs/dirt_003.gif" class="img-fluid grid-image" alt="Hargreaves Landsdown Julie thumbnail">
           <div class="overlay">
-            <span class="project-title">Hargreaves Landsdown Case Study</span>
+            <span class="project-title">Hargreaves Landsdown - Julie</span>
           </div>
       </a>
     </div>
@@ -84,7 +84,7 @@ description: Lorem ipsum SEO description for homepage – update this for best s
       <a href="{{ site.baseurl }}/work/hargreaves-landsdown-jack/" class="project-overlay">
         <img src="{{ site.baseurl }}/assets/gifs/dirt_003.gif" class="img-fluid grid-image" alt="Hargreaves Landsdown Jack thumbnail">
           <div class="overlay">
-            <span class="project-title">Hargreaves Landsdown Case Study</span>
+            <span class="project-title">Hargreaves Landsdown - Jack</span>
           </div>
       </a>
     </div>
@@ -92,7 +92,7 @@ description: Lorem ipsum SEO description for homepage – update this for best s
       <a href="{{ site.baseurl }}/work/hargreaves-landsdown-pass-it-on/" class="project-overlay">
         <img src="{{ site.baseurl }}/assets/gifs/dirt_003.gif" class="img-fluid grid-image" alt="Hargreaves Landsdown Pass it On thumbnail">
           <div class="overlay">
-            <span class="project-title">Hargreaves Landsdown Case Study</span>
+            <span class="project-title">Hargreaves Landsdown - Pass it on</span>
           </div>
       </a>
     </div>
@@ -108,7 +108,7 @@ description: Lorem ipsum SEO description for homepage – update this for best s
       <a href="{{ site.baseurl }}/work/flags-in-the-wind-ukraine/" class="project-overlay">
         <img src="{{ site.baseurl }}/assets/gifs/dirt_003.gif" class="img-fluid grid-image" alt="Flags in the Wind Ukraine thumbnail">
           <div class="overlay">
-            <span class="project-title">Flags in the Wind</span>
+            <span class="project-title">Flags in the Wind - Ukraine</span>
           </div>
       </a>
     </div>
