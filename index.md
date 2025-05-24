@@ -5,6 +5,16 @@ description: Lorem ipsum SEO description for homepage – update this for best s
 ---
 
 <div class="container mt-5 pt-5">
+
+<div class="video-hero-container ratio ratio-16x9">
+  <iframe
+    src="https://www.youtube.com/embed/YOUR_VIDEO_ID?autoplay=1&mute=1&controls=0&showinfo=0&modestbranding=1&rel=0&loop=1&playlist=YOUR_VIDEO_ID"
+    frameborder="0"
+    allow="autoplay; fullscreen"
+    class="bg-iframe"
+  ></iframe>
+</div>
+
   <div class="row g-4">
     <div class="col-md-4" project-tile>
       <a href="{{ site.baseurl }}/works/dirt-nationals/">
