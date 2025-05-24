@@ -21,6 +21,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{{ page.title | default: site.title }}">
   <meta name="twitter:description" content="{{ page.description | default: site.description }}">
+  <script src="https://kit.fontawesome.com/d9756247c8.js" crossorigin="anonymous"></script>
 </head>
 <body>
   {% include header.html %}
@@ -30,29 +31,6 @@
   {% include footer.html %}
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-  
-  <script>
-  // Fade-in and shuffle tiles
-  document.addEventListener("DOMContentLoaded", () => {
-    const container = document.querySelector(".row.g-4");
-    const tiles = Array.from(container.querySelectorAll(".project-tile"));
-  
-    // Shuffle tiles
-    tiles.sort(() => Math.random() - 0.5);
-    tiles.forEach(tile => {
-      tile.style.opacity = 0;
-      container.appendChild(tile);
-    });
-  
-    // Fade-in with staggered delay
-    tiles.forEach((tile, i) => {
-      setTimeout(() => {
-        tile.style.transition = "opacity 0.25s ease-in";
-        tile.style.opacity = 1;
-      }, i * 100); // 100ms stagger
-    });
-  });
-  </script>
-  
+  <script src="{{ site.baseurl }}/assets/js/main.js"></script>
 </body>
 </html>
