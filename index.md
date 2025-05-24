@@ -16,89 +16,140 @@ description: Lorem ipsum SEO description for homepage – update this for best s
 </div>
 
   <div class="row g-4 home-grid">
-    <div class="col-md-4" project-tile>
-      <a href="{{ site.baseurl }}/works/dirt-nationals/">
-        <img src="https://media.giphy.com/media/xUPGcguWZHRC2HyBRS/giphy.gif" class="img-fluid grid-image" alt="Dirt Nationals thumbnail">
+    <div class="col-md-4 project-tile">
+      <a href="{{ site.baseurl }}/work/dirt-nationals/" class="project-overlay">
+        <img src="/assets/gifs/dirt_003.gif" class="img-fluid grid-image" alt="Dirt Nationals thumbnail">
+          <div class="overlay">
+            <span class="project-title">Dirt Nationals Off-Road Circuit</span>
+          </div>
       </a>
     </div>
-    <div class="col-md-4" project-tile>
-      <a href="{{ site.baseurl }}/works/miyuki-zoku-fw24-campaign/">
-        <img src="https://media.giphy.com/media/f9k1tV7HyORcngKF8v/giphy.gif" class="img-fluid grid-image" alt="MIYUKI ZOKU FW24 Campaign thumbnail">
+    <div class="col-md-4 project-tile">
+      <a href="{{ site.baseurl }}/work/miyuki-zoku-fw24-campaign/" class="project-overlay">
+        <img src="/assets/gifs/mki_002.gif" class="img-fluid grid-image" alt="MIYUKI ZOKU FW24 Campaign thumbnail">
+          <div class="overlay">
+            <span class="project-title">MKI MIYUKI ZOKU FW24</span>
+          </div>
       </a>
     </div>
-    <div class="col-md-4" project-tile>
-      <a href="{{ site.baseurl }}/works/sam-salter/">
-        <img src="https://media.giphy.com/media/3oKIPf3C7HqqYBVcCk/giphy.gif" class="img-fluid grid-image" alt="Sam Salter thumbnail">
+    <div class="col-md-4 project-tile">
+      <a href="{{ site.baseurl }}/work/sam-salter/" class="project-overlay">
+        <img src="/assets/gifs/dirt_003.gif" class="img-fluid grid-image" alt="Sam Salter thumbnail">
+          <div class="overlay">
+            <span class="project-title">Sam Salter</span>
+          </div>
       </a>
     </div>
-    <div class="col-md-4" project-tile>
-      <a href="{{ site.baseurl }}/works/scott-donovan/">
-        <img src="https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif" class="img-fluid grid-image" alt="Scott Donovan thumbnail">
+    <div class="col-md-4 project-tile">
+      <a href="{{ site.baseurl }}/work/scott-donovan/" class="project-overlay">
+        <img src="/assets/gifs/dirt_003.gif" class="img-fluid grid-image" alt="Scott Donovan thumbnail">
+          <div class="overlay">
+            <span class="project-title">Scott Donovan</span>
+          </div>
       </a>
     </div>
-    <div class="col-md-4" project-tile>
-      <a href="{{ site.baseurl }}/works/not-my-day-falling/">
-        <img src="https://media.giphy.com/media/1d5z6P9gECV1e/giphy.gif" class="img-fluid grid-image" alt="Not My Day Falling thumbnail">
+    <div class="col-md-4 project-tile">
+      <a href="{{ site.baseurl }}/work/not-my-day-falling/" class="project-overlay">
+        <img src="/assets/gifs/dirt_003.gif" class="img-fluid grid-image" alt="Not My Day Falling thumbnail">
+          <div class="overlay">
+            <span class="project-title">Not My Day - Falling</span>
+          </div>
       </a>
     </div>
-    <div class="col-md-4" project-tile>
-      <a href="{{ site.baseurl }}/works/sinners-in-the-city/">
-        <img src="https://media.giphy.com/media/xT5LMHxhOfscxPfIfm/giphy.gif" class="img-fluid grid-image" alt="Sinners in the City thumbnail">
+    <div class="col-md-4 project-tile">
+      <a href="{{ site.baseurl }}/work/sinners-in-the-city/" class="project-overlay">
+        <img src="/assets/gifs/dirt_003.gif" class="img-fluid grid-image" alt="Sinners in the City thumbnail">
+          <div class="overlay">
+            <span class="project-title">Sinners in the City - Moonstruck</span>
+          </div>
       </a>
     </div>
-    <div class="col-md-4">
-      <a href="{{ site.baseurl }}/works/tom-fletcher/" project-tile>
-        <img src="https://media.giphy.com/media/26n6WywJyh39n1pBu/giphy.gif" class="img-fluid grid-image" alt="Tom Fletcher thumbnail">
+    <div class="col-md-4 project-tile">
+      <a href="{{ site.baseurl }}/work/tom-fletcher/" class="project-overlay">
+        <img src="/assets/gifs/dirt_003.gif" class="img-fluid grid-image" alt="Tom Fletcher thumbnail">
+          <div class="overlay">
+            <span class="project-title">Tom Fletcher</span>
+          </div>
       </a>
     </div>
-    <div class="col-md-4" project-tile>
-      <a href="{{ site.baseurl }}/works/hargreaves-landsdown-julie/">
-        <img src="https://media.giphy.com/media/xT8qBepJQzUjz1bOso/giphy.gif" class="img-fluid grid-image" alt="Hargreaves Landsdown Julie thumbnail">
+    <div class="col-md-4 project-tile">
+      <a href="{{ site.baseurl }}/work/hargreaves-landsdown-julie/" class="project-overlay">
+        <img src="/assets/gifs/dirt_003.gif" class="img-fluid grid-image" alt="Hargreaves Landsdown Julie thumbnail">
+          <div class="overlay">
+            <span class="project-title">Hargreaves Landsdown Case Study</span>
+          </div>
       </a>
     </div>
-    <div class="col-md-4" project-tile>
-      <a href="{{ site.baseurl }}/works/hargreaves-landsdown-jack/">
-        <img src="https://media.giphy.com/media/3orieV5aXgzR9LWxSo/giphy.gif" class="img-fluid grid-image" alt="Hargreaves Landsdown Jack thumbnail">
+    <div class="col-md-4 project-tile">
+      <a href="{{ site.baseurl }}/work/hargreaves-landsdown-jack/" class="project-overlay">
+        <img src="/assets/gifs/dirt_003.gif" class="img-fluid grid-image" alt="Hargreaves Landsdown Jack thumbnail">
+          <div class="overlay">
+            <span class="project-title">Hargreaves Landsdown Case Study</span>
+          </div>
       </a>
     </div>
-    <div class="col-md-4" project-tile>
-      <a href="{{ site.baseurl }}/works/hargreaves-landsdown-pass-it-on/">
-        <img src="https://media.giphy.com/media/xUPGcguWZHRC2HyBRS/giphy.gif" class="img-fluid grid-image" alt="Hargreaves Landsdown Pass it On thumbnail">
+    <div class="col-md-4 project-tile">
+      <a href="{{ site.baseurl }}/work/hargreaves-landsdown-pass-it-on/" class="project-overlay">
+        <img src="/assets/gifs/dirt_003.gif" class="img-fluid grid-image" alt="Hargreaves Landsdown Pass it On thumbnail">
+          <div class="overlay">
+            <span class="project-title">Hargreaves Landsdown Case Study</span>
+          </div>
       </a>
     </div>
-    <div class="col-md-4" project-tile>
-      <a href="{{ site.baseurl }}/works/es-collective/">
-        <img src="https://media.giphy.com/media/f9k1tV7HyORcngKF8v/giphy.gif" class="img-fluid grid-image" alt="ES Collective thumbnail">
+    <div class="col-md-4 project-tile">
+      <a href="{{ site.baseurl }}/work/es-collective/" class="project-overlay">
+        <img src="/assets/gifs/dirt_003.gif" class="img-fluid grid-image" alt="ES Collective thumbnail">
+          <div class="overlay">
+            <span class="project-title">ES Collective Launch Party</span>
+          </div>
       </a>
     </div>
-    <div class="col-md-4" project-tile>
-      <a href="{{ site.baseurl }}/works/flags-in-the-wind-ukraine/">
-        <img src="https://media.giphy.com/media/3oKIPf3C7HqqYBVcCk/giphy.gif" class="img-fluid grid-image" alt="Flags in the Wind Ukraine thumbnail">
+    <div class="col-md-4 project-tile">
+      <a href="{{ site.baseurl }}/work/flags-in-the-wind-ukraine/" class="project-overlay">
+        <img src="/assets/gifs/dirt_003.gif" class="img-fluid grid-image" alt="Flags in the Wind Ukraine thumbnail">
+          <div class="overlay">
+            <span class="project-title">Flags in the Wind</span>
+          </div>
       </a>
     </div>
-    <div class="col-md-4" project-tile>
-      <a href="{{ site.baseurl }}/works/mabes-radio-live-acoustic/">
-        <img src="https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif" class="img-fluid grid-image" alt="MABES Radio Live Acoustic thumbnail">
+    <div class="col-md-4 project-tile">
+      <a href="{{ site.baseurl }}/work/mabes-radio-live-acoustic/" class="project-overlay">
+        <img src="/assets/gifs/dirt_003.gif" class="img-fluid grid-image" alt="MABES Radio Live Acoustic thumbnail">
+          <div class="overlay">
+            <span class="project-title">Mabes - Radio Live Acoustic</span>
+          </div>
       </a>
     </div>
-    <div class="col-md-4" project-tile>
-      <a href="{{ site.baseurl }}/works/morrison-foerster/">
-        <img src="https://media.giphy.com/media/1d5z6P9gECV1e/giphy.gif" class="img-fluid grid-image" alt="Morrison Foerster thumbnail">
+    <div class="col-md-4 project-tile">
+      <a href="{{ site.baseurl }}/work/morrison-foerster/" class="project-overlay">
+        <img src="/assets/gifs/dirt_003.gif" class="img-fluid grid-image" alt="Morrison Foerster thumbnail">
+          <div class="overlay">
+            <span class="project-title">Morrison Foerster</span>
+          </div>
       </a>
     </div>
-    <div class="col-md-4" project-tile>
-      <a href="{{ site.baseurl }}/works/project-evolve/">
-        <img src="https://media.giphy.com/media/xT5LMHxhOfscxPfIfm/giphy.gif" class="img-fluid grid-image" alt="Project Evolve thumbnail">
+    <div class="col-md-4 project-tile">
+      <a href="{{ site.baseurl }}/work/project-evolve/" class="project-overlay">
+        <img src="/assets/gifs/dirt_003.gif" class="img-fluid grid-image" alt="Project Evolve thumbnail">
+          <div class="overlay">
+            <span class="project-title">Project Evolve</span>
+          </div>
       </a>
     </div>
-    <div class="col-md-4" project-tile>
-      <a href="{{ site.baseurl }}/works/fidelity-finance-compounding/">
-        <img src="https://media.giphy.com/media/26n6WywJyh39n1pBu/giphy.gif" class="img-fluid grid-image" alt="Fidelity Finance Compounding thumbnail">
+    <div class="col-md-4 project-tile">
+      <a href="{{ site.baseurl }}/work/fidelity-finance-compounding/" class="project-overlay">
+        <img src="/assets/gifs/dirt_003.gif" class="img-fluid grid-image" alt="Fidelity Finance Compounding thumbnail">
+          <div class="overlay">
+            <span class="project-title">Fidelity - Compounding</span>
+          </div>
       </a>
     </div>
-    <div class="col-md-4" project-tile>
-      <a href="{{ site.baseurl }}/works/circus-cortex/">
-        <img src="https://media.giphy.com/media/xT8qBepJQzUjz1bOso/giphy.gif" class="img-fluid grid-image" alt="Circus Cortex thumbnail">
+    <div class="col-md-4 project-tile">
+      <a href="{{ site.baseurl }}/work/circus-cortex/" class="project-overlay">
+        <img src="/assets/gifs/cortex_010.gif" class="img-fluid grid-image" alt="Circus Cortex thumbnail">
+          <div class="overlay">
+            <span class="project-title">Circus Cortex</span>
+          </div>
       </a>
     </div>
   </div>

@@ -1,14 +1,29 @@
 <footer>
-  <div class="container d-flex justify-content-between align-items-center py-3">
-    <div class="footer-left">
+  <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center py-4 gap-3">
+    <div class="footer-left text-center text-md-start">
       <strong>KAROL KOLECAVA</strong> – Director of Photography
     </div>
+
+    <div class="footer-nav d-flex flex-wrap justify-content-center gap-4">
+      <a href="/kit-list/" class="text-dark text-decoration-none">kit list</a>
+      <span>-</span>
+      <a href="/paperwork/" class="text-dark text-decoration-none">paperwork</a>
+      <span>-</span>
+      <a href="/cv/" class="text-dark text-decoration-none">CV</a>
+    </div>
+
     <div class="footer-right d-flex gap-3">
-      <a href="https://instagram.com/kolecava" target="_blank" class="text-dark text-decoration-none">
-        INSTAGRAM
+      <a href="https://instagram.com/kolecava" target="_blank" aria-label="Instagram">
+        <img src="{{ site.baseurl }}/assets/svgs/instagram.svg" alt="Instagram" height="20">
       </a>
-      <a href="mailto:hello@kolecava.com" class="text-dark text-decoration-none">
-        EMAIL
+      <a href="mailto:hello@kolecava.com" aria-label="Email (solid)">
+        <img src="{{ site.baseurl }}/assets/svgs/envelope.svg" alt="Email" height="20">
+      </a>
+      <a href="https://linkedin.com/in/kolecava" target="_blank" aria-label="LinkedIn">
+        <img src="{{ site.baseurl }}/assets/svgs/linkedin-in.svg" alt="LinkedIn" height="20">
+      </a>
+      <a href="https://youtube.com/@kolecava" target="_blank" aria-label="YouTube">
+        <img src="{{ site.baseurl }}/assets/svgs/youtube.svg" alt="YouTube" height="20">
       </a>
     </div>
   </div>
