@@ -17,8 +17,8 @@ permalink: /work/not-my-day-falling/
   </div>
 
   <p class="mb-2"><strong>Client:</strong> Not My Day</p>
+  <p class="mb-2"><strong>Director / Camera Assistant:</strong> Rob Humm</p>
   <p class="mb-2"><strong>Director of Photography:</strong> Karol Kolecava</p>
-  <p class="mb-2"><strong>Camera Assistant:</strong> Rob Humm</p>
   <p class="mb-2"><strong>Editor/Colour:</strong> Karol Kolecava & Rob Humm</p>
 </div>
 
