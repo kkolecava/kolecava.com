@@ -105,14 +105,6 @@ description: Lorem ipsum SEO description for homepage – update this for best s
       </a>
     </div>
     <div class="col-md-4 project-tile">
-      <a href="{{ site.baseurl }}/work/project-evolve/" class="project-overlay">
-        <img src="{{ site.baseurl }}/assets/gifs/evolve_003.gif" class="img-fluid grid-image" alt="Project Evolve thumbnail">
-          <div class="overlay">
-            <span class="project-title">Project Evolve</span>
-          </div>
-      </a>
-    </div>
-    <div class="col-md-4 project-tile">
       <a href="{{ site.baseurl }}/work/fidelity-finance-compounding/" class="project-overlay">
         <img src="{{ site.baseurl }}/assets/gifs/compounding_002.gif" class="img-fluid grid-image" alt="Fidelity Finance Compounding thumbnail">
           <div class="overlay">
