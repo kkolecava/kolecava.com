@@ -65,14 +65,6 @@ description: Lorem ipsum SEO description for homepage – update this for best s
       </a>
     </div>
     <div class="col-md-4 project-tile">
-      <a href="{{ site.baseurl }}/work/tom-fletcher/" class="project-overlay">
-        <img src="{{ site.baseurl }}/assets/gifs/fletcher_003.gif" class="img-fluid grid-image" alt="Tom Fletcher thumbnail">
-          <div class="overlay">
-            <span class="project-title">Tom Fletcher</span>
-          </div>
-      </a>
-    </div>
-    <div class="col-md-4 project-tile">
       <a href="{{ site.baseurl }}/work/hargreaves-landsdown-julie/" class="project-overlay">
         <img src="{{ site.baseurl }}/assets/gifs/juliec_005.gif" class="img-fluid grid-image" alt="Hargreaves Landsdown Julie thumbnail">
           <div class="overlay">
@@ -93,22 +85,6 @@ description: Lorem ipsum SEO description for homepage – update this for best s
         <img src="{{ site.baseurl }}/assets/gifs/passit_002.gif" class="img-fluid grid-image" alt="Hargreaves Landsdown Pass it On thumbnail">
           <div class="overlay">
             <span class="project-title">Hargreaves Landsdown - Pass it on</span>
-          </div>
-      </a>
-    </div>
-    <div class="col-md-4 project-tile">
-      <a href="{{ site.baseurl }}/work/es-collective/" class="project-overlay">
-        <img src="{{ site.baseurl }}/assets/gifs/escol_003.gif" class="img-fluid grid-image" alt="ES Collective thumbnail">
-          <div class="overlay">
-            <span class="project-title">ES Collective Launch Party</span>
-          </div>
-      </a>
-    </div>
-    <div class="col-md-4 project-tile">
-      <a href="{{ site.baseurl }}/work/flags-in-the-wind-ukraine/" class="project-overlay">
-        <img src="{{ site.baseurl }}/assets/gifs/flags_003.gif" class="img-fluid grid-image" alt="Flags in the Wind Ukraine thumbnail">
-          <div class="overlay">
-            <span class="project-title">Flags in the Wind - Ukraine</span>
           </div>
       </a>
     </div>
@@ -149,22 +125,6 @@ description: Lorem ipsum SEO description for homepage – update this for best s
         <img src="{{ site.baseurl }}/assets/gifs/cortex_010.gif" class="img-fluid grid-image" alt="Circus Cortex thumbnail">
           <div class="overlay">
             <span class="project-title">Circus Cortex</span>
-          </div>
-      </a>
-    </div>
-    <div class="col-md-4 project-tile">
-      <a href="{{ site.baseurl }}/work/circus-cortex/" class="project-overlay">
-        <img src="{{ site.baseurl }}/assets/gifs/jbs_001.gif" class="img-fluid grid-image" alt="JBS Collection thumbnail">
-          <div class="overlay">
-            <span class="project-title">JBS Collection</span>
-          </div>
-      </a>
-    </div>
-    <div class="col-md-4 project-tile">
-      <a href="{{ site.baseurl }}/work/circus-cortex/" class="project-overlay">
-        <img src="{{ site.baseurl }}/assets/gifs/cater_001  .gif" class="img-fluid grid-image" alt="Caterpillar thumbnail">
-          <div class="overlay">
-            <span class="project-title">Caterpillar Inc</span>
           </div>
       </a>
     </div>
