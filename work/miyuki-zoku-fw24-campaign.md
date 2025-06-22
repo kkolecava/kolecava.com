@@ -6,7 +6,7 @@ permalink: /work/miyuki-zoku-fw24-campaign/
 
 <div class="container mt-5 pt-5">
 <div class="ratio ratio-16x9 mb-5">
-  <iframe src="https://www.youtube.com/embed/4koSLuTJs0Q?controls=0&modestbranding=1&rel=0&iv_load_policy=3&fs=0&disablekb=1" title="MIYUKI ZOKU FW24 Campaign" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/4koSLuTJs0Q?controls=1&modestbranding=1&rel=0&iv_load_policy=3&fs=0&disablekb=1" title="MIYUKI ZOKU FW24 Campaign" allowfullscreen></iframe>
 </div>
 
 <div class="credits-section my-5">

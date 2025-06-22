@@ -6,7 +6,7 @@ permalink: /work/not-my-day-falling/
 
 <div class="container mt-5 pt-5">
 <div class="ratio ratio-16x9 mb-5">
-  <iframe src="https://www.youtube.com/embed/Su9LLydnJg8?controls=0&modestbranding=1&rel=0&iv_load_policy=3&fs=0&disablekb=1" title="Not My Day - Falling Music Video" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/Su9LLydnJg8?controls=1&modestbranding=1&rel=0&iv_load_policy=3&fs=0&disablekb=1" title="Not My Day - Falling Music Video" allowfullscreen></iframe>
 </div>
 
 <div class="credits-section my-5">

@@ -7,7 +7,7 @@ permalink: /work/lazydays-acoustic-live-sessions/
 <div class="container mt-5 pt-5">
   <div class="video-section mb-5">
     <div class="ratio ratio-16x9 mb-3">
-      <iframe id="main-video" src="https://www.youtube.com/embed/g9l7EDR4pA4?autoplay=1&mute=0&controls=0&modestbranding=1&rel=0" allowfullscreen></iframe>
+      <iframe id="main-video" src="https://www.youtube.com/embed/g9l7EDR4pA4?autoplay=1&mute=0&controls=1&modestbranding=1&rel=0" allowfullscreen></iframe>
     </div>
 
 <div class="d-flex gap-3 mt-2">
@@ -61,7 +61,7 @@ permalink: /work/lazydays-acoustic-live-sessions/
     thumbs.forEach(thumb => {
       thumb.addEventListener('click', () => {
         const videoId = thumb.getAttribute('data-video');
-        iframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1&mute=0&controls=0&modestbranding=1&rel=0`;
+        iframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1&mute=0&controls=1&modestbranding=1&rel=0`;
 
         thumbs.forEach(t => t.classList.remove('selected'));
         thumb.classList.add('selected');

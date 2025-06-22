@@ -10,13 +10,14 @@ permalink: /about-me/
     <div class="col-md-6">
       <h2 class="fw-light">Hey..</h2>
       <p>
-        I'm a freelance Director of Photography, Camera Operator, and licensed drone pilot working across commercial, documentary, music and sports content. With a background in post-production and over a decade behind the lens, I combine technical precision with creative instinct to craft strong visual narratives.
+        I'm a freelance Director of Photography, Camera Operator, and licensed drone pilot working across commercial, documentary, music and sports content. With a background in post-production and 5 years behind the lens, I combine technical precision with creative instinct to craft strong visual narratives.
       </p>
       <p>
-        My kit includes cinema cameras, gimbals, FPV and aerial drones — and I’m always exploring new tools and techniques to elevate the story.
+        🇬🇧 Tel UK: +44 785 2124084<br>
+        🇸🇰 Tel Slovakia/EU: +421 944 326 204
       </p>
       <p>
-        Currently based between the UK and Slovakia, I work worldwide.
+        Currently based between the UK (London) and Slovakia (Kosice), I work worldwide.
       </p>
     </div>
     <div class="col-md-6">
