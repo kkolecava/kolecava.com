@@ -13,7 +13,6 @@ permalink: /paperwork/
       <li><strong>Public & Products Liability:</strong> £2,000,000 (UK & EU)</li>
       <li><strong>Professional Indemnity:</strong> £1,000,000</li>
       <li><strong>Employers Liability:</strong> Up to £10,000,000 (limit of indemnity)</li>
-      <li><strong>Employers Liability 2:</strong> Up to £5,000,000 (limit of indemnity)</li>
       <li><strong>Policy Issuer:</strong> Hiscox Insurance Company Limited and AXA Insurance UK plc</li>
       <li><strong>Documentation:</strong> Available upon request</li>
     </ul>
