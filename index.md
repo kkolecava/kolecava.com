@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Karol Kolecava – Director of Photography & Aerial Cinematographer 
+title: Karol Kolecava – Director of Photography & Aerial Cinematographer
 description: Lorem ipsum SEO description for homepage – update this for best search visibility.
 ---
 
