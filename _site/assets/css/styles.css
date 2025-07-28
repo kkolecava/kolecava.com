@@ -58,6 +58,11 @@ body {
   pointer-events: none; /* disables clicks */
   border: none;
 }
+
+.category-headings {
+  font-size:1.5rem;
+}
+
 .home-grid {
   padding-top:25px;
 }
@@ -249,4 +254,14 @@ footer {
   font-size: 24px;
   color: white;
   pointer-events: none;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }

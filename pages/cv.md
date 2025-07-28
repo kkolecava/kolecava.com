@@ -1,112 +1,182 @@
 ---
 layout: default
-title: CV
+title: Karol Kolecava – Cinematographer CV
 permalink: /cv/
+description: The official cinematographer CV of Karol Kolecava – Director of Photography and drone operator working across Europe and the UK. View past clients, technical skills, project highlights, and download his full PDF résumé.
 ---
 
-  <div class="container mt-5 pt-5">
-  <h2 class="mb-4">Curriculum Vitae</h2>
+<div class="container mt-5 pt-5">
 
-  <div class="mb-5">
-  <a href="/assets/docs/kolecava_dop_cv.pdf" class="btn btn-dark" target="_blank" download="">
-    Download CV as PDF
-  </a>
-</div>
+  <header>
+    <h1 class="mb-4">Curriculum Vitae – Karol Kolecava</h1>
+    <p class="lead text-muted">Freelance Director of Photography & Aerial Cinematographer working across Central Europe and the UK.</p>
+    <a href="/assets/docs/kolecava_dop_cv.pdf" class="btn btn-dark mb-5" target="_blank" download="">
+      Download CV as PDF
+    </a>
+  </header>
 
-<h3>Karol Kolecava</h3>
+  <!-- Personal Details -->
+  <section class="mb-5" aria-labelledby="cv-details">
+    <h2 id="cv-details" class="text-uppercase text-muted border-bottom pb-2">Details</h2>
+    <ul class="list-unstyled mt-3">
+      <li><strong>Name:</strong> Karol Kolecava</li>
+      <li><strong>Age:</strong> <span id="current-age"></span></li>
+      <li><strong>Experience:</strong> <span class="experience-years"></span> years</li>
+      <li><strong>Base:</strong> Košice, Slovakia and London, UK</li>
+      <li><strong>Working across:</strong> The United Kingdom and Central Europe</li>
+      <li><strong>Driving licence:</strong> Full EU licence</li>
+    </ul>
+  </section>
 
-  <div class="mb-5">
-    <h4 class="text-uppercase text-muted border-bottom pb-2">Summary</h4>
+  <!-- Summary -->
+  <section class="mb-5" aria-labelledby="cv-summary">
+    <h2 id="cv-summary" class="text-uppercase text-muted border-bottom pb-2">Summary</h2>
     <p>
-      Freelance Director of Photography and licensed drone pilot with 5 years of experience across commercials, music videos, documentaries, branded content, and live events. Skilled in narrative storytelling, aerial cinematography, and fast-paced location shooting for both broadcast and web platforms.
+      Freelance Director of Photography and certified drone pilot with <span class="experience-years"></span> years of experience across commercials, documentaries, music videos, branded content, and live events. Skilled in narrative storytelling, fast-paced documentary shooting, and cinematic visuals both on the ground and in the air.
     </p>
-  </div>
+  </section>
 
-  <div class="mb-5">
-    <h4 class="text-uppercase text-muted border-bottom pb-2">Selected Clients</h4>
+  <!-- Clients -->
+  <section class="mb-5" aria-labelledby="cv-clients">
+    <h2 id="cv-clients" class="text-uppercase text-muted border-bottom pb-2">Selected Clients</h2>
     <ul class="list-unstyled mt-3">
       <li>Hargreaves Lansdown</li>
       <li>Fidelity Finance</li>
       <li>Vodafone</li>
       <li>Tesco</li>
       <li>British Superbike Championship</li>
-      <li>COSM Immersive Expriences</li>
-      <li>L'occitane</li>
+      <li>COSM Immersive Experiences</li>
+      <li>L'Occitane</li>
       <li>European Movement UK</li>
       <li>Alzheimer's Society</li>
     </ul>
-  </div>
+  </section>
 
-  <div class="mb-5">
-    <h4 class="text-uppercase text-muted border-bottom pb-2">Experience</h4>
+  <!-- Roles & Capabilities -->
+  <section class="mb-5" aria-labelledby="cv-experience">
+    <h2 id="cv-experience" class="text-uppercase text-muted border-bottom pb-2">Experience</h2>
     <ul class="list-unstyled mt-3">
-      <li><strong>Director of Photography</strong> – Freelance / UK, EU (2020–Present)</li>
-      <li><strong>Camera Operator / Gimbal Operator</strong> – Arri, RED, Sony, Blackmagic, DJI Gimbals</li>
-      <li><strong>Drone Pilot &amp; Aerial DP</strong> – DJI MAVIC 3</li>
-      <li><strong>Editing and Colour</strong> – Davinci Resolve and Adobe Premiere</li>
+      <li><strong>Director of Photography</strong> – Freelance (UK/EU, 2020–Present)</li>
+      <li><strong>Camera / Gimbal Operator</strong> – ARRI, RED, Sony, Blackmagic, DJI gimbals</li>
+      <li><strong>Drone Pilot & Aerial DP</strong> – DJI Mavic 3 (CAA A2 CofC, EASA A2)</li>
+      <li><strong>Editing & Colour</strong> – DaVinci Resolve, Adobe Premiere</li>
     </ul>
-  </div>
+  </section>
 
-  <div class="mb-5">
-    <h4 class="text-uppercase text-muted border-bottom pb-2">Specialisms</h4>
+  <!-- Specialisms -->
+  <section class="mb-5" aria-labelledby="cv-specialisms">
+    <h2 id="cv-specialisms" class="text-uppercase text-muted border-bottom pb-2">Specialisms</h2>
     <ul class="list-unstyled mt-3">
-      <li>Documentary shooting (run-and-gun)</li>
+      <li>Documentary (run-and-gun / self-shooting)</li>
       <li>Commercials / Branded Content</li>
-      <li>Interview Setups</li>
+      <li>Interview setups & lighting</li>
       <li>Music Live Sessions</li>
       <li>Handheld, Easyrig, Gimbal Operation</li>
-      <li>Aerial cinematography (UK A2 CofC, EU A2 certified)</li>
+      <li>Aerial cinematography (UK & EU licensed)</li>
     </ul>
-  </div>
+  </section>
 
-  <div class="mb-5">
-    <h4 class="text-uppercase text-muted border-bottom pb-2">Technical Skills</h4>
+  <!-- Tech -->
+  <section class="mb-5" aria-labelledby="cv-technical">
+    <h2 id="cv-technical" class="text-uppercase text-muted border-bottom pb-2">Technical Skills</h2>
     <ul class="list-unstyled mt-3">
-      <li>Camera systems: ARRI Alexa, Sony FX3/FX6/FX9, BMPCC 4K/6K, Ursa Mini, RED DSMC3 (Komodo/Raptor)</li>
-      <li>Gimbals &amp; Stabilisers: DJI RS 2 Pro, Movi Pro</li>
-      <li>Post: DaVinci Resolve Studio (editing, colour) and Adobe Premiere / After Effects</li>
-      <li>Lighting: Aputure, Astera, GODOX, Nanlite and various Arri Red Heads</li>
+      <li><strong>Cameras:</strong> ARRI Alexa, Sony FX3/6/9, RED Komodo/Raptor, BMPCC 4K/6K</li>
+      <li><strong>Gimbals:</strong> DJI RS 2/3/4, Ronin 2, Movi Pro</li>
+      <li><strong>Post:</strong> DaVinci Resolve Studio, Premiere Pro, After Effects</li>
+      <li><strong>Lighting:</strong> Aputure, Astera, GODOX, Nanlite, Arri Red Heads</li>
     </ul>
-  </div>
+  </section>
 
-  <div class="mb-5">
-    <h4 class="text-uppercase text-muted border-bottom pb-2">Education &amp; Training</h4>
+  <!-- Training -->
+  <section class="mb-5" aria-labelledby="cv-education">
+    <h2 id="cv-education" class="text-uppercase text-muted border-bottom pb-2">Education & Training</h2>
     <ul class="list-unstyled mt-3">
       <li>CAA A2 Certificate of Competency – UAVHub (UK)</li>
-      <li>EU A2 Open Category Drone Licence – EASA / Netherlands</li>
+      <li>EU A2 Open Category Drone Licence – EASA (Netherlands)</li>
+      <li>DBS Checked (UK Enhanced Disclosure)</li>
+      <li>COVID-safe training completed</li>
     </ul>
-  </div>
+  </section>
 
-  <div class="mb-5">
-  <h4 class="text-uppercase text-muted border-bottom pb-2">Notable Recent Projects:</h4>
-  <span>Year - Project Name - Production Company / Client - Genre - Directors - Camera System</span>
-  <div class="mt-3">
+  <!-- Projects -->
+  <section class="mb-5" aria-labelledby="cv-projects">
+    <h2 id="cv-projects" class="text-uppercase text-muted border-bottom pb-2">Notable Recent Projects</h2>
+
     <div class="mb-4">
-      <strong><span>2025</span> – <em>Flags in the Wind</em> – European Movement UK – Documentary – Richard Kilpatrick & Michael Anderson – Blackmagic Ursa 12K</strong>
-      <p class="mb-0">
-A short documentary exploring the human cost of war in Ukraine, filmed across multiple locations in and around Lviv. Shot on a tight schedule, the project blends interviews, archival footage, and general GVs. Each interview required fast setup times, so we worked efficiently and packed only the essential kit to stay agile.      </p>
-    </div>
-    <div class="mb-4">
-      <strong><span>2025</span> – <em>Tesco Stories</em> – ITN – Mini-Series / Documentary - Various Directors – Various Camera Systems</strong>
-      <p class="mb-0">
-A documentary-style piece filmed across multiple locations in the UK, Prague, and Slovakia, highlighting personal stories from Tesco employees and their roles within the company. The production required building scenes on the fly with minimal setup, while coordinating with additional camera operators to capture effective cross-shoot coverage under time-sensitive conditions.      </p>
-    </div>
-    <div class="mb-4">
-      <strong><span>2025</span> – <em>The JBS Collection - BENTLEY BLOWER</em> – RELOAD – Sports Doc/Episodic TV – Blackmagic Ursa 12K and Various Sony Systems</strong>
-      <p class="mb-0">
-A short documentary following the one-to-one recreation of the iconic 1929/1930 Bentley Blower, built to original specification using only parts and technology that would have been available at the time — but crafted with modern manufacturing techniques. Filmed at Bentley Mulliner’s factory, on-track at Donington Park and Oulton Park, and culminating at the 24 Hours of Le Mans Classic, the story captures a blend of historical authenticity and present-day precision. Working with a small crew, we filmed on the move — capturing dynamic tracking shots, atmospheric GVs, and cinematic interviews to document the full journey of this remarkable engineering tribute.
+      <h3 class="h5"><span class="year-block">2025</span> – Flags in the Wind</h3>
+      <p class="text-muted small mb-2">
+        <strong>Production:</strong> European Movement UK &nbsp;|&nbsp;
+        <strong>Directors:</strong> Richard Kilpatrick & Michael Anderson &nbsp;|&nbsp;
+        <strong>Genre:</strong> Documentary &nbsp;|&nbsp;
+        <strong>Camera:</strong> Blackmagic Ursa 12K
+      </p>
+      <p>
+        A short documentary exploring the human cost of war in Ukraine, filmed across multiple locations in and around Lviv. Shot on a tight schedule, the project blends interviews, archival footage, and general GVs. Each interview required fast setup times, so we worked efficiently and packed only the essential kit to stay agile.
       </p>
     </div>
-    <!-- Add more project entries here -->
-  </div>
+
+    <div class="mb-4">
+      <h3 class="h5"><span class="year-block">2025</span> – Tesco Community Stories</h3>
+      <p class="text-muted small mb-2">
+        <strong>Production:</strong> ITN &nbsp;|&nbsp;
+        <strong>Directors:</strong> Various &nbsp;|&nbsp;
+        <strong>Genre:</strong> Documentary &nbsp;|&nbsp;
+        <strong>Camera:</strong> Blackmagic Ursa 12K
+      </p>
+      <p>
+        A documentary-style piece filmed across multiple locations in the UK, Prague, and Slovakia, highlighting personal stories from Tesco employees. The production required building scenes quickly with minimal crew, while managing effective multi-angle coverage under tight time constraints.
+      </p>
+    </div>
+
+    <div class="mb-4">
+      <h3 class="h5"><span class="year-block">2025</span> – The JBS Collection – Bentley Blower</h3>
+      <p class="text-muted small mb-2">
+        <strong>Production:</strong> Reload Agency &nbsp;|&nbsp;
+        <strong>Genre:</strong> Documentary &nbsp;|&nbsp;
+        <strong>Camera:</strong> Blackmagic Ursa 12K
+      </p>
+      <p>
+        A documentary following the recreation of the 1930 Bentley Blower using original techniques and modern craftsmanship. Shot at Bentley Mulliner, on-track at Donington/Oulton Park, and Le Mans Classic. Delivered cinematic interviews, detailed engineering visuals, and dynamic tracking shots with a compact crew.
+      </p>
+    </div>
+
+    <div class="mb-4">
+      <h3 class="h5"><span class="year-block">2025</span> – Catterpillar Inc Social Ads</h3>
+      <p class="text-muted small mb-2">
+        <strong>Production:</strong> Flipside Group &nbsp;|&nbsp;
+        <strong>Genre:</strong> Commercial &nbsp;|&nbsp;
+        <strong>Camera:</strong> Blackmagic Ursa 12K
+      </p>
+      <p>
+        A series of short 
+      </p>
+    </div>
+  </section>
+
+  <!-- Repeat download CTA -->
+    <a href="/assets/docs/kolecava_dop_cv.pdf" class="btn btn-dark mb-5" target="_blank" download="">
+      Download CV as PDF
+    </a>
+
 </div>
 
+<!-- Age and Experience Autoupdate -->
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    document.body.classList.add("js-enabled");
 
-  <div class="mb-5">
-  <a href="/assets/docs/kolecava_dop_cv.pdf" class="btn btn-dark" target="_blank" download="">
-    Download CV as PDF
-  </a>
-</div>
+    // Age calc
+    const birthDate = new Date(1993, 11, 17); // Dec 17, 1993
+    const now = new Date();
+    let age = now.getFullYear() - birthDate.getFullYear();
+    const m = now.getMonth() - birthDate.getMonth();
+    if (m < 0 || (m === 0 && now.getDate() < birthDate.getDate())) age--;
+    document.getElementById("current-age").textContent = age;
 
-
-</div>
+    // Experience calc (start year: 2020)
+    const expYears = now.getFullYear() - 2020;
+    document.querySelectorAll(".experience-years").forEach(el => {
+      el.textContent = expYears;
+    });
+  });
+</script>
