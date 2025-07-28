@@ -50,6 +50,7 @@ description: The official cinematographer CV of Karol Kolecava – Director of P
       <li>European Movement UK</li>
       <li>Alzheimer's Society</li>
       <li>Jasper Conran</li>
+      <li>Royal Mail</li>
     </ul>
   </section>
 
@@ -125,7 +126,7 @@ description: The official cinematographer CV of Karol Kolecava – Director of P
         <strong>Camera:</strong> Blackmagic Ursa 12K
       </p>
       <p>
-        A documentary-style piece filmed across multiple locations in the UK, Prague, and Slovakia, highlighting personal stories from Tesco employees. The production required building scenes quickly with minimal crew, while managing effective multi-angle coverage under tight time constraints.
+        A documentary-style piece filmed across multiple locations in the UK, Czechia, and Slovakia, highlighting personal stories from Tesco employees. The production required building scenes quickly with minimal crew, while managing effective multi-angle coverage under tight time constraints.
       </p>
     </div>
 
