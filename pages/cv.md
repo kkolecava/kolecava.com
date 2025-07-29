@@ -28,13 +28,20 @@ description: The official cinematographer CV of Karol Kolecava – Director of P
     </ul>
   </section>
 
-  <!-- Summary -->
-  <section class="mb-5" aria-labelledby="cv-summary">
-    <h2 id="cv-summary" class="text-uppercase text-muted border-bottom pb-2">Summary</h2>
-    <p>
-      Freelance Director of Photography and certified drone pilot with <span class="experience-years"></span> years of experience across commercials, documentaries, music videos, branded content, and live events. Skilled in narrative storytelling, fast-paced documentary shooting, and cinematic visuals both on the ground and in the air.
-    </p>
-  </section>
+<!-- Summary -->
+<section class="mb-5" aria-labelledby="cv-summary">
+  <h2 id="cv-summary" class="text-uppercase text-muted border-bottom pb-2">Summary</h2>
+  <p>
+    I’m a freelance Director of Photography and certified drone pilot with <span class="experience-years"></span> years of experience across commercial, documentary, music, and branded content. My work blends strong technical control with a keen eye for storytelling — shaped by a background in post-production and a self-taught foundation in cinematography after switching careers from web design.
+  </p>
+  <p>
+    I’m currently based between London and Košice and work across the UK and Europe, collaborating with crews and clients to bring impactful visual narratives to life — both on the ground and in the air.
+  </p>
+<p class="mt-3">
+  Want to know more? Head to the <a href="/about-me/">www.kolecava.com/about-me/</a> page for a deeper dive into my creative path.
+</p>
+</section>
+
 
   <!-- Clients -->
   <section class="mb-5" aria-labelledby="cv-clients">
