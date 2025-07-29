@@ -10,8 +10,8 @@ description: The official cinematographer CV of Karol Kolecava – Director of P
   <header>
     <h1 class="mb-4">Curriculum Vitae – Karol Kolecava</h1>
     <p class="lead text-muted">Freelance Director of Photography & Aerial Cinematographer working across Central Europe and the UK.</p>
-    <a href="/assets/docs/kolecava_dop_cv.pdf" class="btn btn-dark mb-5" target="_blank" download="">
-      Download CV as PDF
+    <!-- <a href="/assets/docs/kolecava_dop_cv.pdf" class="btn btn-dark mb-5" target="_blank" download="">
+      Download CV as PDF -->
     </a>
   </header>
 
@@ -155,6 +155,18 @@ description: The official cinematographer CV of Karol Kolecava – Director of P
     </div>
 
     <div class="mb-4">
+      <h3 class="h5"><span class="year-block">2025</span> – Hargreaves Lansdown <i>(various case studies)</i></h3>
+      <p class="text-muted small mb-2">
+        <strong>Production:</strong> Gray Media UK &nbsp;|&nbsp;
+        <strong>Genre:</strong> Corporate Branded Content &nbsp;|&nbsp;
+        <strong>Camera:</strong> Blackmagic Ursa 12K, RED Komodo, FX3/FX6
+      </p>
+      <p>
+A series of mini-docs showcasing personal stories from Hargreaves Lansdown customers, filmed across various UK locations. Each shoot was completed in a single day with a small crew of three (two camera, one director). We captured cinematic GVs, conducted well-lit interviews—often filmed in people’s homes, which required on-the-spot reworking of living spaces—and occasionally shot in unique locations such as beaches. Aerial footage was also used to enhance visual storytelling and establish setting.
+      </p>
+    </div>
+
+    <div class="mb-4">
       <h3 class="h5"><span class="year-block">2024</span> – Tom Fletcher (Series of Children Book Web Ads)</h3>
       <p class="text-muted small mb-2">
         <strong>Production:</strong> EC2I & Gray Media UK &nbsp;|&nbsp;
@@ -176,12 +188,23 @@ description: The official cinematographer CV of Karol Kolecava – Director of P
 Filmed across various off-road locations in the UK, this project involved capturing high-intensity racing action in challenging terrain and unpredictable weather conditions. Utilised drone cinematography for dynamic aerial coverage, complemented by super slow-motion ground shots and interviews with riders and organisers. Delivered both a short-form documentary and supporting web content tailored for digital platforms.
       </p>
     </div>
+
+    <div class="mb-4">
+      <h3 class="h5"><span class="year-block">2023</span> – Circus Cortex</h3>
+      <p class="text-muted small mb-2">
+        <strong>Genre:</strong> Branded Content &nbsp;|&nbsp;
+        <strong>Camera:</strong> Blackmagic Ursa 12K, Red Komodo, Blackmagic Pocket 4K/6K
+      </p>
+      <p>
+A visually dynamic shoot for Circus Cortex, a UK-based contemporary circus. The production involved rehearsed stunts and carefully choreographed lighting transitions, requiring close coordination between performers, lighting cues, and camera movement. Multiple lighting setups were used to enhance the visual storytelling, with a strong emphasis on timing and spatial awareness in a controlled performance environment.
+      </p>
+    </div>
   </section>
 
   <!-- Repeat download CTA -->
-    <a href="/assets/docs/kolecava_dop_cv.pdf" class="btn btn-dark mb-5" target="_blank" download="">
+    <!-- <a href="/assets/docs/kolecava_dop_cv.pdf" class="btn btn-dark mb-5" target="_blank" download="">
       Download CV as PDF
-    </a>
+    </a> -->
 
 </div>
 

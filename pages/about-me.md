@@ -15,6 +15,8 @@ permalink: /about-me/
       <p>
         🇬🇧 Tel UK: +44 785 2124084<br>
         🇸🇰 Tel Slovakia/EU: +421 944 326 204
+
+        Drop me an email at hello@kolecava.com
       </p>
       <p>
         Currently based between the UK (London) and Slovakia (Kosice), I work worldwide.
