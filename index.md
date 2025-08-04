@@ -25,8 +25,8 @@ description: Freelance Director of Photography, Aerial Cinematographer and Camer
     <h2 id="documentaries-heading" class="category-headings">Documentaries</h2>
     <div class="row g-4">
       <div class="col-12 col-sm-6 col-lg-4">
-        <a href="#" class="project-overlay" aria-label="Flags in the Wind – Ukraine">
-          <img src="{{ site.baseurl }}/assets/images/ukraine-002.jpeg" class="img-fluid grid-image" alt="Flags in the Wind – Ukraine still" loading="lazy">
+        <a href="{{ site.baseurl }}/work/flags-in-the-wind/" class="project-overlay" aria-label="Flags in the Wind – Ukraine Trailer">
+          <img src="{{ site.baseurl }}/assets/gifs/flags_013.gif" class="img-fluid grid-image" alt="Flags in the Wind – Ukraine Trailer" loading="lazy">
           <div class="overlay">
             <span class="project-title">Flags in the Wind – Ukraine</span>
           </div>
@@ -171,7 +171,7 @@ description: Freelance Director of Photography, Aerial Cinematographer and Camer
       </div>
       <div class="col-12 col-sm-6 col-lg-4">
         <a href="#" class="project-overlay" aria-label="Tom Fletcher Web Ad">
-          <img src="{{ site.baseurl }}/assets/images/tf-001.png" class="img-fluid grid-image" alt="Tom Fletcher web ad thumbnail" loading="lazy">
+          <img src="{{ site.baseurl }}/assets/gifs/puffinbooks_001.gif" class="img-fluid grid-image" alt="Tom Fletcher web ad thumbnail" loading="lazy">
           <div class="overlay">
             <span class="project-title">Tom Fletcher – Web Ad</span>
           </div>
