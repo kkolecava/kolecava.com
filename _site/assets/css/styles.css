@@ -66,6 +66,11 @@ body {
   height: 200px;
   object-fit: cover;
 }
+
+.category-headings {
+  font-size:1.5rem!important;
+}
+
 .project-tile {
   opacity: 0;
   transform: translateY(10px);
