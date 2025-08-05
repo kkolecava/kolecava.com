@@ -21,86 +21,88 @@ description: Freelance Director of Photography, Aerial Cinematographer and Camer
   </section>
 
   <!-- Documentaries -->
-<section class="mt-5" aria-labelledby="documentaries-heading">
-  <h2 id="documentaries-heading" class="category-headings">Documentaries</h2>
-  <div class="row g-4">
+  <section class="mt-5" aria-labelledby="documentaries-heading">
+    <h2 id="documentaries-heading" class="category-headings">Documentaries</h2>
+    <div class="row g-4">
+      <!-- Flags in the Wind – Ukraine -->
+      <div class="col-12 col-sm-6 col-lg-4">
+        <a href="{{ site.baseurl }}/work/flags-in-the-wind/" class="project-overlay" aria-label="Flags in the Wind – Ukraine Trailer">
+          <video class="img-fluid grid-image" autoplay loop muted playsinline loading="lazy" poster="{{ site.baseurl }}/assets/images/ua_oldman-thumb.jpg">
+            <source src="{{ site.baseurl }}/assets/webm/ua_oldman.webm" type="video/webm">
+          </video>
+          <div class="overlay">
+            <span class="project-title">Flags in the Wind – Ukraine</span>
+          </div>
+        </a>
+      </div>
 
-    <!-- Flags in the Wind – Ukraine -->
-    <div class="col-12 col-sm-6 col-lg-4">
-      <a href="{{ site.baseurl }}/work/flags-in-the-wind/" class="project-overlay" aria-label="Flags in the Wind – Ukraine Trailer">
-        <video class="img-fluid grid-image" autoplay loop muted playsinline loading="lazy" poster="{{ site.baseurl }}/assets/images/ua_oldman-thumb.jpg">
-          <source src="{{ site.baseurl }}/assets/webm/ua_oldman.webm" type="video/webm">
-        </video>
-        <div class="overlay">
-          <span class="project-title">Flags in the Wind – Ukraine</span>
-        </div>
-      </a>
+      <!-- JBS Collection – Documentary -->
+      <div class="col-12 col-sm-6 col-lg-4">
+        <a href="#" class="project-overlay" aria-label="JBS Collection – Documentary">
+          <img src="{{ site.baseurl }}/assets/images/jbs-thumb-still.jpeg" class="img-fluid grid-image" alt="JBS Collection documentary thumbnail" loading="lazy">
+          <div class="overlay">
+            <span class="project-title">JBS Collection – Documentary</span>
+          </div>
+        </a>
+      </div>
     </div>
-
-    <!-- JBS Collection – Documentary -->
-    <div class="col-12 col-sm-6 col-lg-4">
-      <a href="#" class="project-overlay" aria-label="JBS Collection – Documentary">
-        <img src="{{ site.baseurl }}/assets/images/jbs-thumb-still.jpeg" class="img-fluid grid-image" alt="JBS Collection documentary thumbnail" loading="lazy">
-        <div class="overlay">
-          <span class="project-title">JBS Collection – Documentary</span>
-        </div>
-      </a>
-    </div>
-
-  </div>
-</section>
+  </section>
 
   <!-- Corporate -->
   <section class="mt-5" aria-labelledby="corporate-heading">
-  <h2 id="corporate-heading" class="category-headings">Corporate</h2>
-  <div class="row g-4">
-    <!-- Morrison Foerster -->
-    <div class="col-12 col-sm-6 col-lg-4">
-      <a href="{{ site.baseurl }}/work/morrison-foerster/" class="project-overlay" aria-label="Morrison Foerster – Branded Content">
-        <img src="{{ site.baseurl }}/assets/gifs/mofo_003.gif" class="img-fluid grid-image" alt="Morrison Foerster branded content thumbnail" loading="lazy">
-        <div class="overlay">
-          <span class="project-title">Morrison Foerster – Branded Content</span>
-        </div>
-      </a>
+    <h2 id="corporate-heading" class="category-headings">Corporate</h2>
+    <div class="row g-4">
+      <!-- Morrison Foerster -->
+      <div class="col-12 col-sm-6 col-lg-4">
+        <a href="{{ site.baseurl }}/work/morrison-foerster/" class="project-overlay" aria-label="Morrison Foerster – Branded Content">
+          <img src="{{ site.baseurl }}/assets/gifs/mofo_003.gif" class="img-fluid grid-image" alt="Morrison Foerster branded content thumbnail" loading="lazy">
+          <div class="overlay">
+            <span class="project-title">Morrison Foerster – Branded Content</span>
+          </div>
+        </a>
+      </div>
+
+      <!-- Fidelity -->
+      <div class="col-12 col-sm-6 col-lg-4">
+        <a href="{{ site.baseurl }}/work/fidelity-finance-compounding/" class="project-overlay" aria-label="Fidelity – Compounding">
+          <img src="{{ site.baseurl }}/assets/gifs/compounding_002.gif" class="img-fluid grid-image" alt="Fidelity compounding thumbnail" loading="lazy">
+          <div class="overlay">
+            <span class="project-title">Fidelity – Compounding</span>
+          </div>
+        </a>
+      </div>
+
+      <!-- Hargreaves Lansdown: Julie -->
+      <div class="col-12 col-sm-6 col-lg-4">
+        <a href="{{ site.baseurl }}/work/hargreaves-landsdown-julie/" class="project-overlay" aria-label="Hargreaves Lansdown – Julie">
+          <img src="{{ site.baseurl }}/assets/gifs/juliec_005.gif" class="img-fluid grid-image" alt="Hargreaves Lansdown Julie thumbnail" loading="lazy">
+          <div class="overlay">
+            <span class="project-title">Hargreaves Lansdown – Julie</span>
+          </div>
+        </a>
+      </div>
+
+      <!-- Hargreaves Lansdown: Jack -->
+      <div class="col-12 col-sm-6 col-lg-4">
+        <a href="{{ site.baseurl }}/work/hargreaves-landsdown-jack/" class="project-overlay" aria-label="Hargreaves Lansdown – Jack">
+          <img src="{{ site.baseurl }}/assets/gifs/jack_008.gif" class="img-fluid grid-image" alt="Hargreaves Lansdown Jack thumbnail" loading="lazy">
+          <div class="overlay">
+            <span class="project-title">Hargreaves Lansdown – Jack</span>
+          </div>
+        </a>
+      </div>
+
+      <!-- Hargreaves Lansdown: Pass it On -->
+      <div class="col-12 col-sm-6 col-lg-4">
+        <a href="{{ site.baseurl }}/work/hargreaves-landsdown-pass-it-on/" class="project-overlay" aria-label="Hargreaves Lansdown – Pass it On">
+          <img src="{{ site.baseurl }}/assets/gifs/passit_002.gif" class="img-fluid grid-image" alt="Hargreaves Lansdown Pass it On thumbnail" loading="lazy">
+          <div class="overlay">
+            <span class="project-title">Hargreaves Lansdown – Pass it On</span>
+          </div>
+        </a>
+      </div>
     </div>
-    <!-- Fidelity -->
-    <div class="col-12 col-sm-6 col-lg-4">
-      <a href="{{ site.baseurl }}/work/fidelity-finance-compounding/" class="project-overlay" aria-label="Fidelity – Compounding">
-        <img src="{{ site.baseurl }}/assets/gifs/compounding_002.gif" class="img-fluid grid-image" alt="Fidelity compounding thumbnail" loading="lazy">
-        <div class="overlay">
-          <span class="project-title">Fidelity – Compounding</span>
-        </div>
-      </a>
-    </div>
-    <!-- Hargreaves Lansdown: Julie -->
-    <div class="col-12 col-sm-6 col-lg-4">
-      <a href="{{ site.baseurl }}/work/hargreaves-landsdown-julie/" class="project-overlay" aria-label="Hargreaves Lansdown – Julie">
-        <img src="{{ site.baseurl }}/assets/gifs/juliec_005.gif" class="img-fluid grid-image" alt="Hargreaves Lansdown Julie thumbnail" loading="lazy">
-        <div class="overlay">
-          <span class="project-title">Hargreaves Lansdown – Julie</span>
-        </div>
-      </a>
-    </div>
-    <!-- Hargreaves Lansdown: Jack -->
-    <div class="col-12 col-sm-6 col-lg-4">
-      <a href="{{ site.baseurl }}/work/hargreaves-landsdown-jack/" class="project-overlay" aria-label="Hargreaves Lansdown – Jack">
-        <img src="{{ site.baseurl }}/assets/gifs/jack_008.gif" class="img-fluid grid-image" alt="Hargreaves Lansdown Jack thumbnail" loading="lazy">
-        <div class="overlay">
-          <span class="project-title">Hargreaves Lansdown – Jack</span>
-        </div>
-      </a>
-    </div>
-    <!-- Hargreaves Lansdown: Pass it On -->
-    <div class="col-12 col-sm-6 col-lg-4">
-      <a href="{{ site.baseurl }}/work/hargreaves-landsdown-pass-it-on/" class="project-overlay" aria-label="Hargreaves Lansdown – Pass it On">
-        <img src="{{ site.baseurl }}/assets/gifs/passit_002.gif" class="img-fluid grid-image" alt="Hargreaves Lansdown Pass it On thumbnail" loading="lazy">
-        <div class="overlay">
-          <span class="project-title">Hargreaves Lansdown – Pass it On</span>
-        </div>
-      </a>
-    </div>
-  </div>
-</section>
+  </section>
 
   <!-- Fashion -->
   <section class="mt-5" aria-labelledby="fashion-heading">
@@ -150,6 +152,16 @@ description: Freelance Director of Photography, Aerial Cinematographer and Camer
           <img src="{{ site.baseurl }}/assets/images/es-001_2.4.1-min.jpg" class="img-fluid grid-image" alt="ES Collective event thumbnail" loading="lazy">
           <div class="overlay">
             <span class="project-title">ES Collective Launch Party</span>
+          </div>
+        </a>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-4">
+        <a href="{{ site.baseurl }}/work/function-republic/" class="project-overlay" aria-label="Function Republic - Live">
+          <video class="img-fluid grid-image" autoplay loop muted playsinline loading="lazy" poster="{{ site.baseurl }}/assets/images/ua_oldman-thumb.jpg">
+            <source src="{{ site.baseurl }}/assets/webm/functionrep_001.webm" type="video/webm">
+          </video>
+          <div class="overlay">
+            <span class="project-title">Function Republic - Live</span>
           </div>
         </a>
       </div>
