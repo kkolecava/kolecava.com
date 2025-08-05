@@ -21,27 +21,34 @@ description: Freelance Director of Photography, Aerial Cinematographer and Camer
   </section>
 
   <!-- Documentaries -->
-  <section class="mt-5" aria-labelledby="documentaries-heading">
-    <h2 id="documentaries-heading" class="category-headings">Documentaries</h2>
-    <div class="row g-4">
-      <div class="col-12 col-sm-6 col-lg-4">
-        <a href="{{ site.baseurl }}/work/flags-in-the-wind/" class="project-overlay" aria-label="Flags in the Wind – Ukraine Trailer">
-          <img src="{{ site.baseurl }}/assets/gifs/flags_013.gif" class="img-fluid grid-image" alt="Flags in the Wind – Ukraine Trailer" loading="lazy">
-          <div class="overlay">
-            <span class="project-title">Flags in the Wind – Ukraine</span>
-          </div>
-        </a>
-      </div>
-      <div class="col-12 col-sm-6 col-lg-4">
-        <a href="#" class="project-overlay" aria-label="JBS Collection – Documentary">
-          <img src="{{ site.baseurl }}/assets/images/jbs-thumb-still.jpeg" class="img-fluid grid-image" alt="JBS Collection documentary thumbnail" loading="lazy">
-          <div class="overlay">
-            <span class="project-title">JBS Collection – Documentary</span>
-          </div>
-        </a>
-      </div>
+<section class="mt-5" aria-labelledby="documentaries-heading">
+  <h2 id="documentaries-heading" class="category-headings">Documentaries</h2>
+  <div class="row g-4">
+
+    <!-- Flags in the Wind – Ukraine -->
+    <div class="col-12 col-sm-6 col-lg-4">
+      <a href="{{ site.baseurl }}/work/flags-in-the-wind/" class="project-overlay" aria-label="Flags in the Wind – Ukraine Trailer">
+        <video class="img-fluid grid-image" autoplay loop muted playsinline loading="lazy" poster="{{ site.baseurl }}/assets/images/ua_oldman-thumb.jpg">
+          <source src="{{ site.baseurl }}/assets/webm/ua_oldman.webm" type="video/webm">
+        </video>
+        <div class="overlay">
+          <span class="project-title">Flags in the Wind – Ukraine</span>
+        </div>
+      </a>
     </div>
-  </section>
+
+    <!-- JBS Collection – Documentary -->
+    <div class="col-12 col-sm-6 col-lg-4">
+      <a href="#" class="project-overlay" aria-label="JBS Collection – Documentary">
+        <img src="{{ site.baseurl }}/assets/images/jbs-thumb-still.jpeg" class="img-fluid grid-image" alt="JBS Collection documentary thumbnail" loading="lazy">
+        <div class="overlay">
+          <span class="project-title">JBS Collection – Documentary</span>
+        </div>
+      </a>
+    </div>
+
+  </div>
+</section>
 
   <!-- Corporate -->
   <section class="mt-5" aria-labelledby="corporate-heading">
