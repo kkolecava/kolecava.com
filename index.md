@@ -158,7 +158,7 @@ description: Freelance Director of Photography, Aerial Cinematographer and Camer
       <div class="col-12 col-sm-6 col-lg-4">
         <a href="{{ site.baseurl }}/work/function-republic/" class="project-overlay" aria-label="Function Republic - Live">
           <video class="img-fluid grid-image" autoplay loop muted playsinline loading="lazy" poster="{{ site.baseurl }}/assets/images/ua_oldman-thumb.jpg">
-            <source src="{{ site.baseurl }}/assets/webm/functionrep_001.webm" type="video/webm">
+            <source src="{{ site.baseurl }}/assets/webm/functionrep_007.webm" type="video/webm">
           </video>
           <div class="overlay">
             <span class="project-title">Function Republic - Live</span>
