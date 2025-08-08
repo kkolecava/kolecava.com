@@ -148,10 +148,12 @@ description: Freelance Director of Photography, Aerial Cinematographer and Camer
         </a>
       </div>
       <div class="col-12 col-sm-6 col-lg-4">
-        <a href="#" class="project-overlay" aria-label="ES Collective Launch Party">
-          <img src="{{ site.baseurl }}/assets/images/es-001_2.4.1-min.jpg" class="img-fluid grid-image" alt="ES Collective event thumbnail" loading="lazy">
+        <a href="{{ site.baseurl }}/work/es-collective/" class="project-overlay" aria-label="E.S Collective Launch Party">
+          <video class="img-fluid grid-image" autoplay loop muted playsinline loading="lazy" poster="{{ site.baseurl }}/assets/images/ua_oldman-thumb.jpg">
+            <source src="{{ site.baseurl }}/assets/webm/es_001.webm" type="video/webm">
+          </video>
           <div class="overlay">
-            <span class="project-title">ES Collective Launch Party</span>
+            <span class="project-title">E.S Collective - Launch Party</span>
           </div>
         </a>
       </div>
