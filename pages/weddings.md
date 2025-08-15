@@ -8,7 +8,7 @@ description: Capturing your day in full cinema Worldwide.
 <div class="container mt-5 pt-5">
 
   <!-- Page H1 for SEO and accessibility -->
-  <h1 class="visually-hidden">Karol Kolecava – Director of Photography & Aerial Cinematographer</h1>
+  <h1 class="visually-hidden">Karol Kolecava – Wedding Filmmaker</h1>
 
   <!-- Hero video section -->
   <section class="video-hero-container ratio ratio-16x9" aria-label="Showreel">
