@@ -20,25 +20,25 @@ description: The official cinematographer CV of Karol Kolecava – Director of P
       <!-- 16 images, 4 per row on large screens, 2 per row on medium, 1 on small -->
       <div class="col-12 col-sm-6 col-lg-3">
         <div class="ratio ratio-16x9">
-          <img src="{{ site.baseurl }}/assets/images/bts-005" class="img-fluid rounded" alt="Placeholder still">
+          <img src="{{ site.baseurl }}/assets/images/bts-005.jpg" class="img-fluid rounded" alt="Placeholder still">
         </div>
       </div>
 
       <div class="col-12 col-sm-6 col-lg-3">
         <div class="ratio ratio-16x9">
-          <img src="{{ site.baseurl }}/assets/images/bts-003" class="img-fluid rounded" alt="Placeholder still">
+          <img src="{{ site.baseurl }}/assets/images/bts-003.jpg" class="img-fluid rounded" alt="Placeholder still">
         </div>
       </div>
 
       <div class="col-12 col-sm-6 col-lg-3">
         <div class="ratio ratio-16x9">
-          <img src="{{ site.baseurl }}/assets/images/bts-002" class="img-fluid rounded" alt="Placeholder still">
+          <img src="{{ site.baseurl }}/assets/images/bts-002.jpg" class="img-fluid rounded" alt="Placeholder still">
         </div>
       </div>
 
       <div class="col-12 col-sm-6 col-lg-3">
         <div class="ratio ratio-16x9">
-          <img src="{{ site.baseurl }}/assets/images/bts-001" class="img-fluid rounded" alt="Placeholder still">
+          <img src="{{ site.baseurl }}/assets/images/bts-001.jpg" class="img-fluid rounded" alt="Placeholder still">
         </div>
       </div>
     </div>
