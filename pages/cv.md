@@ -26,7 +26,7 @@ description: The official cinematographer CV of Karol Kolecava – Director of P
 
       <div class="col-12 col-sm-6 col-lg-3">
         <div class="ratio ratio-16x9">
-          <img src="{{ site.baseurl }}/assets/images/bts-003.jpg" class="img-fluid rounded" alt="Placeholder still">
+          <img src="{{ site.baseurl }}/assets/images/bts-004.jpg" class="img-fluid rounded" alt="Placeholder still">
         </div>
       </div>
 
@@ -53,8 +53,9 @@ description: The official cinematographer CV of Karol Kolecava – Director of P
       <li><strong>Age:</strong> <span id="current-age"></span> (M)</li>
       <li><strong>Experience:</strong> <span class="experience-years"></span> years</li>
       <li><strong>Base:</strong> Košice, Slovakia and London, UK</li>
+      <li><strong>Languages:</strong> English (Native/Bilingual), Slovak (Native/Bilingual), Czech (Conversational)</li>
       <li><strong>Working across:</strong> The United Kingdom and Central Europe</li>
-      <li><strong>Driving licence:</strong> Full UK/EU Driving licence</li>
+      <li><strong>Driving licence:</strong> Full UK Driving licence</li>
     </ul>
   </section>
 
@@ -77,17 +78,18 @@ description: The official cinematographer CV of Karol Kolecava – Director of P
   <section class="mb-5" aria-labelledby="cv-clients">
     <h2 id="cv-clients" class="text-uppercase text-muted border-bottom pb-2">Selected Clients</h2>
     <ul class="list-unstyled mt-3">
+      <li>Vodafone</li>
+      <li>TESCO</li>
+      <li>Royal Mail</li>
+      <li>L'Occitane</li>
+      <li>Alzheimer's Society</li>
+      <li>British Superbike Championship</li>
+      <li>Jasper Conran</li>
+      <li>European Movement UK</li>
+      <li>COSM Immersive Experiences</li>
+      <li>ITN (Independent Television News)</li>
       <li>Hargreaves Lansdown</li>
       <li>Fidelity Finance</li>
-      <li>Vodafone</li>
-      <li>Tesco</li>
-      <li>British Superbike Championship</li>
-      <li>COSM Immersive Experiences</li>
-      <li>L'Occitane</li>
-      <li>European Movement UK</li>
-      <li>Alzheimer's Society</li>
-      <li>Jasper Conran</li>
-      <li>Royal Mail</li>
     </ul>
   </section>
 
@@ -95,8 +97,8 @@ description: The official cinematographer CV of Karol Kolecava – Director of P
   <section class="mb-5" aria-labelledby="cv-experience">
     <h2 id="cv-experience" class="text-uppercase text-muted border-bottom pb-2">Experience</h2>
     <ul class="list-unstyled mt-3">
-      <li><strong>Director of Photography</strong> – Freelance (UK/EU, 2020–Present)</li>
-      <li><strong>Camera / Gimbal Operator</strong> – ARRI, RED, Sony, Blackmagic, DJI gimbals</li>
+      <li><strong>Director of Photography</strong> – Freelance UK/EU, 2020–Present (Narrative, Documentary, Commercial)</li>
+      <li><strong>Camera / Gimbal Operator</strong> – ARRI, RED, Sony, Blackmagic, DJI gimbals (Multicam, Sports, Live, ENG, Gimbal)</li>
       <li><strong>Drone Pilot & Aerial DP</strong> – DJI Mavic 3 (CAA A2 CofC, EASA A2)</li>
       <li><strong>Editing & Colour</strong> – DaVinci Resolve, Adobe Premiere</li>
       <li><strong>Additional Software:</strong> – Adobe Photoshop, Illustrator, Lightroom and After Effects.</li>
@@ -114,6 +116,14 @@ description: The official cinematographer CV of Karol Kolecava – Director of P
       <li>Handheld, Easyrig, Gimbal Operation</li>
       <li>Aerial Cinematography (UK & EU licensed)</li>
     </ul>
+  </section>
+
+  <!-- Specialisms -->
+  <section class="mb-5" aria-labelledby="cv-specialisms">
+    <h2 id="cv-specialisms" class="text-uppercase text-muted border-bottom pb-2">Special Visual Style / Strengths</h2>
+    <p>
+      I specialise in naturalistic lighting and a handheld, intimate style that lends authenticity and immediacy to storytelling. My approach is rooted in documentary-style efficiency, allowing me to adapt quickly to fast-changing environments without sacrificing image quality. In addition to handheld work, I operate gimbals to deliver fluid, controlled movement, and when the scene calls for it, I often combine this with inline skating to achieve exceptionally smooth, dynamic tracking shots. This blend of agility and technique enables me to follow subjects naturally, create engaging on-the-fly camera moves, and capture cinematic energy in even the most unpredictable settings.
+    </p>
   </section>
 
   <!-- Tech -->
@@ -135,6 +145,7 @@ description: The official cinematographer CV of Karol Kolecava – Director of P
       <li>EU A2 Open Category Drone Licence – EASA (Netherlands)</li>
       <li>DBS Checked (UK Enhanced Disclosure)</li>
       <li>COVID-safe training completed</li>
+      <li>BTEC Diploma in Media Studies & Central Graphic Academy NVQ/A level in Southend-on-Sea</li>
     </ul>
   </section>
 
@@ -254,60 +265,107 @@ In 2023, Tesco focused on initiatives centered around their "Winning Together" a
 
   <!-- Stills -->
   <section class="mb-5" aria-labelledby="cv-stills">
-    <h2 id="cv-stills" class="text-uppercase text-muted border-bottom pb-2">Stills</h2>
+    <h2 id="cv-stills" class="text-uppercase text-muted border-bottom pb-2">Work Preview</h2>
 
     <div class="row g-3 mt-3">
       <!-- 16 images, 4 per row on large screens, 2 per row on medium, 1 on small -->
       <div class="col-12 col-sm-6 col-lg-3">
         <div class="ratio ratio-16x9">
-          <img src="https://placehold.co/640x360" class="img-fluid rounded" alt="Placeholder still">
+          <img src="{{ site.baseurl }}/assets/images/cv-still-001.jpg" class="img-fluid rounded" alt="Placeholder still">
         </div>
       </div>
 
       <div class="col-12 col-sm-6 col-lg-3">
         <div class="ratio ratio-16x9">
-          <img src="https://placehold.co/640x360" class="img-fluid rounded" alt="Placeholder still">
+          <img src="{{ site.baseurl }}/assets/images/cv-still-002.jpg" class="img-fluid rounded" alt="Placeholder still">
         </div>
       </div>
 
       <div class="col-12 col-sm-6 col-lg-3">
         <div class="ratio ratio-16x9">
-          <img src="https://placehold.co/640x360" class="img-fluid rounded" alt="Placeholder still">
+          <img src="{{ site.baseurl }}/assets/images/cv-still-003.jpg" class="img-fluid rounded" alt="Placeholder still">
         </div>
       </div>
 
       <div class="col-12 col-sm-6 col-lg-3">
         <div class="ratio ratio-16x9">
-          <img src="https://placehold.co/640x360" class="img-fluid rounded" alt="Placeholder still">
+          <img src="{{ site.baseurl }}/assets/images/cv-still-004.jpg" class="img-fluid rounded" alt="Placeholder still">
         </div>
       </div>
 
       <!-- repeat block for total of 16 -->
       <div class="col-12 col-sm-6 col-lg-3">
         <div class="ratio ratio-16x9">
-          <img src="https://placehold.co/640x360" class="img-fluid rounded" alt="Placeholder still">
+          <img src="{{ site.baseurl }}/assets/images/cv-still-005.jpg" class="img-fluid rounded" alt="Placeholder still">
         </div>
       </div>
 
       <div class="col-12 col-sm-6 col-lg-3">
         <div class="ratio ratio-16x9">
-          <img src="https://placehold.co/640x360" class="img-fluid rounded" alt="Placeholder still">
+          <img src="{{ site.baseurl }}/assets/images/cv-still-006.jpg" class="img-fluid rounded" alt="Placeholder still">
         </div>
       </div>
 
       <div class="col-12 col-sm-6 col-lg-3">
         <div class="ratio ratio-16x9">
-          <img src="https://placehold.co/640x360" class="img-fluid rounded" alt="Placeholder still">
+          <img src="{{ site.baseurl }}/assets/images/cv-still-007.jpg" class="img-fluid rounded" alt="Placeholder still">
         </div>
       </div>
 
       <div class="col-12 col-sm-6 col-lg-3">
         <div class="ratio ratio-16x9">
-          <img src="https://placehold.co/640x360" class="img-fluid rounded" alt="Placeholder still">
+          <img src="{{ site.baseurl }}/assets/images/cv-still-008.jpg" class="img-fluid rounded" alt="Placeholder still">
         </div>
       </div>
 
-      <!-- continue duplicating until 16 total -->
+      <div class="col-12 col-sm-6 col-lg-3">
+        <div class="ratio ratio-16x9">
+          <img src="{{ site.baseurl }}/assets/images/cv-still-009.jpg" class="img-fluid rounded" alt="Placeholder still">
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-lg-3">
+        <div class="ratio ratio-16x9">
+          <img src="{{ site.baseurl }}/assets/images/cv-still-010.jpg" class="img-fluid rounded" alt="Placeholder still">
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-lg-3">
+        <div class="ratio ratio-16x9">
+          <img src="{{ site.baseurl }}/assets/images/cv-still-011.jpg" class="img-fluid rounded" alt="Placeholder still">
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-lg-3">
+        <div class="ratio ratio-16x9">
+          <img src="{{ site.baseurl }}/assets/images/cv-still-012.jpg" class="img-fluid rounded" alt="Placeholder still">
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-lg-3">
+        <div class="ratio ratio-16x9">
+          <img src="{{ site.baseurl }}/assets/images/cv-still-013.jpg" class="img-fluid rounded" alt="Placeholder still">
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-lg-3">
+        <div class="ratio ratio-16x9">
+          <img src="{{ site.baseurl }}/assets/images/cv-still-014.jpg" class="img-fluid rounded" alt="Placeholder still">
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-lg-3">
+        <div class="ratio ratio-16x9">
+          <img src="{{ site.baseurl }}/assets/images/cv-still-015.jpg" class="img-fluid rounded" alt="Placeholder still">
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-lg-3">
+        <div class="ratio ratio-16x9">
+          <img src="{{ site.baseurl }}/assets/images/cv-still-016.jpg" class="img-fluid rounded" alt="Placeholder still">
+        </div>
+      </div>
+
     </div>
   </section>
 
@@ -317,7 +375,24 @@ In 2023, Tesco focused on initiatives centered around their "Winning Together" a
       Download CV as PDF
     </a> -->
 
+
+      <!-- Contact CTA -->
+  <section class="mb-6">
+    <div class="p-4 p-md-5 border rounded-3 bg-dark text-white reveal">
+      <div class="row align-items-center g-3">
+        <div class="col-lg-8">
+          <h2 class="h4 mb-2">Let’s make something you’re proud to show your boss.</h2>
+          <p class="mb-0 text-white-50">Brief me on your project and I’ll come back with a clear plan, timeline, and quote.</p>
+        </div>
+        <div class="col-lg-4 text-lg-end">
+          <a href="mailto:hello@kolecava.com" class="btn btn-light btn-lg"><img src="/assets/svgs/envelope.svg" alt="Email" height="20"> Shoot an Email</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
 </div>
+
 
 <!-- Age and Experience Autoupdate -->
 <script>

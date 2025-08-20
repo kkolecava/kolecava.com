@@ -30,8 +30,13 @@ permalink: /about-me/
         Director of Photography, Camera Operator, and licensed drone pilot across commercials, documentaries, music, and sport. Based between London and Košice; happy anywhere the story goes.
       </p>
       <p class="mb-0">
-        With a background in post and over 5 years behind the lens, I bring technical precision, creative instinct, and calm, clear communication. I care about the details—from light and movement to pacing and rhythm—and most of all, how a story <em>feels</em>.
+        With a background in post and over 5 years behind the lens, I bring technical precision, creative instinct, and calm, clear communication. I care about the details from light and movement to pacing and rhythm and most of all, how a story <em>feels</em>.
       </p>
+      <br>
+      <p class="mb-0">My journey into filmmaking began long before I ever called it a career. As a kid, I “borrowed” my mum’s handycam and cheekily taped over her videos a rebellious start, but it was my first spark of curiosity with the moving image. In my teens, I started editing gameplay videos, blending music and visuals to tell stories and evoke emotion. That instinct to connect image with feeling never left me.</p>
+      <br>
+      <p class="mb-0">Before diving fully into filmmaking, I worked as a frontend web developer, drawn to design, motion, and user experience. But at 26, I pivoted. Feeling a little late to the game, I made it my mission to catch up filming down the beach after work, watching hours of YouTube tutorials during lunch breaks, and absorbing every bit of knowledge I could. That hunger to learn hasn't stopped. Whether it’s shadowing fellow crew on set or experimenting with new gear, I see each project as a chance to evolve.</p>
+      <br>
       <div class="mt-4">
         <div class="fw-semibold">📍 UK & Slovakia — Available worldwide</div>
         <div class="small text-muted">🇬🇧 +44 785 2124084 <br> 🇸🇰 +421 944 326 204 • <a href="mailto:hello@kolecava.com">hello@kolecava.com</a></div>
