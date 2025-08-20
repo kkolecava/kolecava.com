@@ -273,98 +273,98 @@ In 2023, Tesco focused on initiatives centered around their "Winning Together" a
       <!-- 16 images, 4 per row on large screens, 2 per row on medium, 1 on small -->
       <div class="col-12 col-sm-6 col-lg-3">
         <div class="ratio ratio-16x9">
-          <img src="{{ site.baseurl }}/assets/images/CV-still-001.jpg" class="img-fluid rounded" alt="Placeholder still">
+          <img src="{{ site.baseurl }}/assets/images/CV-still-001.jpg" class="img-fluid rounded" alt="Sam Salter - Editorial Still">
         </div>
       </div>
 
       <div class="col-12 col-sm-6 col-lg-3">
         <div class="ratio ratio-16x9">
-          <img src="{{ site.baseurl }}/assets/images/CV-still-002.jpg" class="img-fluid rounded" alt="Placeholder still">
+          <img src="{{ site.baseurl }}/assets/images/CV-still-002.jpg" class="img-fluid rounded" alt="Morrison Foerster - Interview Still">
         </div>
       </div>
 
       <div class="col-12 col-sm-6 col-lg-3">
         <div class="ratio ratio-16x9">
-          <img src="{{ site.baseurl }}/assets/images/CV-still-003.jpg" class="img-fluid rounded" alt="Placeholder still">
+          <img src="{{ site.baseurl }}/assets/images/CV-still-003.jpg" class="img-fluid rounded" alt="The Lounge - Music Still">
         </div>
       </div>
 
       <div class="col-12 col-sm-6 col-lg-3">
         <div class="ratio ratio-16x9">
-          <img src="{{ site.baseurl }}/assets/images/CV-still-004.jpg" class="img-fluid rounded" alt="Placeholder still">
+          <img src="{{ site.baseurl }}/assets/images/CV-still-004.jpg" class="img-fluid rounded" alt="Tannery Studios - Still">
         </div>
       </div>
 
       <!-- repeat block for total of 16 -->
       <div class="col-12 col-sm-6 col-lg-3">
         <div class="ratio ratio-16x9">
-          <img src="{{ site.baseurl }}/assets/images/CV-still-005.jpg" class="img-fluid rounded" alt="Placeholder still">
+          <img src="{{ site.baseurl }}/assets/images/CV-still-005.jpg" class="img-fluid rounded" alt="Circus Cortex - Still">
         </div>
       </div>
 
       <div class="col-12 col-sm-6 col-lg-3">
         <div class="ratio ratio-16x9">
-          <img src="{{ site.baseurl }}/assets/images/CV-still-006.jpg" class="img-fluid rounded" alt="Placeholder still">
+          <img src="{{ site.baseurl }}/assets/images/CV-still-006.jpg" class="img-fluid rounded" alt="Sam Fraser - Musician Still">
         </div>
       </div>
 
       <div class="col-12 col-sm-6 col-lg-3">
         <div class="ratio ratio-16x9">
-          <img src="{{ site.baseurl }}/assets/images/CV-still-007.jpg" class="img-fluid rounded" alt="Placeholder still">
+          <img src="{{ site.baseurl }}/assets/images/CV-still-007.jpg" class="img-fluid rounded" alt="Rooskin - Garage Still">
         </div>
       </div>
 
       <div class="col-12 col-sm-6 col-lg-3">
         <div class="ratio ratio-16x9">
-          <img src="{{ site.baseurl }}/assets/images/CV-still-008.jpg" class="img-fluid rounded" alt="Placeholder still">
+          <img src="{{ site.baseurl }}/assets/images/CV-still-008.jpg" class="img-fluid rounded" alt="Flags in the Wind - Interview Still ">
         </div>
       </div>
 
       <div class="col-12 col-sm-6 col-lg-3">
         <div class="ratio ratio-16x9">
-          <img src="{{ site.baseurl }}/assets/images/CV-still-009.jpg" class="img-fluid rounded" alt="Placeholder still">
+          <img src="{{ site.baseurl }}/assets/images/CV-still-009.jpg" class="img-fluid rounded" alt="JBS Collection - Interview Still">
         </div>
       </div>
 
       <div class="col-12 col-sm-6 col-lg-3">
         <div class="ratio ratio-16x9">
-          <img src="{{ site.baseurl }}/assets/images/CV-still-010.jpg" class="img-fluid rounded" alt="Placeholder still">
+          <img src="{{ site.baseurl }}/assets/images/CV-still-010.jpg" class="img-fluid rounded" alt="Tom Fletcher - Branded Content Still">
         </div>
       </div>
 
       <div class="col-12 col-sm-6 col-lg-3">
         <div class="ratio ratio-16x9">
-          <img src="{{ site.baseurl }}/assets/images/CV-still-011.jpg" class="img-fluid rounded" alt="Placeholder still">
+          <img src="{{ site.baseurl }}/assets/images/CV-still-011.jpg" class="img-fluid rounded" alt="E.S Collective - Interview Still">
         </div>
       </div>
 
       <div class="col-12 col-sm-6 col-lg-3">
         <div class="ratio ratio-16x9">
-          <img src="{{ site.baseurl }}/assets/images/CV-still-012.jpg" class="img-fluid rounded" alt="Placeholder still">
+          <img src="{{ site.baseurl }}/assets/images/CV-still-012.jpg" class="img-fluid rounded" alt="Tarran Mackenzie BSB - Sports Still">
         </div>
       </div>
 
       <div class="col-12 col-sm-6 col-lg-3">
         <div class="ratio ratio-16x9">
-          <img src="{{ site.baseurl }}/assets/images/CV-still-013.jpg" class="img-fluid rounded" alt="Placeholder still">
+          <img src="{{ site.baseurl }}/assets/images/CV-still-013.jpg" class="img-fluid rounded" alt="AJ Chambers - Interview Still">
         </div>
       </div>
 
       <div class="col-12 col-sm-6 col-lg-3">
         <div class="ratio ratio-16x9">
-          <img src="{{ site.baseurl }}/assets/images/CV-still-014.jpg" class="img-fluid rounded" alt="Placeholder still">
+          <img src="{{ site.baseurl }}/assets/images/CV-still-014.jpg" class="img-fluid rounded" alt="Hargreaves Lansdown - Interview Still">
         </div>
       </div>
 
       <div class="col-12 col-sm-6 col-lg-3">
         <div class="ratio ratio-16x9">
-          <img src="{{ site.baseurl }}/assets/images/CV-still-015.jpg" class="img-fluid rounded" alt="Placeholder still">
+          <img src="{{ site.baseurl }}/assets/images/CV-still-015.jpg" class="img-fluid rounded" alt="Royal Mail - Hero Shot Still">
         </div>
       </div>
 
       <div class="col-12 col-sm-6 col-lg-3">
         <div class="ratio ratio-16x9">
-          <img src="{{ site.baseurl }}/assets/images/CV-still-016.jpg" class="img-fluid rounded" alt="Placeholder still">
+          <img src="{{ site.baseurl }}/assets/images/CV-still-016.jpg" class="img-fluid rounded" alt="Scott Donovan - Editorial Still">
         </div>
       </div>
 
