@@ -50,11 +50,12 @@ description: The official cinematographer CV of Karol Kolecava – Director of P
     <h2 id="cv-details" class="text-uppercase text-muted border-bottom pb-2">Details</h2>
     <ul class="list-unstyled mt-3">
       <li><strong>Name:</strong> Karol Kolecava</li>
-      <li><strong>Age:</strong> <span id="current-age"></span> (M)</li>
+      <li><strong>Email:</strong> hello@kolecava.com</li>
+      <li><strong>Website:</strong> www.kolecava.com</li>
       <li><strong>Experience:</strong> <span class="experience-years"></span> years</li>
       <li><strong>Base:</strong> Košice, Slovakia and London, UK</li>
       <li><strong>Languages:</strong> English (Native/Bilingual), Slovak (Native/Bilingual), Czech (Conversational)</li>
-      <li><strong>Working across:</strong> The United Kingdom and Central Europe</li>
+      <li><strong>Working across:</strong> The United Kingdom and Central Europe - <strong>Available Worldwide</strong></li>
       <li><strong>Driving licence:</strong> Full UK Driving licence</li>
     </ul>
   </section>
@@ -377,11 +378,11 @@ In 2023, Tesco focused on initiatives centered around their "Winning Together" a
 
 
       <!-- Contact CTA -->
-  <section class="mb-6">
+  <section class="mb-6 contact-cta">
     <div class="p-4 p-md-5 border rounded-3 bg-dark text-white reveal">
       <div class="row align-items-center g-3">
         <div class="col-lg-8">
-          <h2 class="h4 mb-2">Let’s make something you’re proud to show your boss.</h2>
+          <h2 class="h4 mb-2"><span class="letsmake">Let’s make something</span> you’re proud to show your boss.</h2>
           <p class="mb-0 text-white-50">Brief me on your project and I’ll come back with a clear plan, timeline, and quote.</p>
         </div>
         <div class="col-lg-4 text-lg-end">
@@ -391,26 +392,32 @@ In 2023, Tesco focused on initiatives centered around their "Winning Together" a
     </div>
   </section>
 
+  <!-- Big Email + QR -->
+<section class="text-center my-5">
+  <h1 class="display-4 fw-bold mb-4">
+    <a href="mailto:hello@kolecava.com" class="text-dark text-decoration-none">
+      hello@kolecava.com
+    </a>
+  </h1>
+  <div class="d-flex justify-content-center">
+    <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://www.youtube.com/embed/P56Fe2VRf5Y?autoplay=1&mute=0&controls=0&showinfo=0&modestbranding=0&rel=0&loop=1&playlist=P56Fe2VRf5Y" 
+         alt="QR Code" 
+         class="img-fluid rounded shadow">
+  </div>
+</section>
+
+
 </div>
 
 
 <!-- Age and Experience Autoupdate -->
 <script>
-  document.addEventListener("DOMContentLoaded", function () {
-    document.body.classList.add("js-enabled");
-
-    // Age calc
-    const birthDate = new Date(1993, 11, 17); // Dec 17, 1993
-    const now = new Date();
-    let age = now.getFullYear() - birthDate.getFullYear();
-    const m = now.getMonth() - birthDate.getMonth();
-    if (m < 0 || (m === 0 && now.getDate() < birthDate.getDate())) age--;
-    document.getElementById("current-age").textContent = age;
-
-    // Experience calc (start year: 2020)
-    const expYears = now.getFullYear() - 2020;
-    document.querySelectorAll(".experience-years").forEach(el => {
-      el.textContent = expYears;
-    });
+document.addEventListener("DOMContentLoaded", function () {
+  // Experience calc (start year: 2020)
+  const now = new Date();
+  const expYears = now.getFullYear() - 2020;
+  document.querySelectorAll(".experience-years").forEach(el => {
+    el.textContent = expYears;
   });
+});
 </script>

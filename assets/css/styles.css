@@ -257,3 +257,77 @@ footer {
   color: white;
   pointer-events: none;
 }
+/* Hide navigation and site chrome when printing */
+@media print {
+  nav, footer,
+  .navbar, .site-header, .site-footer,
+  .btn, .d-print-none {
+    display: none !important;
+    visibility: hidden !important;
+  }
+  .contact-cta {
+    color:black!important;
+  }
+
+  /* Optional: tighten layout when nav/footer are gone */
+  body {
+    padding-top: 0 !important;
+  }
+
+    /* Remove big gaps at top when nav is hidden */
+  .container {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+  }
+
+  body {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+  }
+
+  /* Optional: shift the first header down a touch if it feels cramped */
+  h1:first-of-type {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+  }
+    /* Keep headings with the content that follows */
+  h2, h3 {
+    page-break-after: avoid;      /* legacy */
+    break-after: avoid-page;      /* modern */
+  }
+
+  /* Don't split a section across pages if it fits */
+  section, .cv-section, .cv-keep-together {
+    page-break-inside: avoid;     /* legacy */
+    break-inside: avoid-page;     /* modern */
+  }
+
+  /* Also try to keep small blocks/lists together */
+  ul, ol, li, p { page-break-inside: avoid; break-inside: avoid; }
+
+  /* Projects or cards */
+  .project, .mb-4 { page-break-inside: avoid; break-inside: avoid; }
+
+  /* Tweak spacing so more fits before a break */
+  section { margin-bottom: 10pt; }
+    .contact-cta {
+    background: #fff !important;
+    color: #000 !important;
+    border: 1px solid #000 !important;
+    border-radius:5px;
+  }
+  .letsmake {
+    color: #2ebdff !important;
+  }
+  .contact-cta h2 {
+    color: #000 !important;
+    font-size:1.3rem;
+    font-weight:bold;
+  }
+  .contact-cta p {
+    color: #000 !important;
+  }
+  .contact-cta .btn {
+    display: none !important; /* hide the email button when printing */
+  }
+}
