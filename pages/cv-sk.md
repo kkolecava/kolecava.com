@@ -92,7 +92,7 @@ description: Oficiálne CV kameramana (Kinematografa) Karola Kolečavu pôsobiac
     <h2 id="cv-experience" class="text-uppercase text-muted border-bottom pb-2">Skúsenosti</h2>
     <ul class="list-unstyled mt-3">
       <li><strong>Director of Photography (DoP)</strong> – freelance UK/EU, 2020–súčasnosť (hraný, dokument, reklama)</li>
-      <li><strong>Kameraman / gimbal operátor</strong> – ARRI, RED, Sony, Blackmagic, DJI gimbals (multicam, šport, live, ENG)</li>
+      <li><strong>Kameraman / gimbal operátor</strong> – RED, Sony, Blackmagic, DJI gimbals (multicam, šport, live, ENG)</li>
       <li><strong>Operátor dronu & Aerial DoP</strong> – DJI Mavic 3 (CAA A2 CofC, EASA A2)</li>
       <li><strong>Strih & farbenie</strong> – DaVinci Resolve, Adobe Premiere</li>
       <li><strong>Ďalší softvér:</strong> Adobe Photoshop, Illustrator, Lightroom, After Effects</li>
@@ -124,7 +124,7 @@ description: Oficiálne CV kameramana (Kinematografa) Karola Kolečavu pôsobiac
   <section class="mb-5" aria-labelledby="cv-technical">
     <h2 id="cv-technical" class="text-uppercase text-muted border-bottom pb-2">Technické zručnosti</h2>
     <ul class="list-unstyled mt-3">
-      <li><strong>Kamery:</strong> ARRI Alexa, Sony FX3/6/9, RED Komodo/Raptor, Blackmagic 4K/6K & Ursa</li>
+      <li><strong>Kamery:</strong> Sony FX3/6/9, RED Komodo/Raptor, Blackmagic 4K/6K & Ursa</li>
       <li><strong>Svetlá:</strong> Aputure, Astera, GODOX, Nanlite, Arri Red Heads</li>
       <li><strong>Gimbaly:</strong> DJI RS 2/3/4, Ronin 2</li>
       <li><strong>Postprodukcia:</strong> DaVinci Resolve Studio, Premiere Pro, After Effects</li>
@@ -143,7 +143,6 @@ description: Oficiálne CV kameramana (Kinematografa) Karola Kolečavu pôsobiac
       <li>DJI Mavic 3 (dron)</li>
       <li>DJI Ronin RS-2 (gimbal)</li>
       <li>Sachtler Flowtech 100 + Vinten Vision 8</li>
-      <li>Godox, Nanlite a Aputure svetlá (rôzne)</li>
       <li>Apple M3 Max – DIT/strihové pracovisko</li>
     </ul>
   </section>

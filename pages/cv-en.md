@@ -99,7 +99,7 @@ description: The official Cinematographer CV of Karol Kolecava – Camera Operat
     <h2 id="cv-experience" class="text-uppercase text-muted border-bottom pb-2">Experience</h2>
     <ul class="list-unstyled mt-3">
       <li><strong>Director of Photography</strong> – Freelance UK/EU, 2020–Present (Narrative, Documentary, Commercial)</li>
-      <li><strong>Camera / Gimbal Operator</strong> – ARRI, RED, Sony, Blackmagic, DJI gimbals (Multicam, Sports, Live, ENG, Gimbal)</li>
+      <li><strong>Camera / Gimbal Operator</strong> – RED, Sony, Blackmagic, DJI gimbals (Multicam, Sports, Live, ENG, Gimbal)</li>
       <li><strong>Drone Pilot & Aerial DP</strong> – DJI Mavic 3 (CAA A2 CofC, EASA A2)</li>
       <li><strong>Editing & Colour</strong> – DaVinci Resolve, Adobe Premiere</li>
       <li><strong>Additional Software:</strong> – Adobe Photoshop, Illustrator, Lightroom and After Effects.</li>
@@ -131,7 +131,7 @@ description: The official Cinematographer CV of Karol Kolecava – Camera Operat
   <section class="mb-5" aria-labelledby="cv-technical">
     <h2 id="cv-technical" class="text-uppercase text-muted border-bottom pb-2">Technical Skills</h2>
     <ul class="list-unstyled mt-3">
-      <li><strong>Cameras:</strong> ARRI Alexa, Sony FX3/6/9, RED Komodo/Raptor, Blackmagic 4K/6K & Ursa</li>
+      <li><strong>Cameras:</strong> Sony FX3/6/9, RED Komodo/Raptor, Blackmagic 4K/6K & Ursa</li>
       <li><strong>Lighting:</strong> Aputure, Astera, GODOX, Nanlite, Arri Red Heads</li>
       <li><strong>Gimbals:</strong> DJI RS 2/3/4, Ronin 2</li>
       <li><strong>Post:</strong> DaVinci Resolve Studio, Premiere Pro, After Effects</li>
@@ -163,7 +163,6 @@ description: The official Cinematographer CV of Karol Kolecava – Camera Operat
       <li>DJI Mavic 3 Drone </li>
       <li>DJI Ronin RS-2 Gimbal</li>
       <li>Sachtler Flowtech 100 Tripod + Vinten Vision 8</li>
-      <li>Various Godox, Nanlite and Aputure Lighting Kit</li>
       <li>Apple M3 MAX DIT/Editing Laptop</li>
     </ul>
   </section>
