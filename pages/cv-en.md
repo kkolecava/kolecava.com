@@ -2,7 +2,7 @@
 layout: default
 title: Karol Kolecava – Cinematographer CV
 permalink: /cv-en/
-description: The official cinematographer CV of Karol Kolecava – Director of Photography and drone operator working across Europe and the UK. View past clients, technical skills, project highlights, and download his full PDF résumé.
+description: The official cinematographer CV of Karol Kolecava – Camera Operator / Cinematographer working across Europe and the UK. View past clients, technical skills, project highlights, and download his full PDF résumé.
 ---
 
 <div class="container mt-5 pt-5">

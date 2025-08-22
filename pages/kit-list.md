@@ -13,7 +13,7 @@ permalink: /kit-list/
       <li>Blackmagic Ursa 12K + x2 512GB C-Fasts</li>
       <li>DJI MAVIC 3 Drone</li>
       <li>RED KOMODO kit available via crosshire</li>
-      <li>Sony FX3 kit available via crosshire</li>
+      <li>Sony FX3/FX6 kit available on request</li>
     </ul>
   </div>
   
