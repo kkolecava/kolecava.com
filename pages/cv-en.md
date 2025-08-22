@@ -11,7 +11,7 @@ description: The official cinematographer CV of Karol Kolecava – Director of P
     <h1 class="mb-4">Curriculum Vitae – Karol Kolecava</h1>
     <p class="lead text-muted">Freelance Director of Photography & Aerial Cinematographer working across Central Europe and the UK.</p>
   <!-- Repeat download CTA -->
-    <a href="/assets/docs/Karol Kolecava – Cinematographer CV.pdf" class="btn btn-dark mb-5" target="_blank" download="">
+    <a href="/assets/docs/Karol Kolecava – Cinematographer CV (English).pdf" class="btn btn-dark mb-5" target="_blank" download="">
       Download CV as PDF
     </a>
   </header>
@@ -384,7 +384,7 @@ In 2023, Tesco focused on initiatives centered around their "Winning Together" a
 
 
   <!-- Repeat download CTA -->
-    <a href="/assets/docs/Karol Kolecava – Cinematographer CV.pdf" class="btn btn-dark mb-5" target="_blank" download="">
+    <a href="/assets/docs/Karol Kolecava – Cinematographer CV (English).pdf" class="btn btn-dark mb-5" target="_blank" download="">
       Download CV as PDF
     </a>
 
