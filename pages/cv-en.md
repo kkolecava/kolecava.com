@@ -16,7 +16,7 @@ description: The official Cinematographer CV of Karol Kolecava – Camera Operat
 
     <h1 class="mb-4">Curriculum Vitae – Karol Kolecava</h1>
     <p class="lead text-muted">Freelance Camera Operator / Cinematographer working across Central Europe and the UK.</p>
-  <!-- Repeat download CTA -->
+  <!-- download CTA -->
     <a href="/assets/docs/Karol Kolecava – Cinematographer CV (English).pdf" class="btn btn-dark mb-5" target="_blank" download="">
       Download CV as PDF
     </a>
