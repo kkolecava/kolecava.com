@@ -69,7 +69,7 @@ description: Oficiálne CV kameramana (Kinematografa) Karola Kolečavu pôsobiac
       Som freelance Director of Photography a certifikovaný operátor dronu s <span class="experience-years"></span>+ rokmi skúseností v reklame, dokumente, hudobných a brandových projektoch. Prácu staviam na technickej presnosti a citlivom vizuálnom rozprávaní – vychádza z postprodukčného zázemia a samostatne vybudovaných kameramanských základov po prechode z web dizajnu.
     </p>
     <p>
-      <strong>Okrem techniky</strong> prinášam na pľac riešenie problémov a kreatívnu samostatnosť. Viem navrhnúť a zachytiť celé sekvencie priamo na mieste bez potreby výrazného vedenia: od celkov cez polocelky až po detaily skladám plynulé vizuálne postupnosti, ktoré editori jednoducho pretavia do zmysluplného príbehu.
+      <strong>Okrem techniky</strong> prinášam riešenie problémov a kreatívnu samostatnosť. Viem navrhnúť a zachytiť celé sekvencie priamo na mieste bez potreby výrazného vedenia: od celkov cez polocelky až po detaily skladám plynulé vizuálne postupnosti, ktoré editori jednoducho pretavia do zmysluplného príbehu.
     </p>
     <p>
       Pôsobím medzi Londýnom a Košicami a pracujem naprieč UK a Európou – spolu s tímami a klientmi prinášam výrazné vizuálne príbehy na zemi aj zo vzduchu.
@@ -108,7 +108,7 @@ description: Oficiálne CV kameramana (Kinematografa) Karola Kolečavu pôsobiac
       <li>Rozhovory a svietenie</li>
       <li>Hudobné live sessions</li>
       <li>Handheld, Easyrig, gimbal operácia (vrátane inline korčuľovania pre tracking)</li>
-      <li>Letecká kinematografia (licencie UK & EU)</li>
+      <li>Dron kinematografia (licencie UK & EU)</li>
     </ul>
   </section>
 
