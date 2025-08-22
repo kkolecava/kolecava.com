@@ -8,6 +8,12 @@ description: Oficiálne CV kameramana (Director of Photography) Karola Kolečavu
 <div class="container mt-5 pt-5">
 
   <header>
+<div class="text-start mb-3">
+  <a href="/cv-en/" class="text-muted text-decoration-none fw-semibold">
+    🇬🇧 English Version
+  </a>
+</div>
+
     <h1 class="mb-4">Životopis – Karol Kolečava</h1>
     <p class="lead text-muted">Freelance Director of Photography & operátor dronu pôsobiaci v strednej Európe a vo Veľkej Británii.</p>
     <a href="/assets/docs/Karol Kolečava – Kameraman (DoP) – CV (Slovak).pdf" class="btn btn-dark mb-5" target="_blank" download="">
