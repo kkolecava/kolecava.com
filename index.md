@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Karol Kolecava – Director of Photography & Aerial Cinematographer
-description: Freelance Director of Photography, Aerial Cinematographer and Camera Operator from Slovakia working around London and the UK with 5 years of experience.
+title: Karol Kolecava – Camera Operator / Cinematographer
+description: Freelance Director of Photography, Aerial Cinematographer and Camera Operator from Slovakia working around London and the UK with 5+ years of experience.
 ---
 
 <div class="container mt-5 pt-5">
