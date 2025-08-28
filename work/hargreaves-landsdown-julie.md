@@ -24,13 +24,49 @@ permalink: /work/hargreaves-landsdown-julie/
 </div>
 
 <div class="row g-4">
-  <div class="col-md-4"><img src="/assets/gifs/juliec_001.gif" class="grid-image" alt="GIF 1"></div>
-  <div class="col-md-4"><img src="/assets/gifs/juliec_002.gif" class="grid-image" alt="GIF 2"></div>
-  <div class="col-md-4"><img src="/assets/gifs/juliec_003.gif" class="grid-image" alt="GIF 3"></div>
-  <div class="col-md-4"><img src="/assets/gifs/juliec_004.gif" class="grid-image" alt="GIF 4"></div>
-  <div class="col-md-4"><img src="/assets/gifs/juliec_005.gif" class="grid-image" alt="GIF 5"></div>
-  <div class="col-md-4"><img src="/assets/gifs/juliec_006.gif" class="grid-image" alt="GIF 6"></div>
-  <div class="col-md-4"><img src="/assets/gifs/juliec_007.gif" class="grid-image" alt="GIF 7"></div>
-  <div class="col-md-4"><img src="/assets/gifs/juliec_008.gif" class="grid-image" alt="GIF 8"></div>
-  <div class="col-md-4"><img src="/assets/gifs/juliec_009.gif" class="grid-image" alt="GIF 9"></div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/juliec_001.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/juliec_002.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/juliec_003.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/juliec_004.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/juliec_005.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/juliec_006.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/juliec_007.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/juliec_008.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/juliec_009.webm" type="video/webm">
+    </video>
+  </div>
 </div>

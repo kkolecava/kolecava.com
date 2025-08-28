@@ -27,24 +27,104 @@ permalink: /work/flags-in-the-wind/
   <br>
 
 <div class="row g-4">
-  <div class="col-md-4"><img src="/assets/gifs/flags_001.gif" class="grid-image" alt="GIF 1" /></div>
-  <div class="col-md-4"><img src="/assets/gifs/flags_002.gif" class="grid-image" alt="GIF 2" /></div>
-  <div class="col-md-4"><img src="/assets/gifs/flags_003.gif" class="grid-image" alt="GIF 3" /></div>
-  <div class="col-md-4"><img src="/assets/gifs/flags_004.gif" class="grid-image" alt="GIF 4" /></div>
-  <div class="col-md-4"><img src="/assets/gifs/flags_005.gif" class="grid-image" alt="GIF 5" /></div>
-  <div class="col-md-4"><img src="/assets/gifs/flags_006.gif" class="grid-image" alt="GIF 6" /></div>
-  <div class="col-md-4"><img src="/assets/gifs/flags_007.gif" class="grid-image" alt="GIF 7" /></div>
-  <div class="col-md-4"><img src="/assets/gifs/flags_008.gif" class="grid-image" alt="GIF 8" /></div>
-  <div class="col-md-4"><img src="/assets/gifs/flags_009.gif" class="grid-image" alt="GIF 9" /></div>
-  <div class="col-md-4"><img src="/assets/gifs/flags_010.gif" class="grid-image" alt="GIF 10" /></div>
-  <div class="col-md-4"><img src="/assets/gifs/flags_011.gif" class="grid-image" alt="GIF 11" /></div>
-  <div class="col-md-4"><img src="/assets/gifs/flags_012.gif" class="grid-image" alt="GIF 12" /></div>
-  <div class="col-md-4"><img src="/assets/gifs/flags_013.gif" class="grid-image" alt="GIF 13" /></div>
-  <div class="col-md-4"><img src="/assets/gifs/flags_014.gif" class="grid-image" alt="GIF 14" /></div>
-  <div class="col-md-4"><img src="/assets/gifs/flags_015.gif" class="grid-image" alt="GIF 15" /></div>
-  <div class="col-md-4"><img src="/assets/gifs/flags_016.gif" class="grid-image" alt="GIF 16" /></div>
-  <div class="col-md-4"><img src="/assets/gifs/flags_017.gif" class="grid-image" alt="GIF 17" /></div>
-  <div class="col-md-4"><img src="/assets/gifs/flags_018.gif" class="grid-image" alt="GIF 18" /></div>
-  <div class="col-md-4"><img src="/assets/gifs/flags_019.gif" class="grid-image" alt="GIF 19" /></div>
-  <div class="col-md-4"><img src="/assets/gifs/flags_020.gif" class="grid-image" alt="GIF 20" /></div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/flags_001.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/flags_002.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/flags_003.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/flags_004.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/flags_005.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/flags_006.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/flags_007.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/flags_008.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/flags_009.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/flags_010.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/flags_011.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/flags_012.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/flags_013.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/flags_014.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/flags_015.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/flags_016.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/flags_017.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/flags_018.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/flags_019.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/flags_020.webm" type="video/webm">
+    </video>
+  </div>
 </div>

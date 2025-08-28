@@ -22,13 +22,49 @@ permalink: /work/scott-donovan/
   </div>
 
 <div class="row g-4">
-  <div class="col-md-4"><img src="/assets/gifs/scott_001.gif" class="grid-image" alt="GIF 1"></div>
-  <div class="col-md-4"><img src="/assets/gifs/scott_002.gif" class="grid-image" alt="GIF 2"></div>
-  <div class="col-md-4"><img src="/assets/gifs/scott_003.gif" class="grid-image" alt="GIF 3"></div>
-  <div class="col-md-4"><img src="/assets/gifs/scott_004.gif" class="grid-image" alt="GIF 4"></div>
-  <div class="col-md-4"><img src="/assets/gifs/scott_005.gif" class="grid-image" alt="GIF 5"></div>
-  <div class="col-md-4"><img src="/assets/gifs/scott_006.gif" class="grid-image" alt="GIF 6"></div>
-  <div class="col-md-4"><img src="/assets/gifs/scott_007.gif" class="grid-image" alt="GIF 7"></div>
-  <div class="col-md-4"><img src="/assets/gifs/scott_008.gif" class="grid-image" alt="GIF 8"></div>
-  <div class="col-md-4"><img src="/assets/gifs/scott_009.gif" class="grid-image" alt="GIF 9"></div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/scott_001.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/scott_002.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/scott_003.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/scott_004.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/scott_005.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/scott_006.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/scott_007.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/scott_008.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/scott_009.webm" type="video/webm">
+    </video>
+  </div>
 </div>

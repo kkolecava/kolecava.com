@@ -24,12 +24,44 @@ permalink: /work/hargreaves-landsdown-pass-it-on/
   <p class="mb-2"><strong>Editor/Colour:</strong> Gray Media</p>
 
 <div class="row g-4">
-  <div class="col-md-4"><img src="/assets/gifs/passit_001.gif" class="grid-image" alt="GIF 1"></div>
-  <div class="col-md-4"><img src="/assets/gifs/passit_002.gif" class="grid-image" alt="GIF 2"></div>
-  <div class="col-md-4"><img src="/assets/gifs/passit_003.gif" class="grid-image" alt="GIF 3"></div>
-  <div class="col-md-4"><img src="/assets/gifs/passit_004.gif" class="grid-image" alt="GIF 4"></div>
-  <div class="col-md-4"><img src="/assets/gifs/passit_005.gif" class="grid-image" alt="GIF 5"></div>
-  <div class="col-md-4"><img src="/assets/gifs/passit_006.gif" class="grid-image" alt="GIF 6"></div>
-  <div class="col-md-4"><img src="/assets/gifs/passit_007.gif" class="grid-image" alt="GIF 7"></div>
-  <div class="col-md-4"><img src="/assets/gifs/passit_008.gif" class="grid-image" alt="GIF 8"></div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/passit_001.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/passit_002.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/passit_003.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/passit_004.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/passit_005.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/passit_006.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/passit_007.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/passit_008.webm" type="video/webm">
+    </video>
+  </div>
 </div>

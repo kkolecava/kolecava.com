@@ -40,15 +40,51 @@ permalink: /work/sam-salter/
   </div>
 
   <div class="row g-4">
-    <div class="col-md-4 project-tile"><img src="{{ site.baseurl }}/assets/gifs/sam_001.gif" class="grid-image" alt="GIF 1"></div>
-    <div class="col-md-4 project-tile"><img src="{{ site.baseurl }}/assets/gifs/sam_002.gif" class="grid-image" alt="GIF 2"></div>
-    <div class="col-md-4 project-tile"><img src="{{ site.baseurl }}/assets/gifs/sam_003.gif" class="grid-image" alt="GIF 3"></div>
-    <div class="col-md-4 project-tile"><img src="{{ site.baseurl }}/assets/gifs/sam_004.gif" class="grid-image" alt="GIF 3"></div>
-    <div class="col-md-4 project-tile"><img src="{{ site.baseurl }}/assets/gifs/sam_005.gif" class="grid-image" alt="GIF 1"></div>
-    <div class="col-md-4 project-tile"><img src="{{ site.baseurl }}/assets/gifs/sam_006.gif" class="grid-image" alt="GIF 2"></div>
-    <div class="col-md-4 project-tile"><img src="{{ site.baseurl }}/assets/gifs/sam_007.gif" class="grid-image" alt="GIF 3"></div>
-    <div class="col-md-4 project-tile"><img src="{{ site.baseurl }}/assets/gifs/sam_008.gif" class="grid-image" alt="GIF 3"></div>
-    <div class="col-md-4 project-tile"><img src="{{ site.baseurl }}/assets/gifs/sam_009.gif" class="grid-image" alt="GIF 3"></div>
+    <div class="col-md-4">
+      <video class="grid-image" autoplay loop muted playsinline>
+        <source src="{{ site.baseurl }}/assets/webm/sam_001.webm" type="video/webm">
+      </video>
+    </div>
+    <div class="col-md-4">
+      <video class="grid-image" autoplay loop muted playsinline>
+        <source src="{{ site.baseurl }}/assets/webm/sam_002.webm" type="video/webm">
+      </video>
+    </div>
+    <div class="col-md-4">
+      <video class="grid-image" autoplay loop muted playsinline>
+        <source src="{{ site.baseurl }}/assets/webm/sam_003.webm" type="video/webm">
+      </video>
+    </div>
+    <div class="col-md-4">
+      <video class="grid-image" autoplay loop muted playsinline>
+        <source src="{{ site.baseurl }}/assets/webm/sam_004.webm" type="video/webm">
+      </video>
+    </div>
+    <div class="col-md-4">
+      <video class="grid-image" autoplay loop muted playsinline>
+        <source src="{{ site.baseurl }}/assets/webm/sam_005.webm" type="video/webm">
+      </video>
+    </div>
+    <div class="col-md-4">
+      <video class="grid-image" autoplay loop muted playsinline>
+        <source src="{{ site.baseurl }}/assets/webm/sam_006.webm" type="video/webm">
+      </video>
+    </div>
+    <div class="col-md-4">
+      <video class="grid-image" autoplay loop muted playsinline>
+        <source src="{{ site.baseurl }}/assets/webm/sam_007.webm" type="video/webm">
+      </video>
+    </div>
+    <div class="col-md-4">
+      <video class="grid-image" autoplay loop muted playsinline>
+        <source src="{{ site.baseurl }}/assets/webm/sam_008.webm" type="video/webm">
+      </video>
+    </div>
+    <div class="col-md-4">
+      <video class="grid-image" autoplay loop muted playsinline>
+        <source src="{{ site.baseurl }}/assets/webm/sam_009.webm" type="video/webm">
+      </video>
+    </div>
 </div>
 
 <script>

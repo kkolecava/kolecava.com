@@ -16,24 +16,58 @@ permalink: /work/sinners-in-the-city/
       <div class="credits-line-highlight"></div>
     </div>
 
-  <p class="mb-2"><strong>Client:</strong> Recut Collective</p>
-  <p class="mb-2"><strong>Production Company:</strong> Gray Media</p>
+  <p class="mb-2"><strong>Production Company:</strong> Recut Collective</p>
   <p class="mb-2"><strong>Director:</strong> Archie Guinchard and Megan O'Reilly</p>
   <p class="mb-2"><strong>Director of Photography:</strong> Archie Guinchard</p>
-  <p class="mb-2"><strong>Gaffer / Camera Assistant:</strong> Josh Bamber</p>
-  <p class="mb-2"><strong>C Camera Operator / Assist:</strong> Karol Kolecava</p>
+  <p class="mb-2"><strong>Gaffer / Camera Assistant:</strong> Karol Kolecava</p>
   <p class="mb-2"><strong>Editor/Colour:</strong> Recut Collective</p>
   <p class="mb-2"><strong>Models:</strong> Lisica London and Cleo Hardi</p>
   <br>
 
 <div class="row g-4">
-  <div class="col-md-4"><img src="/assets/gifs/sinners_001.gif" class="grid-image" alt="GIF 1"></div>
-  <div class="col-md-4"><img src="/assets/gifs/sinners_002.gif" class="grid-image" alt="GIF 2"></div>
-  <div class="col-md-4"><img src="/assets/gifs/sinners_003.gif" class="grid-image" alt="GIF 3"></div>
-  <div class="col-md-4"><img src="/assets/gifs/sinners_004.gif" class="grid-image" alt="GIF 4"></div>
-  <div class="col-md-4"><img src="/assets/gifs/sinners_005.gif" class="grid-image" alt="GIF 5"></div>
-  <div class="col-md-4"><img src="/assets/gifs/sinners_006.gif" class="grid-image" alt="GIF 6"></div>
-  <div class="col-md-4"><img src="/assets/gifs/sinners_007.gif" class="grid-image" alt="GIF 7"></div>
-  <div class="col-md-4"><img src="/assets/gifs/sinners_008.gif" class="grid-image" alt="GIF 8"></div>
-  <div class="col-md-4"><img src="/assets/gifs/sinners_009.gif" class="grid-image" alt="GIF 9"></div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/sinners_001.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/sinners_002.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/sinners_003.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/sinners_004.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/sinners_005.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/sinners_006.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/sinners_007.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/sinners_008.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/sinners_009.webm" type="video/webm">
+    </video>
+  </div>
 </div>

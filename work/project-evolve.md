@@ -9,14 +9,48 @@ permalink: /work/project-evolve/
   <iframe src="https://www.youtube.com/embed/aphRNaHC9Zg?controls=1&modestbranding=1&rel=0&iv_load_policy=3&fs=0&disablekb=1" title="Project Evolve" allowfullscreen></iframe>
 </div>
 
+<div class="credits-section my-5">
+  <div class="position-relative mb-4">
+    <h6 class="credits-heading text-uppercase fw-normal text-muted mb-2">Credits</h6>
+    <hr class="credits-line">
+    <div class="credits-line-highlight"></div>
+  </div>
+
+  <p class="mb-2"><strong>Client:</strong> Revolution Bike Park</p>
+  <p class="mb-2"><strong>Camera Operator:</strong> Joe Simkins</p>
+  <p class="mb-2"><strong>Camera Operator:</strong> Karol Kolecava</p>
+  <p class="mb-2"><strong>Editor/Colour:</strong> Joe Simkins</p>
+</div>
+
 <div class="row g-4">
-  <div class="col-md-4"><img src="https://media.giphy.com/media/xUPGcguWZHRC2HyBRS/giphy.gif" class="grid-image" alt="GIF 1"></div>
-  <div class="col-md-4"><img src="https://media.giphy.com/media/xUPGcguWZHRC2HyBRS/giphy.gif" class="grid-image" alt="GIF 2"></div>
-  <div class="col-md-4"><img src="https://media.giphy.com/media/xUPGcguWZHRC2HyBRS/giphy.gif" class="grid-image" alt="GIF 3"></div>
-  <div class="col-md-4"><img src="https://media.giphy.com/media/xUPGcguWZHRC2HyBRS/giphy.gif" class="grid-image" alt="GIF 4"></div>
-  <div class="col-md-4"><img src="https://media.giphy.com/media/xUPGcguWZHRC2HyBRS/giphy.gif" class="grid-image" alt="GIF 5"></div>
-  <div class="col-md-4"><img src="https://media.giphy.com/media/xUPGcguWZHRC2HyBRS/giphy.gif" class="grid-image" alt="GIF 6"></div>
-  <div class="col-md-4"><img src="https://media.giphy.com/media/xUPGcguWZHRC2HyBRS/giphy.gif" class="grid-image" alt="GIF 7"></div>
-  <div class="col-md-4"><img src="https://media.giphy.com/media/xUPGcguWZHRC2HyBRS/giphy.gif" class="grid-image" alt="GIF 8"></div>
-  <div class="col-md-4"><img src="https://media.giphy.com/media/xUPGcguWZHRC2HyBRS/giphy.gif" class="grid-image" alt="GIF 9"></div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/evolve_001.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/evolve_002.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/evolve_003.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/evolve_004.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/evolve_005.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/evolve_006.webm" type="video/webm">
+    </video>
+  </div>
 </div>

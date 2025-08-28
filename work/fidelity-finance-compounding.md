@@ -19,14 +19,34 @@ permalink: /work/fidelity-finance-compounding/
   <p class="mb-2"><strong>Client:</strong> Fidelity Finance</p>
   <p class="mb-2"><strong>Production Company:</strong> Gray Media</p>
   <p class="mb-2"><strong>Camera Operator / DoP:</strong> Josh Bamber</p>
-  <p class="mb-2"><strong>Camera Assistant:</strong> Karol Kolecava</p>
+  <p class="mb-2"><strong>Camera Assistant / Focus Puller:</strong> Karol Kolecava</p>
   <p class="mb-2"><strong>Editor/Colour:</strong> Gray Media</p>
 </div>
 
 <div class="row g-4">
-  <div class="col-md-4"><img src="/assets/gifs/compounding_001.gif" class="grid-image" alt="GIF 1"></div>
-  <div class="col-md-4"><img src="/assets/gifs/compounding_002.gif" class="grid-image" alt="GIF 2"></div>
-  <div class="col-md-4"><img src="/assets/gifs/compounding_003.gif" class="grid-image" alt="GIF 3"></div>
-  <div class="col-md-4"><img src="/assets/gifs/compounding_004.gif" class="grid-image" alt="GIF 4"></div>
-  <div class="col-md-4"><img src="/assets/gifs/compounding_005.gif" class="grid-image" alt="GIF 5"></div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/compounding_001.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/compounding_002.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/compounding_003.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/compounding_004.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/compounding_005.webm" type="video/webm">
+    </video>
+  </div>
 </div>

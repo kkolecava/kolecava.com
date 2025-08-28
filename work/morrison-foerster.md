@@ -25,16 +25,64 @@ permalink: /work/morrison-foerster/
 </div>
 
 <div class="row g-4">
-  <div class="col-md-4"><img src="/assets/gifs/mofo_001.gif" class="grid-image" alt="GIF 1"></div>
-  <div class="col-md-4"><img src="/assets/gifs/mofo_002.gif" class="grid-image" alt="GIF 2"></div>
-  <div class="col-md-4"><img src="/assets/gifs/mofo_003.gif" class="grid-image" alt="GIF 3"></div>
-  <div class="col-md-4"><img src="/assets/gifs/mofo_004.gif" class="grid-image" alt="GIF 4"></div>
-  <div class="col-md-4"><img src="/assets/gifs/mofo_005.gif" class="grid-image" alt="GIF 5"></div>
-  <div class="col-md-4"><img src="/assets/gifs/mofo_006.gif" class="grid-image" alt="GIF 6"></div>
-  <div class="col-md-4"><img src="/assets/gifs/mofo_007.gif" class="grid-image" alt="GIF 7"></div>
-  <div class="col-md-4"><img src="/assets/gifs/mofo_008.gif" class="grid-image" alt="GIF 8"></div>
-  <div class="col-md-4"><img src="/assets/gifs/mofo_009.gif" class="grid-image" alt="GIF 9"></div>
-  <div class="col-md-4"><img src="/assets/gifs/mofo_010.gif" class="grid-image" alt="GIF 9"></div>
-  <div class="col-md-4"><img src="/assets/gifs/mofo_011.gif" class="grid-image" alt="GIF 9"></div>
-  <div class="col-md-4"><img src="/assets/gifs/mofo_012.gif" class="grid-image" alt="GIF 9"></div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/mofo_001.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/mofo_002.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/mofo_003.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/mofo_004.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/mofo_005.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/mofo_006.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/mofo_007.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/mofo_008.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/mofo_009.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/mofo_010.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/mofo_011.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/mofo_012.webm" type="video/webm">
+    </video>
+  </div>
 </div>

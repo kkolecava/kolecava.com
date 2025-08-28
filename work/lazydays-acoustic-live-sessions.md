@@ -47,9 +47,21 @@ permalink: /work/lazydays-acoustic-live-sessions/
   </div>
 
   <div class="row g-4">
-    <div class="col-md-4 project-tile"><img src="{{ site.baseurl }}/assets/gifs/mabes_001.gif" class="grid-image" alt="GIF 1"></div>
-    <div class="col-md-4 project-tile"><img src="{{ site.baseurl }}/assets/gifs/leowalrus_002.gif" class="grid-image" alt="GIF 2"></div>
-    <div class="col-md-4 project-tile"><img src="{{ site.baseurl }}/assets/gifs/franlusty_003.gif" class="grid-image" alt="GIF 3"></div>
+    <div class="col-md-4">
+      <video class="grid-image" autoplay loop muted playsinline>
+        <source src="{{ site.baseurl }}/assets/webm/lazylivesesh_001.webm" type="video/webm">
+      </video>
+    </div>
+    <div class="col-md-4">
+      <video class="grid-image" autoplay loop muted playsinline>
+        <source src="{{ site.baseurl }}/assets/webm/lazylivesesh_002.webm" type="video/webm">
+      </video>
+    </div>
+    <div class="col-md-4">
+      <video class="grid-image" autoplay loop muted playsinline>
+        <source src="{{ site.baseurl }}/assets/webm/fran_001.webm" type="video/webm">
+      </video>
+    </div>
   </div>
 </div>
 

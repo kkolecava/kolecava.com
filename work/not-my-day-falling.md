@@ -23,11 +23,34 @@ permalink: /work/not-my-day-falling/
 </div>
 
 <div class="row g-4">
-  <div class="col-md-4 project-tile"><img src="/assets/gifs/nmd_001.gif" class="grid-image" alt="GIF 1"></div>
-  <div class="col-md-4 project-tile"><img src="/assets/gifs/nmd_002.gif" class="grid-image" alt="GIF 2"></div>
-  <div class="col-md-4 project-tile"><img src="/assets/gifs/nmd_003.gif" class="grid-image" alt="GIF 3"></div>
-  <div class="col-md-4 project-tile"><img src="/assets/gifs/nmd_004.gif" class="grid-image" alt="GIF 4"></div>
-  <div class="col-md-4 project-tile"><img src="/assets/gifs/nmd_005.gif" class="grid-image" alt="GIF 5"></div>
-  <div class="col-md-4 project-tile"><img src="/assets/gifs/nmd_006.gif" class="grid-image" alt="GIF 6"></div>
-
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/nmd_001.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/nmd_002.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/nmd_003.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/nmd_004.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/nmd_005.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/nmd_006.webm" type="video/webm">
+    </video>
+  </div>
 </div>

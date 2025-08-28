@@ -24,21 +24,89 @@ permalink: /work/dirt-nationals/
 </div>
 
 <div class="row g-4">
-  <div class="col-md-4 project-tile"><img src="/assets/gifs/dirt_001.gif" class="grid-image" alt="GIF 1"></div>
-  <div class="col-md-4 project-tile"><img src="/assets/gifs/dirt_002.gif" class="grid-image" alt="GIF 2"></div>
-  <div class="col-md-4 project-tile"><img src="/assets/gifs/dirt_003.gif" class="grid-image" alt="GIF 3"></div>
-  <div class="col-md-4 project-tile"><img src="/assets/gifs/dirt_004.gif" class="grid-image" alt="GIF 4"></div>
-  <div class="col-md-4 project-tile"><img src="/assets/gifs/dirt_005.gif" class="grid-image" alt="GIF 5"></div>
-  <div class="col-md-4 project-tile"><img src="/assets/gifs/dirt_006.gif" class="grid-image" alt="GIF 6"></div>
-  <div class="col-md-4 project-tile"><img src="/assets/gifs/dirt_007.gif" class="grid-image" alt="GIF 7"></div>
-  <div class="col-md-4 project-tile"><img src="/assets/gifs/dirt_008.gif" class="grid-image" alt="GIF 8"></div>
-  <div class="col-md-4 project-tile"><img src="/assets/gifs/dirt_009.gif" class="grid-image" alt="GIF 9"></div>
-  <div class="col-md-4 project-tile"><img src="/assets/gifs/dirt_010.gif" class="grid-image" alt="GIF 10"></div>
-  <div class="col-md-4 project-tile"><img src="/assets/gifs/dirt_011.gif" class="grid-image" alt="GIF 11"></div>
-  <div class="col-md-4 project-tile"><img src="/assets/gifs/dirt_012.gif" class="grid-image" alt="GIF 12"></div>
-  <div class="col-md-4 project-tile"><img src="/assets/gifs/dirt_013.gif" class="grid-image" alt="GIF 13"></div>
-  <div class="col-md-4 project-tile"><img src="/assets/gifs/dirt_014.gif" class="grid-image" alt="GIF 14"></div>
-  <div class="col-md-4 project-tile"><img src="/assets/gifs/dirt_015.gif" class="grid-image" alt="GIF 15"></div>
-  <div class="col-md-4 project-tile"><img src="/assets/gifs/dirt_016.gif" class="grid-image" alt="GIF 16"></div>
-  <div class="col-md-4 project-tile"><img src="/assets/gifs/dirt_017.gif" class="grid-image" alt="GIF 17"></div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/dirt_001.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/dirt_002.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/dirt_003.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/dirt_004.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/dirt_005.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/dirt_006.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/dirt_007.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/dirt_008.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/dirt_009.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/dirt_010.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/dirt_011.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/dirt_012.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/dirt_013.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/dirt_014.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/dirt_015.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/dirt_016.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/dirt_017.webm" type="video/webm">
+    </video>
+  </div>
 </div>
