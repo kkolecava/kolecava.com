@@ -22,7 +22,7 @@ permalink: /work/hargreaves-landsdown-pass-it-on/
   <p class="mb-2"><strong>B Camera Operator:</strong> Josh Bamber</p>
   <p class="mb-2"><strong>C Camera Operator / Assist:</strong> Karol Kolecava</p>
   <p class="mb-2"><strong>Editor/Colour:</strong> Gray Media</p>
-
+<br>
 <div class="row g-4">
   <div class="col-md-4">
     <video class="grid-image" autoplay loop muted playsinline>

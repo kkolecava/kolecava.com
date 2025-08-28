@@ -22,7 +22,7 @@ description: Freelance Director of Photography, Aerial Cinematographer and Camer
 
   <!-- Documentaries -->
   <section class="mt-5" aria-labelledby="documentaries-heading">
-    <h2 id="documentaries-heading" class="category-headings">Documentaries</h2>
+    <h2 id="documentaries-heading" class="category-headings">Documentaries, Narrative & Film</h2>
     <div class="row g-4">
       <!-- Flags in the Wind – Ukraine -->
       <div class="col-12 col-sm-6 col-lg-4">
@@ -42,6 +42,17 @@ description: Freelance Director of Photography, Aerial Cinematographer and Camer
           <img src="{{ site.baseurl }}/assets/images/jbs-thumb-still.jpeg" class="img-fluid grid-image" alt="JBS Collection documentary thumbnail" loading="lazy">
           <div class="overlay">
             <span class="project-title">JBS Collection – Documentary</span>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-12 col-sm-6 col-lg-4">
+        <a href="#" class="project-overlay" aria-label="Gula vol1 - Short Film">
+          <video class="img-fluid grid-image" autoplay loop muted playsinline loading="lazy" poster="{{ site.baseurl }}/assets/images/placeholder.jpg">
+            <source src="{{ site.baseurl }}/assets/webm/gula_001.webm" type="video/webm">
+          </video>
+          <div class="overlay">
+            <span class="project-title">Gula vol1 - Short Film</span>
           </div>
         </a>
       </div>
