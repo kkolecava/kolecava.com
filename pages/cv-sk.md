@@ -386,7 +386,7 @@ description: Oficiálne CV kameramana (Kinematografa) Karola Kolečavu pôsobiac
           <p class="mb-0 text-white-50">Pošlite mi stručný brief – vrátim sa s jasným plánom, harmonogramom a cenovou ponukou.</p>
         </div>
         <div class="col-lg-4 text-lg-end">
-          <a href="mailto:hello@kolecava.com" class="btn btn-light btn-lg"><img src="/assets/svgs/envelope.svg" alt="Email" height="20"> Napísať e-mail</a>
+          <a href="/contact/" class="btn btn-light btn-lg"><img src="/assets/svgs/envelope.svg" alt="Email" height="20"> Napísať e-mail</a>
         </div>
       </div>
     </div>
