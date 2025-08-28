@@ -10,9 +10,9 @@ permalink: /paperwork/
   <div class="mb-5">
     <h4 class="text-uppercase text-muted border-bottom pb-2">Insurance Coverage</h4>
     <ul class="list-unstyled mt-3">
-      <li><strong>Public & Products Liability:</strong> £2,000,000 (UK & EU)</li>
-      <li><strong>Professional Indemnity:</strong> £1,000,000</li>
-      <li><strong>Employers Liability:</strong> Up to £10,000,000 (limit of indemnity)</li>
+      <li><strong>Public & Products Liability:</strong> (UK & EU)</li>
+      <li><strong>Professional Indemnity</strong></li>
+      <li><strong>Employers Liability</strong> (limit of indemnity)</li>
       <li><strong>Policy Issuer:</strong> Hiscox Insurance Company Limited and AXA Insurance UK plc</li>
       <li><strong>Documentation:</strong> Available upon request</li>
     </ul>
