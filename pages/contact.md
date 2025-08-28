@@ -25,7 +25,7 @@ permalink: /contact/
       <div class="card shadow-sm hover-lift reveal">
         <div class="card-body p-4 p-md-5">
           <form id="contact-form" class="needs-validation" novalidate method="POST"
-                action="https://script.google.com/macros/s/AKfycbxiSih8e4qsX1593UA-aqlqXoHjzfFuc6OlA5XTHRL5AEPYc6ic9GFLYel5a31NydV5/exec">
+                action="https://script.google.com/macros/s/AKfycbwEwyxiS7PGf-ou0ARSFckJ9yi-lzlTgIVX0KVwgpbNDakc32F6nuqONT3TifPsxZFS/exec">
             <div class="row g-3">
               <div class="col-md-6">
                 <label for="name" class="form-label">Name</label>
