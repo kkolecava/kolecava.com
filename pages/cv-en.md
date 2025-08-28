@@ -89,7 +89,7 @@ description: The official Cinematographer CV of Karol Kolecava – Camera Operat
 <section class="mb-5" aria-labelledby="cv-clients">
   <h2 id="cv-clients" class="text-uppercase text-muted border-bottom pb-2">Selected Clients</h2>
   <p class="mt-3">
-    Vodafone — TESCO — Royal Mail — L'Occitane — Alzheimer's Society — British Superbike Championship — Jasper Conran — European Movement UK — COSM Immersive Experiences — ITN (Independent Television News) — Hargreaves Lansdown — Fidelity Finance — Weber Shandwick
+    Vodafone — TESCO — Royal Mail — L'Occitane — Alzheimer's Society — Slack - British Superbike Championship — Jasper Conran — European Movement UK — COSM Immersive Experiences — ITN (Independent Television News) — Hargreaves Lansdown — Fidelity Finance — Weber Shandwick
   </p>
 </section>
 

@@ -36,7 +36,7 @@ description: Freelance Director of Photography, Aerial Cinematographer and Camer
         </a>
       </div>
 
-      <!-- JBS Collection – Documentary -->
+      <!-- JBS Collection – Documentary (still image kept as-is) -->
       <div class="col-12 col-sm-6 col-lg-4">
         <a href="#" class="project-overlay" aria-label="JBS Collection – Documentary">
           <img src="{{ site.baseurl }}/assets/images/jbs-thumb-still.jpeg" class="img-fluid grid-image" alt="JBS Collection documentary thumbnail" loading="lazy">
@@ -55,7 +55,9 @@ description: Freelance Director of Photography, Aerial Cinematographer and Camer
       <!-- Morrison Foerster -->
       <div class="col-12 col-sm-6 col-lg-4">
         <a href="{{ site.baseurl }}/work/morrison-foerster/" class="project-overlay" aria-label="Morrison Foerster – Branded Content">
-          <img src="{{ site.baseurl }}/assets/gifs/mofo_003.gif" class="img-fluid grid-image" alt="Morrison Foerster branded content thumbnail" loading="lazy">
+          <video class="img-fluid grid-image" autoplay loop muted playsinline loading="lazy" poster="{{ site.baseurl }}/assets/images/ua_oldman-thumb.jpg">
+            <source src="{{ site.baseurl }}/assets/webm/mofo_003.webm" type="video/webm">
+          </video>
           <div class="overlay">
             <span class="project-title">Morrison Foerster – Branded Content</span>
           </div>
@@ -65,7 +67,9 @@ description: Freelance Director of Photography, Aerial Cinematographer and Camer
       <!-- Fidelity -->
       <div class="col-12 col-sm-6 col-lg-4">
         <a href="{{ site.baseurl }}/work/fidelity-finance-compounding/" class="project-overlay" aria-label="Fidelity – Compounding">
-          <img src="{{ site.baseurl }}/assets/gifs/compounding_002.gif" class="img-fluid grid-image" alt="Fidelity compounding thumbnail" loading="lazy">
+          <video class="img-fluid grid-image" autoplay loop muted playsinline loading="lazy" poster="{{ site.baseurl }}/assets/images/ua_oldman-thumb.jpg">
+            <source src="{{ site.baseurl }}/assets/webm/compounding_001.webm" type="video/webm">
+          </video>
           <div class="overlay">
             <span class="project-title">Fidelity – Compounding</span>
           </div>
@@ -75,7 +79,9 @@ description: Freelance Director of Photography, Aerial Cinematographer and Camer
       <!-- Hargreaves Lansdown: Julie -->
       <div class="col-12 col-sm-6 col-lg-4">
         <a href="{{ site.baseurl }}/work/hargreaves-landsdown-julie/" class="project-overlay" aria-label="Hargreaves Lansdown – Julie">
-          <img src="{{ site.baseurl }}/assets/gifs/juliec_005.gif" class="img-fluid grid-image" alt="Hargreaves Lansdown Julie thumbnail" loading="lazy">
+          <video class="img-fluid grid-image" autoplay loop muted playsinline loading="lazy" poster="{{ site.baseurl }}/assets/images/ua_oldman-thumb.jpg">
+            <source src="{{ site.baseurl }}/assets/webm/juliec_005.webm" type="video/webm">
+          </video>
           <div class="overlay">
             <span class="project-title">Hargreaves Lansdown – Julie</span>
           </div>
@@ -85,7 +91,9 @@ description: Freelance Director of Photography, Aerial Cinematographer and Camer
       <!-- Hargreaves Lansdown: Jack -->
       <div class="col-12 col-sm-6 col-lg-4">
         <a href="{{ site.baseurl }}/work/hargreaves-landsdown-jack/" class="project-overlay" aria-label="Hargreaves Lansdown – Jack">
-          <img src="{{ site.baseurl }}/assets/gifs/jack_008.gif" class="img-fluid grid-image" alt="Hargreaves Lansdown Jack thumbnail" loading="lazy">
+          <video class="img-fluid grid-image" autoplay loop muted playsinline loading="lazy" poster="{{ site.baseurl }}/assets/images/ua_oldman-thumb.jpg">
+            <source src="{{ site.baseurl }}/assets/webm/jack_001.webm" type="video/webm">
+          </video>
           <div class="overlay">
             <span class="project-title">Hargreaves Lansdown – Jack</span>
           </div>
@@ -95,7 +103,9 @@ description: Freelance Director of Photography, Aerial Cinematographer and Camer
       <!-- Hargreaves Lansdown: Pass it On -->
       <div class="col-12 col-sm-6 col-lg-4">
         <a href="{{ site.baseurl }}/work/hargreaves-landsdown-pass-it-on/" class="project-overlay" aria-label="Hargreaves Lansdown – Pass it On">
-          <img src="{{ site.baseurl }}/assets/gifs/passit_002.gif" class="img-fluid grid-image" alt="Hargreaves Lansdown Pass it On thumbnail" loading="lazy">
+          <video class="img-fluid grid-image" autoplay loop muted playsinline loading="lazy" poster="{{ site.baseurl }}/assets/images/ua_oldman-thumb.jpg">
+            <source src="{{ site.baseurl }}/assets/webm/passit_002.webm" type="video/webm">
+          </video>
           <div class="overlay">
             <span class="project-title">Hargreaves Lansdown – Pass it On</span>
           </div>
@@ -110,7 +120,9 @@ description: Freelance Director of Photography, Aerial Cinematographer and Camer
     <div class="row g-4">
       <div class="col-12 col-sm-6 col-lg-4">
         <a href="{{ site.baseurl }}/work/miyuki-zoku-fw24-campaign/" class="project-overlay" aria-label="MKI MIYUKI ZOKU FW24 Campaign">
-          <img src="{{ site.baseurl }}/assets/gifs/mki_002.gif" class="img-fluid grid-image" alt="MKI MIYUKI ZOKU FW24 thumbnail" loading="lazy">
+          <video class="img-fluid grid-image" autoplay loop muted playsinline loading="lazy" poster="{{ site.baseurl }}/assets/images/ua_oldman-thumb.jpg">
+            <source src="{{ site.baseurl }}/assets/webm/mki_002.webm" type="video/webm">
+          </video>
           <div class="overlay">
             <span class="project-title">MKI MIYUKI ZOKU FW24</span>
           </div>
@@ -118,9 +130,21 @@ description: Freelance Director of Photography, Aerial Cinematographer and Camer
       </div>
       <div class="col-12 col-sm-6 col-lg-4">
         <a href="{{ site.baseurl }}/work/scott-donovan/" class="project-overlay" aria-label="Scott Donovan Editorial">
-          <img src="{{ site.baseurl }}/assets/gifs/scott_007.gif" class="img-fluid grid-image" alt="Scott Donovan fashion editorial thumbnail" loading="lazy">
+          <video class="img-fluid grid-image" autoplay loop muted playsinline loading="lazy" poster="{{ site.baseurl }}/assets/images/ua_oldman-thumb.jpg">
+            <source src="{{ site.baseurl }}/assets/webm/scott_007.webm" type="video/webm">
+          </video>
           <div class="overlay">
             <span class="project-title">Scott Donovan – Editorial</span>
+          </div>
+        </a>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-4">
+        <a href="{{ site.baseurl }}/work/sam-salter/" class="project-overlay" aria-label="Sam Salter Editorial">
+          <video class="img-fluid grid-image" autoplay loop muted playsinline loading="lazy" poster="{{ site.baseurl }}/assets/images/ua_oldman-thumb.jpg">
+            <source src="{{ site.baseurl }}/assets/webm/sam_003.webm" type="video/webm">
+          </video>
+          <div class="overlay">
+            <span class="project-title">Sam Salter - Editorial</span>
           </div>
         </a>
       </div>
@@ -129,11 +153,13 @@ description: Freelance Director of Photography, Aerial Cinematographer and Camer
 
   <!-- Music & Lifestyle -->
   <section class="mt-5" aria-labelledby="music-heading">
-    <h2 id="music-heading" class="category-headings">Live Sessions & Lifestyle</h2>
+    <h2 id="music-heading" class="category-headings">Music, Live Sessions & Lifestyle</h2>
     <div class="row g-4">
       <div class="col-12 col-sm-6 col-lg-4">
         <a href="{{ site.baseurl }}/work/not-my-day-falling/" class="project-overlay" aria-label="Not My Day – Falling">
-          <img src="{{ site.baseurl }}/assets/gifs/nmd_003.gif" class="img-fluid grid-image" alt="Not My Day Falling thumbnail" loading="lazy">
+          <video class="img-fluid grid-image" autoplay loop muted playsinline loading="lazy" poster="{{ site.baseurl }}/assets/images/ua_oldman-thumb.jpg">
+            <source src="{{ site.baseurl }}/assets/webm/nmd_003.webm" type="video/webm">
+          </video>
           <div class="overlay">
             <span class="project-title">Not My Day – Falling</span>
           </div>
@@ -141,12 +167,15 @@ description: Freelance Director of Photography, Aerial Cinematographer and Camer
       </div>
       <div class="col-12 col-sm-6 col-lg-4">
         <a href="{{ site.baseurl }}/work/lazydays-acoustic-live-sessions/" class="project-overlay" aria-label="Lazydays Acoustic Sessions">
-          <img src="{{ site.baseurl }}/assets/gifs/mabes_001.gif" class="img-fluid grid-image" alt="Lazydays live session thumbnail" loading="lazy">
+          <video class="img-fluid grid-image" autoplay loop muted playsinline loading="lazy" poster="{{ site.baseurl }}/assets/images/ua_oldman-thumb.jpg">
+            <source src="{{ site.baseurl }}/assets/webm/lazylivesesh_002.webm" type="video/webm">
+          </video>
           <div class="overlay">
             <span class="project-title">Lazydays Acoustic Live Sessions</span>
           </div>
         </a>
       </div>
+      <!-- already webm -->
       <div class="col-12 col-sm-6 col-lg-4">
         <a href="{{ site.baseurl }}/work/es-collective/" class="project-overlay" aria-label="E.S Collective Launch Party">
           <video class="img-fluid grid-image" autoplay loop muted playsinline loading="lazy" poster="{{ site.baseurl }}/assets/images/ua_oldman-thumb.jpg">
@@ -157,6 +186,7 @@ description: Freelance Director of Photography, Aerial Cinematographer and Camer
           </div>
         </a>
       </div>
+      <!-- already webm -->
       <div class="col-12 col-sm-6 col-lg-4">
         <a href="{{ site.baseurl }}/work/function-republic/" class="project-overlay" aria-label="Function Republic - Live">
           <video class="img-fluid grid-image" autoplay loop muted playsinline loading="lazy" poster="{{ site.baseurl }}/assets/images/ua_oldman-thumb.jpg">
@@ -164,6 +194,16 @@ description: Freelance Director of Photography, Aerial Cinematographer and Camer
           </video>
           <div class="overlay">
             <span class="project-title">Function Republic - Live</span>
+          </div>
+        </a>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-4">
+        <a href="#" class="project-overlay" aria-label="Sam Fraiser - Live">
+          <video class="img-fluid grid-image" autoplay loop muted playsinline loading="lazy" poster="{{ site.baseurl }}/assets/images/ua_oldman-thumb.jpg">
+            <source src="{{ site.baseurl }}/assets/webm/fraiser_001.webm" type="video/webm">
+          </video>
+          <div class="overlay">
+            <span class="project-title">Sam Fraiser - Live Session</span>
           </div>
         </a>
       </div>
@@ -176,12 +216,15 @@ description: Freelance Director of Photography, Aerial Cinematographer and Camer
     <div class="row g-4">
       <div class="col-12 col-sm-6 col-lg-4">
         <a href="{{ site.baseurl }}/work/circus-cortex/" class="project-overlay" aria-label="Circus Cortex Web Ad">
-          <img src="{{ site.baseurl }}/assets/gifs/cortex_010.gif" class="img-fluid grid-image" alt="Circus Cortex commercial thumbnail" loading="lazy">
+          <video class="img-fluid grid-image" autoplay loop muted playsinline loading="lazy" poster="{{ site.baseurl }}/assets/images/ua_oldman-thumb.jpg">
+            <source src="{{ site.baseurl }}/assets/webm/cortex_010.webm" type="video/webm">
+          </video>
           <div class="overlay">
             <span class="project-title">Circus Cortex – Web Ad</span>
           </div>
         </a>
       </div>
+      <!-- Caterpillar stays as still image -->
       <div class="col-12 col-sm-6 col-lg-4">
         <a href="#" class="project-overlay" aria-label="Caterpillar Inc Web Ad">
           <img src="{{ site.baseurl }}/assets/images/caterpillar-thumb-still_1.5.1-min.jpg" class="img-fluid grid-image" alt="Caterpillar web ad thumbnail" loading="lazy">
@@ -190,9 +233,12 @@ description: Freelance Director of Photography, Aerial Cinematographer and Camer
           </div>
         </a>
       </div>
+      <!-- Tom Fletcher -->
       <div class="col-12 col-sm-6 col-lg-4">
         <a href="#" class="project-overlay" aria-label="Tom Fletcher Web Ad">
-          <img src="{{ site.baseurl }}/assets/gifs/puffinbooks_001.gif" class="img-fluid grid-image" alt="Tom Fletcher web ad thumbnail" loading="lazy">
+          <video class="img-fluid grid-image" autoplay loop muted playsinline loading="lazy" poster="{{ site.baseurl }}/assets/images/ua_oldman-thumb.jpg">
+            <source src="{{ site.baseurl }}/assets/webm/puffin_005.webm" type="video/webm">
+          </video>
           <div class="overlay">
             <span class="project-title">Tom Fletcher – Web Ad</span>
           </div>
@@ -207,12 +253,15 @@ description: Freelance Director of Photography, Aerial Cinematographer and Camer
     <div class="row g-4">
       <div class="col-12 col-sm-6 col-lg-4">
         <a href="{{ site.baseurl }}/work/dirt-nationals/" class="project-overlay" aria-label="Dirt Nationals Off-Road Circuit">
-          <img src="{{ site.baseurl }}/assets/gifs/dirt_003.gif" class="img-fluid grid-image" alt="Dirt Nationals off-road thumbnail" loading="lazy">
+          <video class="img-fluid grid-image" autoplay loop muted playsinline loading="lazy" poster="{{ site.baseurl }}/assets/images/ua_oldman-thumb.jpg">
+            <source src="{{ site.baseurl }}/assets/webm/dirt_003.webm" type="video/webm">
+          </video>
           <div class="overlay">
             <span class="project-title">Dirt Nationals – Off-Road Circuit</span>
           </div>
         </a>
       </div>
+      <!-- Project Evolve stays as still image -->
       <div class="col-12 col-sm-6 col-lg-4">
         <a href="#" class="project-overlay" aria-label="Project Evolve Sports Event">
           <img src="{{ site.baseurl }}/assets/images/projectevolve-001.png" class="img-fluid grid-image" alt="Project Evolve sports event thumbnail" loading="lazy">
