@@ -4,7 +4,7 @@ title: Contact
 permalink: /contact/
 ---
 
-<!-- Version v0.1.3 -->
+<!-- kolecava.com - cform v0.1.4 -->
 
 <style>
   .reveal{opacity:0;transform:translateY(14px);transition:opacity .6s,transform .6s}
@@ -37,7 +37,7 @@ permalink: /contact/
           <iframe id="form-target" name="form-target"></iframe>
 
           <form id="contact-form" class="needs-validation" novalidate method="POST"
-                action="https://script.google.com/macros/s/AKfycbz9M5AfvZRPCKvGMuV_o0OpL8evx4X9idf9bB9_XQ664Q-Z6BdSr9qnKYxHzExoT0kB/exec"
+                action="https://script.google.com/macros/s/AKfycbyU6THf_vsVyb5x2rv-3j3UDxqkI892OKMbzjipNI3GzKmgh005fdNhIpGSkDAwz94V/exec"
                 target="form-target" autocomplete="off">
             <div class="row g-3">
               <div class="col-md-6">
