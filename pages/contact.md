@@ -4,7 +4,7 @@ title: Contact
 permalink: /contact/
 ---
 
-<!-- Version 0.0.9 -->
+<!-- Version v0.1.0 -->
 
 <style>
   .reveal{opacity:0;transform:translateY(14px);transition:opacity .6s,transform .6s}
@@ -13,7 +13,6 @@ permalink: /contact/
   .hover-lift:hover{transform:translateY(-4px);box-shadow:0 .75rem 2rem rgba(0,0,0,.08)}
   .section-label{letter-spacing:.08em;text-transform:uppercase;font-size:.8rem;color:#6c757d}
   .form-status{min-height:1.5rem}
-  /* Make the Turnstile area obvious */
   #cf-container{min-height:80px; display:flex; align-items:center}
   .cf-fallback{display:none; color:#b00020}
 </style>
@@ -30,7 +29,7 @@ permalink: /contact/
       <div class="card shadow-sm hover-lift reveal">
         <div class="card-body p-4 p-md-5">
           <form id="contact-form" class="needs-validation" novalidate method="POST"
-                action="https://script.google.com/macros/s/AKfycbwZDEHoejNgTB5566pHYlbTJXctU-Uk1jETgMSLYRd2O65-RuzNkFehH_ZwYOe2IW3n/exec">
+                action="https://script.google.com/macros/s/AKfycbz9M5AfvZRPCKvGMuV_o0OpL8evx4X9idf9bB9_XQ664Q-Z6BdSr9qnKYxHzExoT0kB/exec">
             <div class="row g-3">
               <div class="col-md-6">
                 <label for="name" class="form-label">Name</label>
@@ -115,8 +114,8 @@ permalink: /contact/
   window.cfOnload = function() {
     try {
       window.cfWidgetId = turnstile.render('#cf-container', {
-        sitekey: '0x4AAAAAAByZts8eVW6pAHkB',     // your site key
-        appearance: 'always',                     // force a visible widget
+        sitekey: '0x4AAAAAAByZts8eVW6pAHkB',   // your SITE key (public)
+        appearance: 'always',
         theme: 'auto',
         callback: function(token) {
           document.getElementById('cf-turnstile-response').value = token;
@@ -128,7 +127,6 @@ permalink: /contact/
         },
         'expired-callback': function() {
           document.getElementById('cf-turnstile-response').value = '';
-          // Ask Turnstile to refresh once expired
           try { turnstile.reset(window.cfWidgetId); } catch(_) {}
         }
       });
@@ -155,7 +153,6 @@ permalink: /contact/
     const tsEl = document.getElementById('ts');
     const tokenEl = document.getElementById('cf-turnstile-response');
 
-    // Set timestamp and refresh on first interaction
     function setTs(){ tsEl.value = Date.now().toString(); }
     setTs();
     ['focus','pointerdown','keydown','touchstart'].forEach(ev => {
@@ -177,18 +174,5 @@ permalink: /contact/
       }
       // normal form POST → server verifies token and redirects to /thank-you/
     });
-  })();
-</script>
-
-<!-- Visible token watcher (debug only) -->
-<div class="small" id="token-debug" style="word-break:break-all"></div>
-<script>
-  // show the token live
-  (function(){
-    const el = document.getElementById('cf-turnstile-response');
-    const dbg = document.getElementById('token-debug');
-    function show(){ dbg.textContent = el.value ? ('Token: ' + el.value) : 'Token: (none yet)'; }
-    show();
-    setInterval(show, 800);
   })();
 </script>
