@@ -45,7 +45,9 @@
   </div>
 </nav>
   <main>
-  <style>
+  <!-- Version v0.1.3 -->
+
+<style>
   .reveal{opacity:0;transform:translateY(14px);transition:opacity .6s,transform .6s}
   .reveal.show{opacity:1;transform:none}
   .hover-lift{transition:transform .2s,box-shadow .2s}
@@ -54,8 +56,10 @@
   .form-status{min-height:1.5rem}
   #cf-container{min-height:80px; display:flex; align-items:center}
   .cf-fallback{display:none; color:#b00020}
-  /* Hide honeypots from users but keep them in DOM */
+  /* Hide honeypots but keep them in DOM */
   .hp{position:absolute;left:-5000px;top:auto;width:1px;height:1px;overflow:hidden}
+  /* Hidden iframe (submission target) */
+  #form-target{display:none;width:0;height:0;border:0}
 </style>
 
 <div class="container mt-5 pt-5">
@@ -69,7 +73,11 @@
     <div class="col-lg-8">
       <div class="card shadow-sm hover-lift reveal">
         <div class="card-body p-4 p-md-5">
-          <form id="contact-form" class="needs-validation" novalidate="" method="POST" action="https://script.google.com/macros/s/AKfycbx6EgeiGgpHSBkSruvWZqLcYh79D5aqmGmxODeJu9ZfhHvBK3rGe4oItJIl1MZMfnvm/exec" autocomplete="off">
+
+          <!-- Hidden iframe target to swallow Apps Script response -->
+          <iframe id="form-target" name="form-target"></iframe>
+
+          <form id="contact-form" class="needs-validation" novalidate="" method="POST" action="https://script.google.com/macros/s/AKfycbz9M5AfvZRPCKvGMuV_o0OpL8evx4X9idf9bB9_XQ664Q-Z6BdSr9qnKYxHzExoT0kB/exec" target="form-target" autocomplete="off">
             <div class="row g-3">
               <div class="col-md-6">
                 <label for="name" class="form-label">Name</label>
@@ -201,13 +209,14 @@
     els.forEach(el=>io.observe(el));
   })();
 
-  // HARDENING: set human timestamp + jsok after real interaction
+  // HARDENING + hidden-iframe redirect
   (function () {
     const form = document.getElementById('contact-form');
     const statusEl = document.getElementById('form-status');
     const tsEl = document.getElementById('ts');
     const jsokEl = document.getElementById('jsok');
     const tokenEl = document.getElementById('cf-turnstile-response');
+    const iframe = document.getElementById('form-target');
 
     // 1) Timestamp (updated on first interaction)
     function setTs(){ tsEl.value = Date.now().toString(); }
@@ -216,19 +225,27 @@
       window.addEventListener(ev, function once(){ setTs(); window.removeEventListener(ev, once); }, { once:true });
     });
 
-    // 2) JS-only flag after simple human signals (time + movement/keys)
+    // 2) JS-only flag after simple human signals
     let moved = false, typed = false;
     let start = Date.now();
     window.addEventListener('mousemove', ()=>{ moved = true; }, {passive:true});
     window.addEventListener('keydown',  ()=>{ typed = true; }, {passive:true});
-    setInterval(()=>{
+    const jsokTimer = setInterval(()=>{
       const elapsed = Date.now() - start;
       if (!jsokEl.value && elapsed > 1500 && (moved || typed)) {
         jsokEl.value = '1';
+        clearInterval(jsokTimer);
       }
     }, 300);
 
-    // Client-side validation guard
+    // 3) After the iframe finishes loading the server response, redirect this page
+    iframe.addEventListener('load', function () {
+      // If the user cancelled validation, there is no submit -> no load.
+      // On successful POST, Apps Script returns some HTML to the iframe, then we redirect the top page:
+      window.location.assign('/thank-you/');
+    });
+
+    // 4) Client-side validation guard
     form.addEventListener('submit', function (e) {
       if (!form.checkValidity()) {
         e.preventDefault(); e.stopPropagation();
@@ -247,7 +264,8 @@
         statusEl.textContent = 'Please interact with the page briefly, then try again.';
         return;
       }
-      // Normal form POST: Apps Script will verify and hard-redirect to /thank-you/
+      // No fetch/AJAX: normal form POST to hidden iframe → onload redirects current page.
+      statusEl.textContent = 'Sending…';
     });
   })();
 </script>
