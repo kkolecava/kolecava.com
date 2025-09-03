@@ -4,8 +4,6 @@ title: Contact
 permalink: /contact/
 ---
 
-<!-- Version v0.1.1 -->
-
 <style>
   .reveal{opacity:0;transform:translateY(14px);transition:opacity .6s,transform .6s}
   .reveal.show{opacity:1;transform:none}
@@ -15,6 +13,8 @@ permalink: /contact/
   .form-status{min-height:1.5rem}
   #cf-container{min-height:80px; display:flex; align-items:center}
   .cf-fallback{display:none; color:#b00020}
+  /* Hide honeypots from users but keep them in DOM */
+  .hp{position:absolute;left:-5000px;top:auto;width:1px;height:1px;overflow:hidden}
 </style>
 
 <div class="container mt-5 pt-5">
@@ -29,42 +29,60 @@ permalink: /contact/
       <div class="card shadow-sm hover-lift reveal">
         <div class="card-body p-4 p-md-5">
           <form id="contact-form" class="needs-validation" novalidate method="POST"
-                action="https://script.google.com/macros/s/AKfycby6oJjcrEjud-euIqDKegCh9MPBtTwV3gO-l3TXOafdOXEyJ8FIqlzZeZrYB08P30XI/exec">
+                action="https://script.google.com/macros/s/AKfycbx6EgeiGgpHSBkSruvWZqLcYh79D5aqmGmxODeJu9ZfhHvBK3rGe4oItJIl1MZMfnvm/exec" autocomplete="off">
             <div class="row g-3">
               <div class="col-md-6">
                 <label for="name" class="form-label">Name</label>
-                <input id="name" name="name" type="text" class="form-control" autocomplete="name" required placeholder="John Smith…">
+                <input id="name" name="name" type="text" class="form-control" autocomplete="name" required
+                       placeholder="John Smith…" autocapitalize="words" spellcheck="false">
                 <div class="invalid-feedback">Please enter your name.</div>
               </div>
               <div class="col-md-6">
                 <label for="email" class="form-label">Email</label>
-                <input id="email" name="email" type="email" class="form-control" autocomplete="email" required placeholder="john.smith@example.com">
+                <input id="email" name="email" type="email" class="form-control" autocomplete="email" required
+                       placeholder="john.smith@example.com" autocapitalize="none" spellcheck="false">
                 <div class="invalid-feedback">Enter a valid email address.</div>
               </div>
               <div class="col-12">
                 <label for="message" class="form-label">Message</label>
-                <textarea id="message" name="message" class="form-control" rows="6" required placeholder="What do you need? Timeline, deliverables, references…"></textarea>
+                <textarea id="message" name="message" class="form-control" rows="6" required
+                          placeholder="What do you need? Timeline, deliverables, references…"
+                          autocapitalize="sentences"></textarea>
                 <div class="invalid-feedback">Please include a short message.</div>
               </div>
 
-              <!-- Honeypots -->
-              <div class="col-12" style="position:absolute;left:-5000px;" aria-hidden="true">
+              <!-- Classic honeypots -->
+              <div class="hp" aria-hidden="true">
                 <label for="website">Website</label>
                 <input id="website" name="website" type="text" tabindex="-1" autocomplete="off">
               </div>
-              <div style="position:absolute;left:-5000px;" aria-hidden="true">
+              <div class="hp" aria-hidden="true">
                 <label for="phone">Phone</label>
                 <input id="phone" name="phone" type="text" tabindex="-1" autocomplete="off">
               </div>
 
-              <!-- Human timing -->
-              <input type="hidden" name="ts" id="ts">
+              <!-- Extra invisible traps (server expects these empty/default) -->
+              <div class="hp" aria-hidden="true">
+                <label><input type="checkbox" id="areubot" name="areubot" tabindex="-1" value="1"> Are you a bot?</label>
+              </div>
+              <div class="hp" aria-hidden="true">
+                <label for="preferred_channel">Preferred contact channel</label>
+                <select id="preferred_channel" name="preferred_channel" tabindex="-1">
+                  <option value="" selected>—</option> <!-- must remain empty -->
+                  <option value="email">Email</option>
+                  <option value="phone">Phone</option>
+                </select>
+              </div>
 
-              <!-- Turnstile explicit render target + hidden token -->
+              <!-- Security fields -->
+              <input type="hidden" name="ts" id="ts">
+              <input type="hidden" name="jsok" id="jsok" value="">
+              <input type="hidden" name="cf-turnstile-response" id="cf-turnstile-response">
+
+              <!-- Turnstile -->
               <div class="col-12">
                 <label class="form-label">Spam check</label>
                 <div id="cf-container"></div>
-                <input type="hidden" name="cf-turnstile-response" id="cf-turnstile-response">
                 <div id="cf-fallback" class="cf-fallback small">
                   Turnstile failed to load. Please disable ad blockers for this page and reload.
                 </div>
@@ -110,7 +128,7 @@ permalink: /contact/
 
 <!-- Turnstile explicit render -->
 <script>
-  // Called by the Turnstile script when it loads
+  // Called when Turnstile script loads
   window.cfOnload = function() {
     try {
       window.cfWidgetId = turnstile.render('#cf-container', {
@@ -146,19 +164,34 @@ permalink: /contact/
     els.forEach(el=>io.observe(el));
   })();
 
-  // Minimal validation + set timestamp + require token
+  // HARDENING: set human timestamp + jsok after real interaction
   (function () {
     const form = document.getElementById('contact-form');
     const statusEl = document.getElementById('form-status');
     const tsEl = document.getElementById('ts');
+    const jsokEl = document.getElementById('jsok');
     const tokenEl = document.getElementById('cf-turnstile-response');
 
+    // 1) Timestamp (updated on first interaction)
     function setTs(){ tsEl.value = Date.now().toString(); }
     setTs();
-    ['focus','pointerdown','keydown','touchstart'].forEach(ev => {
+    ['focus','pointerdown','keydown','touchstart','mousemove'].forEach(ev => {
       window.addEventListener(ev, function once(){ setTs(); window.removeEventListener(ev, once); }, { once:true });
     });
 
+    // 2) JS-only flag after simple human signals (time + movement/keys)
+    let moved = false, typed = false;
+    let start = Date.now();
+    window.addEventListener('mousemove', ()=>{ moved = true; }, {passive:true});
+    window.addEventListener('keydown',  ()=>{ typed = true; }, {passive:true});
+    setInterval(()=>{
+      const elapsed = Date.now() - start;
+      if (!jsokEl.value && elapsed > 1500 && (moved || typed)) {
+        jsokEl.value = '1';
+      }
+    }, 300);
+
+    // Client-side validation guard
     form.addEventListener('submit', function (e) {
       if (!form.checkValidity()) {
         e.preventDefault(); e.stopPropagation();
@@ -172,7 +205,12 @@ permalink: /contact/
         try { turnstile.reset(window.cfWidgetId); } catch(_) {}
         return;
       }
-      // normal form POST → server verifies token and redirects to /thank-you/
+      if (jsokEl.value !== '1') {
+        e.preventDefault(); e.stopPropagation();
+        statusEl.textContent = 'Please interact with the page briefly, then try again.';
+        return;
+      }
+      // Normal form POST: Apps Script will verify and hard-redirect to /thank-you/
     });
   })();
 </script>
