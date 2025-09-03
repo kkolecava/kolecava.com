@@ -137,10 +137,12 @@ permalink: /thank-you/
 
         <!-- Hargreaves Lansdown: Pass it On -->
         <div class="col-12 col-sm-6 col-lg-4 reveal">
-          <a href="{{ site.baseurl }}/work/hargreaves-landsdown-pass-it-on/" class="project-overlay text-decoration-none" aria-label="Hargreaves Lansdown – Pass it On">
-            <img src="{{ site.baseurl }}/assets/gifs/passit_002.gif" class="img-fluid grid-image rounded shadow-sm" alt="Hargreaves Lansdown Pass it On thumbnail" loading="lazy">
+          <a href="{{ site.baseurl }}/work/function-republic/" class="project-overlay text-decoration-none" aria-label="Function Republic - Live">
+            <video class="img-fluid grid-image rounded shadow-sm" autoplay loop muted playsinline loading="lazy" poster="{{ site.baseurl }}/assets/images/ua_oldman-thumb.jpg">
+              <source src="{{ site.baseurl }}/assets/webm/mofo_003.webm" type="video/webm">
+            </video>
             <div class="overlay">
-              <span class="project-title">Hargreaves Lansdown – Pass it On</span>
+              <span class="project-title">Function Republic – Live</span>
             </div>
           </a>
         </div>
