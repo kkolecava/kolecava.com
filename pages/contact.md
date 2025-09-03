@@ -4,7 +4,7 @@ title: Contact
 permalink: /contact/
 ---
 
-<!-- Version 0.0.5 -->
+<!-- Version 0.0.5b -->
 
 <style>
   .reveal{opacity:0;transform:translateY(14px);transition:opacity .6s,transform .6s}
@@ -13,6 +13,9 @@ permalink: /contact/
   .hover-lift:hover{transform:translateY(-4px);box-shadow:0 .75rem 2rem rgba(0,0,0,.08)}
   .section-label{letter-spacing:.08em;text-transform:uppercase;font-size:.8rem;color:#6c757d}
   .form-status{min-height:1.5rem}
+  /* Make the Turnstile area obvious */
+  #cf-container{min-height:80px; display:flex; align-items:center}
+  .cf-fallback{display:none; color:#b00020}
 </style>
 
 <div class="container mt-5 pt-5">
@@ -27,7 +30,7 @@ permalink: /contact/
       <div class="card shadow-sm hover-lift reveal">
         <div class="card-body p-4 p-md-5">
           <form id="contact-form" class="needs-validation" novalidate method="POST"
-                action="https://script.google.com/macros/s/AKfycbwTHjCG9VexU0LB1TLvHeszRlOYtRGGSBcM2JhDdN2bL7BrsCfg1-2-lzFfo8QvpbY/exec">
+                action="https://script.google.com/macros/s/AKfycbz9M5AfvZRPCKvGMuV_o0OpL8evx4X9idf9bB9_XQ664Q-Z6BdSr9qnKYxHzExoT0kB/exec">
             <div class="row g-3">
               <div class="col-md-6">
                 <label for="name" class="form-label">Name</label>
@@ -45,13 +48,11 @@ permalink: /contact/
                 <div class="invalid-feedback">Please include a short message.</div>
               </div>
 
-              <!-- Honeypot 1 -->
+              <!-- Honeypots -->
               <div class="col-12" style="position:absolute;left:-5000px;" aria-hidden="true">
                 <label for="website">Website</label>
                 <input id="website" name="website" type="text" tabindex="-1" autocomplete="off">
               </div>
-
-              <!-- Honeypot 2 -->
               <div style="position:absolute;left:-5000px;" aria-hidden="true">
                 <label for="phone">Phone</label>
                 <input id="phone" name="phone" type="text" tabindex="-1" autocomplete="off">
@@ -61,19 +62,20 @@ permalink: /contact/
               <input type="hidden" name="ts" id="ts">
 
               <!-- Turnstile explicit render target + hidden token -->
-              <div class="col-12 mt-2">
+              <div class="col-12">
+                <label class="form-label">Spam check</label>
                 <div id="cf-container"></div>
                 <input type="hidden" name="cf-turnstile-response" id="cf-turnstile-response">
-                <div class="small text-muted">This site is protected by Cloudflare Turnstile.</div>
+                <div id="cf-fallback" class="cf-fallback small">
+                  Turnstile failed to load. Please disable ad blockers for this page and reload.
+                </div>
               </div>
 
               <div class="col-12 d-flex align-items-center gap-3">
                 <button id="submit-btn" type="submit" class="btn btn-dark px-4">
                   <img src="/assets/svgs/envelope.svg" alt="" height="18" class="me-2">Send message
                 </button>
-                <div id="form-status" class="form-status small text-muted" role="status" aria-live="polite">
-                  <!-- On success, the server redirects to /thank-you/ -->
-                </div>
+                <div id="form-status" class="form-status small text-muted" role="status" aria-live="polite"></div>
               </div>
             </div>
           </form>
@@ -107,22 +109,32 @@ permalink: /contact/
   </section>
 </div>
 
-<!-- Turnstile (explicit render) -->
+<!-- Turnstile explicit render -->
 <script>
+  // Called by the Turnstile script when it loads
   window.cfOnload = function() {
-    // Render Turnstile explicitly and copy token into hidden input.
-    window.cfWidgetId = turnstile.render('#cf-container', {
-      sitekey: 'REPLACE_WITH_YOUR_TURNSTILE_SITE_KEY',
-      callback: function(token) {
-        document.getElementById('cf-turnstile-response').value = token;
-      },
-      'error-callback': function() {
-        document.getElementById('cf-turnstile-response').value = '';
-      },
-      'expired-callback': function() {
-        document.getElementById('cf-turnstile-response').value = '';
-      }
-    });
+    try {
+      window.cfWidgetId = turnstile.render('#cf-container', {
+        sitekey: '0x4AAAAAAByZts8eVW6pAHkB',     // your site key
+        appearance: 'always',                     // force a visible widget
+        theme: 'auto',
+        callback: function(token) {
+          document.getElementById('cf-turnstile-response').value = token;
+          document.getElementById('cf-fallback').style.display = 'none';
+        },
+        'error-callback': function() {
+          document.getElementById('cf-turnstile-response').value = '';
+          document.getElementById('cf-fallback').style.display = 'block';
+        },
+        'expired-callback': function() {
+          document.getElementById('cf-turnstile-response').value = '';
+          // Ask Turnstile to refresh once expired
+          try { turnstile.reset(window.cfWidgetId); } catch(_) {}
+        }
+      });
+    } catch (e) {
+      document.getElementById('cf-fallback').style.display = 'block';
+    }
   };
 </script>
 <script src="https://challenges.cloudflare.com/turnstile/v0/api.js?onload=cfOnload&render=explicit" async defer></script>
@@ -136,40 +148,34 @@ permalink: /contact/
     els.forEach(el=>io.observe(el));
   })();
 
-  // Minimal validation + ensure timestamp + ensure token present
+  // Minimal validation + set timestamp + require token
   (function () {
     const form = document.getElementById('contact-form');
     const statusEl = document.getElementById('form-status');
     const tsEl = document.getElementById('ts');
     const tokenEl = document.getElementById('cf-turnstile-response');
 
-    // Set initial timestamp
-    tsEl.value = Date.now().toString();
-
-    // Refresh ts on first interaction
+    // Set timestamp and refresh on first interaction
+    function setTs(){ tsEl.value = Date.now().toString(); }
+    setTs();
     ['focus','pointerdown','keydown','touchstart'].forEach(ev => {
-      window.addEventListener(ev, function once() {
-        tsEl.value = Date.now().toString();
-        window.removeEventListener(ev, once, {capture:false});
-      }, {capture:false, once:true});
+      window.addEventListener(ev, function once(){ setTs(); window.removeEventListener(ev, once); }, { once:true });
     });
 
     form.addEventListener('submit', function (e) {
-      // Basic HTML5 validity
       if (!form.checkValidity()) {
         e.preventDefault(); e.stopPropagation();
         form.classList.add('was-validated');
         statusEl.textContent = 'Please fix the errors above.';
         return;
       }
-      // Require a Turnstile token
       if (!tokenEl.value) {
         e.preventDefault(); e.stopPropagation();
         statusEl.textContent = 'Please complete the Turnstile check.';
         try { turnstile.reset(window.cfWidgetId); } catch(_) {}
         return;
       }
-      // Allow normal form POST; server will redirect to /thank-you/
+      // normal form POST → server verifies token and redirects to /thank-you/
     });
   })();
 </script>
