@@ -4,7 +4,7 @@ title: Contact
 permalink: /contact/
 ---
 
-<!-- Version v0.1.0 -->
+<!-- Version v0.1.0b -->
 
 <style>
   .reveal{opacity:0;transform:translateY(14px);transition:opacity .6s,transform .6s}
@@ -29,7 +29,7 @@ permalink: /contact/
       <div class="card shadow-sm hover-lift reveal">
         <div class="card-body p-4 p-md-5">
           <form id="contact-form" class="needs-validation" novalidate method="POST"
-                action="https://script.google.com/macros/s/AKfycbz9M5AfvZRPCKvGMuV_o0OpL8evx4X9idf9bB9_XQ664Q-Z6BdSr9qnKYxHzExoT0kB/exec">
+                action="https://script.google.com/macros/s/AKfycbwfHY5k82_lpSko3HiyvM6fJUrJKCiP2TZRP11cf-zsV_qzRgnfmIzdA_5KxTK3YrL9/exec">
             <div class="row g-3">
               <div class="col-md-6">
                 <label for="name" class="form-label">Name</label>
