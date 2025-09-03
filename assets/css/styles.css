@@ -331,3 +331,83 @@ footer {
     display: none !important; /* hide the email button when printing */
   }
 }
+
+/* -------------------------------------------
+   Bootstrap-aware Mobile & Tablet Typography Boost
+   Paste at end of styles.css
+   ------------------------------------------- */
+
+/* Tablets & down (≤992px) */
+@media (max-width: 992px) {
+  /* Global Bootstrap tokens */
+  :root {
+    /* ~40% bump overall (16px → ~22px cap via clamp) */
+    --bs-body-font-size: clamp(18px, 4.8vw, 22px);
+    --bs-body-line-height: 1.6;
+  }
+
+  body { font-size: var(--bs-body-font-size); line-height: var(--bs-body-line-height); }
+
+  /* Headings (map to Bootstrap scales) */
+  h1, .h1 { font-size: clamp(1.9rem, 6.2vw, 2.4rem); line-height: 1.2; }
+  h2, .h2, .category-headings { font-size: clamp(1.6rem, 5.4vw, 2rem) !important; line-height: 1.25; }
+  h3, .h3 { font-size: clamp(1.3rem, 4.6vw, 1.6rem); line-height: 1.3; }
+  h4, .h4 { font-size: clamp(1.15rem, 4.2vw, 1.35rem); }
+
+  /* “Display” sizes used on About page */
+  .display-6 { font-size: clamp(1.7rem, 6vw, 2.2rem); }
+
+  /* Lead/body helpers */
+  .lead { font-size: calc(1rem + .2rem); }
+  .small, .text-muted.small { font-size: 0.975rem; }
+
+  /* Navbar */
+  .navbar .container { padding-left: 1rem; padding-right: 1rem; }
+  .navbar-brand { font-size: 1.125rem; } /* brand text next to your logo */
+  .nav-link { font-size: 1.35rem; }      /* from your current 1.2rem */
+  .nav-link.contact-button {
+    padding: 8px 14px;
+    border-radius: 8px;
+    line-height: 1.25;
+  }
+
+  /* Buttons via Bootstrap vars */
+  .btn {
+    --bs-btn-font-size: 1.05rem;
+    --bs-btn-padding-y: 0.9rem;
+    --bs-btn-padding-x: 1.15rem;
+    --bs-btn-border-radius: 0.6rem;
+  }
+
+  /* Cards / overlays / grid images on home */
+  .project-title { font-size: 1.125rem; }  /* visible on hover overlays */
+  .grid-image { height: 240px; }           /* was 200px → more presence */
+
+  /* Footer legibility & icon tap targets */
+  footer { font-size: 1.05rem; }
+  footer a img { height: 24px; }           /* icons are 20px in your markup */
+}
+
+/* Phones (≤576px) */
+@media (max-width: 576px) {
+  :root { --bs-body-font-size: clamp(19px, 5.4vw, 23px); }
+
+  .navbar .container { padding-left: 0.75rem; padding-right: 0.75rem; }
+  .navbar-brand span:last-child { font-size: 1.1rem; }
+
+  .grid-image { height: 260px; }
+  .project-title { font-size: 1.2rem; }
+
+  /* Forms (Contact) */
+  label.form-label { font-size: 1.05rem; }
+  .form-control, textarea.form-control { font-size: 1rem; }
+
+  /* About-page badges */
+  .skill-badge { padding: 0.45rem 0.65rem; font-size: 0.95rem; }
+}
+
+/* Touch devices: ensure titles stay readable when there’s no hover */
+@media (hover: none) and (pointer: coarse) {
+  .project-overlay .overlay { background-color: rgba(0,0,0,0.5); }
+  .project-title { opacity: 1; transform: none; }
+}
