@@ -4,7 +4,7 @@ title: Contact
 permalink: /contact/
 ---
 
-<!-- Version 0.0.8 -->
+<!-- Version 0.0.9 -->
 
 <style>
   .reveal{opacity:0;transform:translateY(14px);transition:opacity .6s,transform .6s}
@@ -30,7 +30,7 @@ permalink: /contact/
       <div class="card shadow-sm hover-lift reveal">
         <div class="card-body p-4 p-md-5">
           <form id="contact-form" class="needs-validation" novalidate method="POST"
-                action="https://script.google.com/macros/s/AKfycbz7qC4ibz_uXgyhAQet2oYQ2Q-dmubBf4V8puhDLzp0nhTJFX0EhKrZgyOE7sLsEYl5/exec">
+                action="https://script.google.com/macros/s/AKfycbwZDEHoejNgTB5566pHYlbTJXctU-Uk1jETgMSLYRd2O65-RuzNkFehH_ZwYOe2IW3n/exec">
             <div class="row g-3">
               <div class="col-md-6">
                 <label for="name" class="form-label">Name</label>
@@ -177,5 +177,18 @@ permalink: /contact/
       }
       // normal form POST → server verifies token and redirects to /thank-you/
     });
+  })();
+</script>
+
+<!-- Visible token watcher (debug only) -->
+<div class="small" id="token-debug" style="word-break:break-all"></div>
+<script>
+  // show the token live
+  (function(){
+    const el = document.getElementById('cf-turnstile-response');
+    const dbg = document.getElementById('token-debug');
+    function show(){ dbg.textContent = el.value ? ('Token: ' + el.value) : 'Token: (none yet)'; }
+    show();
+    setInterval(show, 800);
   })();
 </script>
