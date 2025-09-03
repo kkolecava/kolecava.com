@@ -4,7 +4,7 @@ title: Contact
 permalink: /contact/
 ---
 
-<!-- Version 0.0.4c -->
+<!-- Version 0.0.4d -->
 
 <style>
   .reveal{opacity:0;transform:translateY(14px);transition:opacity .6s,transform .6s}
@@ -27,7 +27,7 @@ permalink: /contact/
       <div class="card shadow-sm hover-lift reveal">
         <div class="card-body p-4 p-md-5">
           <form id="contact-form" class="needs-validation" novalidate method="POST"
-                action="https://script.google.com/macros/s/AKfycbxeY3-1GJfEcGLS1blP9c_lrcvmAttoo1qpnzGe0ammYClFSvJ8IWH7cpd37P1NyE1z/exec">
+                action="https://script.google.com/macros/s/AKfycbz9M5AfvZRPCKvGMuV_o0OpL8evx4X9idf9bB9_XQ664Q-Z6BdSr9qnKYxHzExoT0kB/exec">
             <div class="row g-3">
               <div class="col-md-6">
                 <label for="name" class="form-label">Name</label>
@@ -60,9 +60,11 @@ permalink: /contact/
               <!-- Human timing -->
               <input type="hidden" name="ts" id="ts">
 
-              <!-- Cloudflare Turnstile -->
+              <!-- Turnstile explicit render target + hidden token -->
               <div class="col-12 mt-2">
-                <div class="cf-turnstile" data-sitekey="REPLACE_WITH_YOUR_TURNSTILE_SITE_KEY"></div>
+                <div id="cf-container"></div>
+                <input type="hidden" name="cf-turnstile-response" id="cf-turnstile-response">
+                <div class="small text-muted">This site is protected by Cloudflare Turnstile.</div>
               </div>
 
               <div class="col-12 d-flex align-items-center gap-3">
@@ -70,7 +72,7 @@ permalink: /contact/
                   <img src="/assets/svgs/envelope.svg" alt="" height="18" class="me-2">Send message
                 </button>
                 <div id="form-status" class="form-status small text-muted" role="status" aria-live="polite">
-                  <!-- On success, the server will redirect to /thank-you/ -->
+                  <!-- On success, the server redirects to /thank-you/ -->
                 </div>
               </div>
             </div>
@@ -105,8 +107,25 @@ permalink: /contact/
   </section>
 </div>
 
-<!-- Turnstile script -->
-<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+<!-- Turnstile (explicit render) -->
+<script>
+  window.cfOnload = function() {
+    // Render Turnstile explicitly and copy token into hidden input.
+    window.cfWidgetId = turnstile.render('#cf-container', {
+      sitekey: 'REPLACE_WITH_YOUR_TURNSTILE_SITE_KEY',
+      callback: function(token) {
+        document.getElementById('cf-turnstile-response').value = token;
+      },
+      'error-callback': function() {
+        document.getElementById('cf-turnstile-response').value = '';
+      },
+      'expired-callback': function() {
+        document.getElementById('cf-turnstile-response').value = '';
+      }
+    });
+  };
+</script>
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js?onload=cfOnload&render=explicit" async defer></script>
 
 <script>
   // Reveal on scroll
@@ -117,16 +136,17 @@ permalink: /contact/
     els.forEach(el=>io.observe(el));
   })();
 
-  // Minimal bootstrap validation + set timestamp
+  // Minimal validation + ensure timestamp + ensure token present
   (function () {
     const form = document.getElementById('contact-form');
     const statusEl = document.getElementById('form-status');
     const tsEl = document.getElementById('ts');
+    const tokenEl = document.getElementById('cf-turnstile-response');
 
     // Set initial timestamp
     tsEl.value = Date.now().toString();
 
-    // If page sits for long, refresh timestamp on user interaction
+    // Refresh ts on first interaction
     ['focus','pointerdown','keydown','touchstart'].forEach(ev => {
       window.addEventListener(ev, function once() {
         tsEl.value = Date.now().toString();
@@ -135,13 +155,21 @@ permalink: /contact/
     });
 
     form.addEventListener('submit', function (e) {
+      // Basic HTML5 validity
       if (!form.checkValidity()) {
-        e.preventDefault();
-        e.stopPropagation();
+        e.preventDefault(); e.stopPropagation();
         form.classList.add('was-validated');
         statusEl.textContent = 'Please fix the errors above.';
+        return;
       }
-      // No AJAX here — allow the normal form POST and server redirect
+      // Require a Turnstile token
+      if (!tokenEl.value) {
+        e.preventDefault(); e.stopPropagation();
+        statusEl.textContent = 'Please complete the Turnstile check.';
+        try { turnstile.reset(window.cfWidgetId); } catch(_) {}
+        return;
+      }
+      // Allow normal form POST; server will redirect to /thank-you/
     });
   })();
 </script>
