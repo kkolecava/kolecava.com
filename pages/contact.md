@@ -4,7 +4,7 @@ title: Contact
 permalink: /contact/
 ---
 
-<!-- Version v0.0.3 -->
+<!-- Version v0.0.4 -->
 
 <style>
   .reveal{opacity:0;transform:translateY(14px);transition:opacity .6s,transform .6s}
@@ -27,7 +27,7 @@ permalink: /contact/
       <div class="card shadow-sm hover-lift reveal">
         <div class="card-body p-4 p-md-5">
           <form id="contact-form" class="needs-validation" novalidate method="POST"
-                action="https://script.google.com/macros/s/AKfycbwRMwPkW_BDT8oP16w5HHhPy1O2g2FaZVFtcFmaRVOKnGdIbEEion-vjTp4Crk_Nuqt/exec">
+                action="https://script.google.com/macros/s/AKfycbxeY3-1GJfEcGLS1blP9c_lrcvmAttoo1qpnzGe0ammYClFSvJ8IWH7cpd37P1NyE1z/exec">
             <div class="row g-3">
               <div class="col-md-6">
                 <label for="name" class="form-label">Name</label>
@@ -57,15 +57,21 @@ permalink: /contact/
                 <input id="phone" name="phone" type="text" tabindex="-1" autocomplete="off">
               </div>
 
-              <!-- Security fields -->
-              <input type="hidden" name="nonce" id="nonce">
+              <!-- Human timing -->
               <input type="hidden" name="ts" id="ts">
+
+              <!-- Cloudflare Turnstile -->
+              <div class="col-12 mt-2">
+                <div class="cf-turnstile" data-sitekey="REPLACE_WITH_YOUR_TURNSTILE_SITE_KEY"></div>
+              </div>
 
               <div class="col-12 d-flex align-items-center gap-3">
                 <button id="submit-btn" type="submit" class="btn btn-dark px-4">
                   <img src="/assets/svgs/envelope.svg" alt="" height="18" class="me-2">Send message
                 </button>
-                <div id="form-status" class="form-status small text-muted" role="status" aria-live="polite"></div>
+                <div id="form-status" class="form-status small text-muted" role="status" aria-live="polite">
+                  <!-- On success, the server will redirect to /thank-you/ -->
+                </div>
               </div>
             </div>
           </form>
@@ -99,6 +105,9 @@ permalink: /contact/
   </section>
 </div>
 
+<!-- Turnstile script -->
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+
 <script>
   // Reveal on scroll
   (function() {
@@ -108,63 +117,28 @@ permalink: /contact/
     els.forEach(el=>io.observe(el));
   })();
 
-  // Bootstrap validation + hardened submit with client-side redirect
-  (async function () {
+  // Minimal bootstrap validation + set timestamp
+  (function () {
     const form = document.getElementById('contact-form');
     const statusEl = document.getElementById('form-status');
-    const submitBtn = document.getElementById('submit-btn');
-    const nonceEl = document.getElementById('nonce');
     const tsEl = document.getElementById('ts');
 
-    // Disable submit until we have a nonce
-    submitBtn.disabled = true;
+    // Set initial timestamp
+    tsEl.value = Date.now().toString();
 
-    // Get server-issued nonce (single-use, 10 min)
-    try {
-      const res = await fetch(form.action + '?nonce=1', { method: 'GET' });
-      const j = await res.json();
-      if (!j || !j.ok || !j.nonce) throw new Error('No nonce');
-      nonceEl.value = j.nonce;
-      tsEl.value = Date.now().toString();
-      submitBtn.disabled = false;
-    } catch (err) {
-      statusEl.textContent = 'Form unavailable right now — please email hello@kolecava.com.';
-      return; // keep submit disabled; avoids blind POSTs without nonce
-    }
+    // If page sits for long, refresh timestamp on user interaction
+    ['focus','pointerdown','keydown','touchstart'].forEach(ev => {
+      window.addEventListener(ev, function once() {
+        tsEl.value = Date.now().toString();
+        window.removeEventListener(ev, once, {capture:false});
+      }, {capture:false, once:true});
+    });
 
-    form.addEventListener('submit', async function (e) {
-      e.preventDefault();
+    form.addEventListener('submit', function (e) {
       if (!form.checkValidity()) {
+        e.preventDefault();
+        e.stopPropagation();
         form.classList.add('was-validated');
         statusEl.textContent = 'Please fix the errors above.';
-        return;
       }
-      submitBtn.disabled = true;
-      statusEl.textContent = 'Sending…';
-
-      try {
-        // Refresh ts just before submit (guards against stale page)
-        tsEl.value = Date.now().toString();
-
-        const formData = new FormData(form);
-        const res = await fetch(form.action, { method: 'POST', body: formData });
-
-        // Accept JSON; ok if { ok: true }
-        let ok = res.ok;
-        try { const j = await res.clone().json(); ok = j && j.ok !== false; } catch(_) {}
-
-        if (ok) {
-          statusEl.textContent = 'Thanks — your message has been sent. Redirecting…';
-          window.location.assign('/thank-you/'); // client-side redirect avoids CORS
-          return;
-        } else {
-          statusEl.textContent = 'Sorry, something went wrong. Please email hello@kolecava.com.';
-          submitBtn.disabled = false;
-        }
-      } catch (err) {
-        statusEl.textContent = 'Network error. Please try again or email hello@kolecava.com.';
-        submitBtn.disabled = false;
-      }
-    }, false);
-  })();
-</script>
+      // No AJAX here — allow the normal f
