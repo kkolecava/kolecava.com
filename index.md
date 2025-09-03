@@ -22,7 +22,7 @@ description: Freelance Director of Photography, Aerial Cinematographer and Camer
 
   <!-- Documentaries -->
   <section class="mt-5" aria-labelledby="documentaries-heading">
-    <h2 id="documentaries-heading" class="category-headings">Documentaries, Narrative & Film</h2>
+    <h2 id="documentaries-heading" class="category-headings">Documentaries & Narrative</h2>
     <div class="row g-4">
       <!-- Flags in the Wind – Ukraine -->
       <div class="col-12 col-sm-6 col-lg-4">
@@ -174,7 +174,7 @@ description: Freelance Director of Photography, Aerial Cinematographer and Camer
 
   <!-- Music & Lifestyle -->
   <section class="mt-5" aria-labelledby="music-heading">
-    <h2 id="music-heading" class="category-headings">Music, Live Sessions</h2>
+    <h2 id="music-heading" class="category-headings">Music & Live Sessions</h2>
     <div class="row g-4">
       <div class="col-12 col-sm-6 col-lg-4">
         <a href="{{ site.baseurl }}/work/not-my-day-falling/" class="project-overlay" aria-label="Not My Day – Falling">
