@@ -4,6 +4,8 @@ title: Contact
 permalink: /contact/
 ---
 
+<!-- Version v0.0.3 -->
+
 <style>
   .reveal{opacity:0;transform:translateY(14px);transition:opacity .6s,transform .6s}
   .reveal.show{opacity:1;transform:none}
@@ -25,7 +27,7 @@ permalink: /contact/
       <div class="card shadow-sm hover-lift reveal">
         <div class="card-body p-4 p-md-5">
           <form id="contact-form" class="needs-validation" novalidate method="POST"
-                action="https://script.google.com/macros/s/AKfycbz9M5AfvZRPCKvGMuV_o0OpL8evx4X9idf9bB9_XQ664Q-Z6BdSr9qnKYxHzExoT0kB/exec">
+                action="https://script.google.com/macros/s/AKfycbwRMwPkW_BDT8oP16w5HHhPy1O2g2FaZVFtcFmaRVOKnGdIbEEion-vjTp4Crk_Nuqt/exec">
             <div class="row g-3">
               <div class="col-md-6">
                 <label for="name" class="form-label">Name</label>
@@ -106,7 +108,7 @@ permalink: /contact/
     els.forEach(el=>io.observe(el));
   })();
 
-  // Bootstrap validation + hardened submit
+  // Bootstrap validation + hardened submit with client-side redirect
   (async function () {
     const form = document.getElementById('contact-form');
     const statusEl = document.getElementById('form-status');
@@ -147,17 +149,14 @@ permalink: /contact/
         const formData = new FormData(form);
         const res = await fetch(form.action, { method: 'POST', body: formData });
 
-        // Accept JSON or redirect/html
+        // Accept JSON; ok if { ok: true }
         let ok = res.ok;
         try { const j = await res.clone().json(); ok = j && j.ok !== false; } catch(_) {}
 
         if (ok) {
-          statusEl.textContent = 'Thanks — your message has been sent.';
-          form.reset();
-          form.classList.remove('was-validated');
-
-          // Disable after success (nonce is single-use)
-          submitBtn.disabled = true;
+          statusEl.textContent = 'Thanks — your message has been sent. Redirecting…';
+          window.location.assign('/thank-you/'); // client-side redirect avoids CORS
+          return;
         } else {
           statusEl.textContent = 'Sorry, something went wrong. Please email hello@kolecava.com.';
           submitBtn.disabled = false;
