@@ -25,7 +25,7 @@ permalink: /contact/
       <div class="card shadow-sm hover-lift reveal">
         <div class="card-body p-4 p-md-5">
           <form id="contact-form" class="needs-validation" novalidate method="POST"
-                action="https://script.google.com/macros/s/AKfycbwQn_hlHBSBdYUayXgWS52MuwBEv2NN9ROBroMn_H2xJeMrNEPhxbLJnFy4nrvDcQKm/exec">
+                action="https://script.google.com/macros/s/AKfycbz9M5AfvZRPCKvGMuV_o0OpL8evx4X9idf9bB9_XQ664Q-Z6BdSr9qnKYxHzExoT0kB/exec">
             <div class="row g-3">
               <div class="col-md-6">
                 <label for="name" class="form-label">Name</label>
@@ -43,11 +43,21 @@ permalink: /contact/
                 <div class="invalid-feedback">Please include a short message.</div>
               </div>
 
-              <!-- Honeypot -->
+              <!-- Honeypot 1 -->
               <div class="col-12" style="position:absolute;left:-5000px;" aria-hidden="true">
                 <label for="website">Website</label>
                 <input id="website" name="website" type="text" tabindex="-1" autocomplete="off">
               </div>
+
+              <!-- Honeypot 2 -->
+              <div style="position:absolute;left:-5000px;" aria-hidden="true">
+                <label for="phone">Phone</label>
+                <input id="phone" name="phone" type="text" tabindex="-1" autocomplete="off">
+              </div>
+
+              <!-- Security fields -->
+              <input type="hidden" name="nonce" id="nonce">
+              <input type="hidden" name="ts" id="ts">
 
               <div class="col-12 d-flex align-items-center gap-3">
                 <button id="submit-btn" type="submit" class="btn btn-dark px-4">
@@ -96,11 +106,29 @@ permalink: /contact/
     els.forEach(el=>io.observe(el));
   })();
 
-  // Bootstrap validation + submit
-  (function () {
+  // Bootstrap validation + hardened submit
+  (async function () {
     const form = document.getElementById('contact-form');
     const statusEl = document.getElementById('form-status');
     const submitBtn = document.getElementById('submit-btn');
+    const nonceEl = document.getElementById('nonce');
+    const tsEl = document.getElementById('ts');
+
+    // Disable submit until we have a nonce
+    submitBtn.disabled = true;
+
+    // Get server-issued nonce (single-use, 10 min)
+    try {
+      const res = await fetch(form.action + '?nonce=1', { method: 'GET' });
+      const j = await res.json();
+      if (!j || !j.ok || !j.nonce) throw new Error('No nonce');
+      nonceEl.value = j.nonce;
+      tsEl.value = Date.now().toString();
+      submitBtn.disabled = false;
+    } catch (err) {
+      statusEl.textContent = 'Form unavailable right now — please email hello@kolecava.com.';
+      return; // keep submit disabled; avoids blind POSTs without nonce
+    }
 
     form.addEventListener('submit', async function (e) {
       e.preventDefault();
@@ -113,20 +141,29 @@ permalink: /contact/
       statusEl.textContent = 'Sending…';
 
       try {
+        // Refresh ts just before submit (guards against stale page)
+        tsEl.value = Date.now().toString();
+
         const formData = new FormData(form);
         const res = await fetch(form.action, { method: 'POST', body: formData });
+
+        // Accept JSON or redirect/html
         let ok = res.ok;
-        try { const j = await res.clone().json(); ok = j && j.ok !== false; } catch(_) {} // tolerate redirect/html
+        try { const j = await res.clone().json(); ok = j && j.ok !== false; } catch(_) {}
+
         if (ok) {
           statusEl.textContent = 'Thanks — your message has been sent.';
           form.reset();
           form.classList.remove('was-validated');
+
+          // Disable after success (nonce is single-use)
+          submitBtn.disabled = true;
         } else {
           statusEl.textContent = 'Sorry, something went wrong. Please email hello@kolecava.com.';
+          submitBtn.disabled = false;
         }
       } catch (err) {
         statusEl.textContent = 'Network error. Please try again or email hello@kolecava.com.';
-      } finally {
         submitBtn.disabled = false;
       }
     }, false);
