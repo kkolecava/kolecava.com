@@ -388,6 +388,11 @@ footer {
   footer a img { height: 24px; }           /* icons are 20px in your markup */
 }
 
+.noclick a {
+  pointer-events: none;
+  cursor: default;
+}
+
 /* Phones (≤576px) */
 @media (max-width: 576px) {
   :root { --bs-body-font-size: clamp(19px, 5.4vw, 23px); }

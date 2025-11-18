@@ -10,7 +10,7 @@ description: Freelance Director of Photography, Aerial Cinematographer and Camer
   <h1 class="visually-hidden">Karol Kolecava – Director of Photography & Aerial Cinematographer</h1>
 
   <!-- Hero video section -->
-  <section id="portfolio" class="video-hero-container ratio ratio-16x9" aria-label="Showreel">
+  <sectionclass="video-hero-container ratio ratio-16x9" aria-label="Showreel">
     <iframe
       src="https://www.youtube.com/embed/YOUR_VIDEO_ID?autoplay=1&mute=1&controls=0&showinfo=0&modestbranding=0&rel=0&loop=1&playlist=P56Fe2VRf5Y"
       frameborder="0"
@@ -37,7 +37,7 @@ description: Freelance Director of Photography, Aerial Cinematographer and Camer
       </div>
 
       <!-- JBS Collection – Documentary (still image kept as-is) -->
-      <div class="col-12 col-sm-6 col-lg-4">
+      <div class="col-12 col-sm-6 col-lg-4 noclick">
         <a href="" class="project-overlay" aria-label="JBS Collection – Documentary">
           <img src="{{ site.baseurl }}/assets/images/jbs-thumb-still.jpeg" class="img-fluid grid-image" alt="JBS Collection documentary thumbnail" loading="lazy">
           <div class="overlay">
@@ -46,7 +46,7 @@ description: Freelance Director of Photography, Aerial Cinematographer and Camer
         </a>
       </div>
 
-      <div class="col-12 col-sm-6 col-lg-4">
+      <div id="portfolio" class="col-12 col-sm-6 col-lg-4 noclick">
         <a href="" class="project-overlay" aria-label="Gula vol1 - Short Film">
           <video class="img-fluid grid-image" autoplay loop muted playsinline loading="lazy" poster="{{ site.baseurl }}/assets/images/placeholder.jpg">
             <source src="{{ site.baseurl }}/assets/webm/gula_001.webm" type="video/webm">
@@ -206,7 +206,7 @@ description: Freelance Director of Photography, Aerial Cinematographer and Camer
           </div>
         </a>
       </div>
-      <div class="col-12 col-sm-6 col-lg-4">
+      <div class="col-12 col-sm-6 col-lg-4 noclick">
         <a href="" class="project-overlay" aria-label="Sam Fraiser - Live">
           <video class="img-fluid grid-image" autoplay loop muted playsinline loading="lazy" poster="{{ site.baseurl }}/assets/images/placeholder.jpg">
             <source src="{{ site.baseurl }}/assets/webm/fraiser_001.webm" type="video/webm">
@@ -243,7 +243,7 @@ description: Freelance Director of Photography, Aerial Cinematographer and Camer
           </div>
         </a>
       </div>
-      <div class="col-12 col-sm-6 col-lg-4">
+      <div class="col-12 col-sm-6 col-lg-4 noclick">
         <a href="" class="project-overlay" aria-label="Caterpillar Inc - Web Ad">
           <video class="img-fluid grid-image" autoplay loop muted playsinline loading="lazy" poster="{{ site.baseurl }}/assets/images/placeholder.jpg">
             <source src="{{ site.baseurl }}/assets/webm/caterp_001.webm" type="video/webm">
