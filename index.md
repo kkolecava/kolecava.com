@@ -38,7 +38,7 @@ description: Freelance Director of Photography, Aerial Cinematographer and Camer
 
       <!-- JBS Collection – Documentary (still image kept as-is) -->
       <div class="col-12 col-sm-6 col-lg-4">
-        <a href="#" class="project-overlay" aria-label="JBS Collection – Documentary">
+        <a href="" class="project-overlay" aria-label="JBS Collection – Documentary">
           <img src="{{ site.baseurl }}/assets/images/jbs-thumb-still.jpeg" class="img-fluid grid-image" alt="JBS Collection documentary thumbnail" loading="lazy">
           <div class="overlay">
             <span class="project-title">JBS Collection – Documentary</span>
@@ -47,7 +47,7 @@ description: Freelance Director of Photography, Aerial Cinematographer and Camer
       </div>
 
       <div class="col-12 col-sm-6 col-lg-4">
-        <a href="#" class="project-overlay" aria-label="Gula vol1 - Short Film">
+        <a href="" class="project-overlay" aria-label="Gula vol1 - Short Film">
           <video class="img-fluid grid-image" autoplay loop muted playsinline loading="lazy" poster="{{ site.baseurl }}/assets/images/placeholder.jpg">
             <source src="{{ site.baseurl }}/assets/webm/gula_001.webm" type="video/webm">
           </video>
@@ -207,7 +207,7 @@ description: Freelance Director of Photography, Aerial Cinematographer and Camer
         </a>
       </div>
       <div class="col-12 col-sm-6 col-lg-4">
-        <a href="#" class="project-overlay" aria-label="Sam Fraiser - Live">
+        <a href="" class="project-overlay" aria-label="Sam Fraiser - Live">
           <video class="img-fluid grid-image" autoplay loop muted playsinline loading="lazy" poster="{{ site.baseurl }}/assets/images/placeholder.jpg">
             <source src="{{ site.baseurl }}/assets/webm/fraiser_001.webm" type="video/webm">
           </video>
@@ -244,7 +244,7 @@ description: Freelance Director of Photography, Aerial Cinematographer and Camer
         </a>
       </div>
       <div class="col-12 col-sm-6 col-lg-4">
-        <a href="#" class="project-overlay" aria-label="Caterpillar Inc - Web Ad">
+        <a href="" class="project-overlay" aria-label="Caterpillar Inc - Web Ad">
           <video class="img-fluid grid-image" autoplay loop muted playsinline loading="lazy" poster="{{ site.baseurl }}/assets/images/placeholder.jpg">
             <source src="{{ site.baseurl }}/assets/webm/caterp_001.webm" type="video/webm">
           </video>
