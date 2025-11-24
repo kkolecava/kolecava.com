@@ -134,6 +134,9 @@ permalink: /about-me/
           <li class="list-inline-item me-3 mb-2">European Movement UK</li>
           <li class="list-inline-item me-3 mb-2">Alzheimer’s Society</li>
           <li class="list-inline-item me-3 mb-2">Royal Mail</li>
+          <li class="list-inline-item me-3 mb-2">Teledyne FIR</li>
+          <li class="list-inline-item me-3 mb-2">Int Hockey Federation</li>
+          <li class="list-inline-item me-3 mb-2">Pension Bee</li>
         </ul>
         <!-- If you add logos later, wrap each in a small grayscale img and use flex for wrapping -->
       </div>
