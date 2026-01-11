@@ -293,7 +293,7 @@ description: Freelance Director of Photography, Aerial Cinematographer and Camer
           </div>
         </a>
       </div>
-      <!-- Project Evolve stays as still image -->
+      <!-- Project Evolve -->
       <div class="col-12 col-sm-6 col-lg-4">
         <a href="{{ site.baseurl }}/work/project-evolve/" class="project-overlay" aria-label="Project Evolve - Evolution Bikepark">
           <video class="img-fluid grid-image" autoplay loop muted playsinline loading="lazy" poster="{{ site.baseurl }}/assets/images/placeholder.jpg">
@@ -301,6 +301,17 @@ description: Freelance Director of Photography, Aerial Cinematographer and Camer
           </video>
           <div class="overlay">
             <span class="project-title">Project Evolve</span>
+          </div>
+        </a>
+      </div>
+      <!-- FIH Hockey -->
+      <div class="col-12 col-sm-6 col-lg-4 noclick">
+        <a href="{{ site.baseurl }}/work/fih-hockey/" class="project-overlay" aria-label="FIH Hockey - World Cup">
+          <video class="img-fluid grid-image" autoplay loop muted playsinline loading="lazy" poster="{{ site.baseurl }}/assets/images/placeholder.jpg">
+            <source src="{{ site.baseurl }}/assets/webm/fih_001.webm" type="video/webm">
+          </video>
+          <div class="overlay">
+            <span class="project-title">FIH - Hockey</span>
           </div>
         </a>
       </div>
