@@ -46,7 +46,7 @@ description: Freelance Director of Photography, Aerial Cinematographer and Camer
         </a>
       </div>
 
-      <div id="portfolio" class="col-12 col-sm-6 col-lg-4 noclick">
+      <div id="portfolio" class="col-12 col-sm-6 col-lg-4">
         <a href="{{ site.baseurl }}/work/gula-film/" class="project-overlay" aria-label="Gula vol1 - Short Film">
           <video class="img-fluid grid-image" autoplay loop muted playsinline loading="lazy" poster="{{ site.baseurl }}/assets/images/placeholder.jpg">
             <source src="{{ site.baseurl }}/assets/webm/gula_001.webm" type="video/webm">
