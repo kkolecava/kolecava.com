@@ -122,6 +122,18 @@ description: Freelance Director of Photography, Aerial Cinematographer and Camer
           </div>
         </a>
       </div>
+
+      <!-- Pension Bee Vox Pops -->
+      <div class="col-12 col-sm-6 col-lg-4">
+        <a href="{{ site.baseurl }}/work/pension-bee/" class="project-overlay" aria-label="Pension Bee - London Vox Pops">
+          <video class="img-fluid grid-image" autoplay loop muted playsinline loading="lazy" poster="{{ site.baseurl }}/assets/images/placeholder.jpg">
+            <source src="{{ site.baseurl }}/assets/webm/pensionbee_001.webm" type="video/webm">
+          </video>
+          <div class="overlay">
+            <span class="project-title">Pension Bee - London Vox Pops</span>
+          </div>
+        </a>
+      </div>
     </div>
   </section>
 
