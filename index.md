@@ -40,7 +40,7 @@ description: Freelance Director of Photography, Aerial Cinematographer and Camer
       <div class="col-12 col-sm-6 col-lg-4">
         <a href="{{ site.baseurl }}/work/jbs-bentley-mulliner/" class="project-overlay" aria-label="JBS Collection – Documentary">
           <video class="img-fluid grid-image" autoplay loop muted playsinline loading="lazy" poster="{{ site.baseurl }}/assets/images/placeholder.jpg">
-            <source src="{{ site.baseurl }}/assets/webm/jbs_005.webm" type="video/webm">
+            <source src="{{ site.baseurl }}/assets/webm/jbs_thumb_001.webm" type="video/webm">
           </video>
           <div class="overlay">
             <span class="project-title">JBS Collection – Documentary</span>
