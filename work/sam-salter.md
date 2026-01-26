@@ -35,6 +35,7 @@ permalink: /work/sam-salter/
     </div>
 
     <p class="mb-2"><strong>Client:</strong> Sam Salter</p>
+    <p class="mb-2"><strong>Creative Director:</strong> Jack Chipper</p>
     <p class="mb-2"><strong>Director of Photography:</strong> Karol Kolecava</p>
     <p class="mb-2"><strong>Editor/Colour:</strong> Karol Kolecava</p>
   </div>
