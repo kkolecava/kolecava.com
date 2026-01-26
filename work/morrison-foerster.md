@@ -20,7 +20,7 @@ permalink: /work/morrison-foerster/
   <p class="mb-2"><strong>Production Company:</strong> Gray Media</p>
   <p class="mb-2"><strong>Camera Operator:</strong> Josh Bamber</p>
   <p class="mb-2"><strong>Camera Operator:</strong> Joe Simkins</p>
-  <p class="mb-2"><strong>Camera Operator:</strong> Karol Kolecava</p>
+  <p class="mb-2"><strong>Camera/Gimbal Operator:</strong> Karol Kolecava</p>
   <p class="mb-2"><strong>Editor/Colour:</strong> Gray Media</p>
 </div>
 
