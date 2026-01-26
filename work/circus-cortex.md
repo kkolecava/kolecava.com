@@ -18,6 +18,7 @@ permalink: /work/circus-cortex/
 
   <p class="mb-2"><strong>Client:</strong> Circus Cortex</p>
   <p class="mb-2"><strong>Director of Photography:</strong> Karol Kolecava</p>
+  <p class="mb-2"><strong>Gaffer:</strong> Robert Humm</p>
   <p class="mb-2"><strong>Editor/Colour:</strong> Karol Kolecava</p>
 </div>
 
