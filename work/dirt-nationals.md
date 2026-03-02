@@ -5,8 +5,24 @@ permalink: /work/dirt-nationals/
 ---
 
 <div class="container mt-5 pt-5">
-<div class="ratio ratio-16x9 mb-5">
-  <iframe src="https://www.youtube.com/embed/iH_1zJmHD0s?controls=1&modestbranding=1&rel=0&iv_load_policy=3&fs=0&disablekb=1" title="Dirt Nationals" allowfullscreen></iframe>
+  <div class="video-section mb-5">
+    <div class="ratio ratio-16x9 mb-3">
+      <iframe id="main-video" src="https://www.youtube.com/embed/iH_1zJmHD0s?autoplay=1&mute=0&controls=1&modestbranding=1&rel=0" allowfullscreen></iframe>
+    </div>
+
+<div class="d-flex gap-3 mt-2">
+  <div class="video-thumb selected" data-video="iH_1zJmHD0s">
+    <div class="thumb-wrapper">
+      <img src="https://img.youtube.com/vi/iH_1zJmHD0s/0.jpg" class="thumb-image">
+      <div class="play-icon">▶</div>
+    </div>
+  </div>
+  <div class="video-thumb" data-video="wIVLJZ_7NRc">
+    <div class="thumb-wrapper">
+      <img src="https://img.youtube.com/vi/wIVLJZ_7NRc/0.jpg" class="thumb-image">
+      <div class="play-icon">▶</div>
+    </div>
+  </div>
 </div>
 
 <div class="credits-section my-5">
