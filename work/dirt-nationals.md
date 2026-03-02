@@ -126,3 +126,20 @@ permalink: /work/dirt-nationals/
     </video>
   </div>
 </div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const thumbs = document.querySelectorAll('.video-thumb');
+    const iframe = document.getElementById('main-video');
+
+    thumbs.forEach(thumb => {
+      thumb.addEventListener('click', () => {
+        const videoId = thumb.getAttribute('data-video');
+        iframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1&mute=0&controls=1&modestbranding=1&rel=0`;
+
+        thumbs.forEach(t => t.classList.remove('selected'));
+        thumb.classList.add('selected');
+      });
+    });
+  });
+</script>
