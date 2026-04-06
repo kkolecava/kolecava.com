@@ -65,4 +65,9 @@ permalink: /work/pension-bee-nigel/
       <source src="{{ site.baseurl }}/assets/webm/nigel_008.webm" type="video/webm">
     </video>
   </div>
+  <div class="col-md-4">
+    <video class="grid-image" autoplay loop muted playsinline>
+      <source src="{{ site.baseurl }}/assets/webm/nigel_009.webm" type="video/webm">
+    </video>
+  </div>
 </div>
