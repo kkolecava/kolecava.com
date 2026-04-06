@@ -136,6 +136,19 @@ description: Freelance Director of Photography, Aerial Cinematographer and Camer
           </div>
         </a>
       </div>
+
+      <!-- Pension Bee Nigel Case Study -->
+      <div class="col-12 col-sm-6 col-lg-4">
+        <a href="{{ site.baseurl }}/work/pension-bee-nigel/" class="project-overlay" aria-label="Pension Bee - Nigel Case Study">
+          <video class="img-fluid grid-image" autoplay loop muted playsinline loading="lazy" poster="{{ site.baseurl }}/assets/images/placeholder.jpg">
+            <source src="{{ site.baseurl }}/assets/webm/nigel_001.webm" type="video/webm">
+          </video>
+          <div class="overlay">
+            <span class="project-title">Pension Bee - Nigel Case Study</span>
+          </div>
+        </a>
+      </div>
+
     </div>
   </section>
 
