@@ -1,3 +1,9 @@
+---
+title: Histamine Bible
+permalink: /histamine/
+description: For internal view only.
+---
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
