@@ -19,6 +19,9 @@ description: For internal view only.
         h1, h2, h3, .serif {
             font-family: 'Playfair Display', serif;
         }
+        nav.navbar.navbar-expand-lg.fixed-top.bg-white {
+            display:none!important;
+        }
         
         /* Search Animations */
         .searchable-item, .recipe-card { transition: opacity 0.2s ease-in-out; }
