@@ -1,4 +1,8 @@
-<!DOCTYPE html>
+---
+title: Histamine Bible
+permalink: /histamine/
+description: For internal view only.
+---
 <html lang="en">
 <head>
     <meta charset="UTF-8">
