@@ -22,6 +22,12 @@ description: For internal view only.
         nav.navbar.navbar-expand-lg.fixed-top.bg-white {
             display:none!important;
         }
+        input#searchInput {
+            font-size: 12px;
+        }
+        nav.fixed {
+            position:sticky!important;
+        }
         
         /* Search Animations */
         .searchable-item, .recipe-card { transition: opacity 0.2s ease-in-out; }
