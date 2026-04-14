@@ -14,7 +14,7 @@ description: For internal view only.
         body {
             font-family: 'Inter', sans-serif;
             background-color: #fcfcfc;
-            padding-top: 80px;
+            padding-top: 0!important;
         }
         h1, h2, h3, .serif {
             font-family: 'Playfair Display', serif;
