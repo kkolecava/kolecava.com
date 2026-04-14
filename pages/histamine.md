@@ -1,9 +1,4 @@
----
-title: Histamine Bible
-permalink: /histamine/
-description: For internal view only.
----
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -11,7 +6,6 @@ description: For internal view only.
     <title>The Histamine Bible | Histamínová Biblia</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-      nav {display:none!important;}
         @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;500;600&display=swap');
         body {
             font-family: 'Inter', sans-serif;
