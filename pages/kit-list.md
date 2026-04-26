@@ -29,7 +29,7 @@ permalink: /kit-list/
   <div class="mb-5">
     <h4 class="text-uppercase text-muted border-bottom pb-2">Lenses</h4>
     <ul class="list-unstyled mt-3">
-      <li>Zeiss Milvus 25mm, Zeis Milvus 35mm, Zeiss Otus 55mm, Zeiss Otus 85mm</li>
+      <li>Zeiss Milvus 25mm, Zeiss Otus 55mm, Zeiss Otus 85mm</li>
       <li>Tokina 11-20, Sigma 18-35, Sigma 24-105mm</li>
     </ul>
   </div>
